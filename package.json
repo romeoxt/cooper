@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "serve": "python -m http.server 8000",
-    "update-feed": "node backend/fetch-youtube-feed.mjs"
+    "update-feed": "node backend/fetch-youtube-feed.mjs",
+    "bootstrap-feed": "node backend/fetch-youtube-feed.mjs --bootstrap"
   }
 }

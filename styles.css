@@ -168,6 +168,40 @@ html.lenis body {
   text-transform: uppercase;
 }
 
+.filter-bar {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1.8fr) minmax(0, 0.8fr) minmax(0, 0.8fr);
+  gap: 0.7rem;
+}
+
+.filter-field {
+  display: grid;
+  gap: 0.3rem;
+}
+
+.filter-field span {
+  color: #9ca3af;
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.filter-field input,
+.filter-field select {
+  width: 100%;
+  border: 1px solid #313131;
+  background: #111;
+  color: #f3f4f6;
+  padding: 0.5rem 0.6rem;
+  font: inherit;
+  font-size: 0.86rem;
+}
+
+.filter-field input::placeholder {
+  color: #7b7b7b;
+}
+
 .results {
   margin-top: 2rem;
 }
@@ -236,8 +270,16 @@ html.lenis body {
   line-height: 1.55;
 }
 
+.video-duration {
+  margin: 0.75rem 0 0;
+  color: #cbd5e1;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
 .video-play {
-  margin-top: 1rem;
+  margin-top: 0.55rem;
   justify-self: start;
   border: 1px solid #52525b;
   background: transparent;
@@ -445,6 +487,11 @@ html.lenis body {
   .page,
   .footer-inner {
     padding-inline: 0.85rem;
+  }
+
+  .filter-bar {
+    grid-template-columns: 1fr;
+    gap: 0.55rem;
   }
 
   .video-card {

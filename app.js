@@ -1,6 +1,9 @@
 const statusEl = document.getElementById("status");
 const videoListEl = document.getElementById("video-list");
 const feedMetaEl = document.getElementById("feed-meta");
+const filterSearchEl = document.getElementById("filter-search");
+const filterYearEl = document.getElementById("filter-year");
+const filterSortEl = document.getElementById("filter-sort");
 const modalEl = document.getElementById("video-modal");
 const modalCloseEl = document.getElementById("video-modal-close");
 const videoFrameEl = document.getElementById("video-frame");
@@ -8,6 +11,7 @@ const introLoaderEl = document.getElementById("intro-loader");
 const fallbackFeedUrl = "./data/videos.json";
 const feedUrl = window.VIDEO_FEED_URL || fallbackFeedUrl;
 let smoothScrollController = null;
+let allVideos = [];
 
 function escapeHtml(value) {
   return String(value)
@@ -34,7 +38,7 @@ function formatDate(isoDate, includeTime = false) {
 
 function getDescriptionExcerpt(text) {
   const clean = text.replace(/\s+/g, " ").trim();
-  return clean.length > 150 ? `${clean.slice(0, 147)}...` : clean;
+  return clean.length > 320 ? `${clean.slice(0, 317)}...` : clean;
 }
 
 function renderVideos(videos) {
@@ -48,6 +52,7 @@ function renderVideos(videos) {
       thumbnailUrl,
       videoUrl,
       videoId,
+      duration,
     } = video;
 
     const safeTitle = escapeHtml(title);
@@ -65,6 +70,7 @@ function renderVideos(videos) {
         <h3 class="video-title">${safeTitle}</h3>
         <p class="video-meta">${safeChannelTitle} / ${formatDate(publishedAt)}</p>
         <p class="video-desc">${safeDescription}</p>
+        <p class="video-duration">${escapeHtml(duration || "Duration unavailable")}</p>
         <button class="video-play" type="button" data-video-id="${embedId}">
           Watch Now
         </button>
@@ -89,6 +95,75 @@ function renderMeta(payload) {
   feedMetaEl.innerHTML = `
     <span class="meta-pill">Last updated: ${updatedAt}</span>
   `;
+}
+
+function getVideoYear(video) {
+  if (!video?.publishedAt) {
+    return "";
+  }
+  const parsed = new Date(video.publishedAt);
+  if (Number.isNaN(parsed.getTime())) {
+    return "";
+  }
+  return String(parsed.getFullYear());
+}
+
+function updateYearFilterOptions(videos) {
+  if (!filterYearEl) {
+    return;
+  }
+  const currentValue = filterYearEl.value;
+  const years = [...new Set(videos.map(getVideoYear).filter(Boolean))].sort(
+    (a, b) => Number(b) - Number(a)
+  );
+  filterYearEl.innerHTML =
+    `<option value="">All years</option>` +
+    years.map((year) => `<option value="${year}">${year}</option>`).join("");
+  if (currentValue && years.includes(currentValue)) {
+    filterYearEl.value = currentValue;
+  }
+}
+
+function applyFilters() {
+  const searchQuery = (filterSearchEl?.value || "").toLowerCase().trim();
+  const selectedYear = filterYearEl?.value || "";
+  const selectedSort = filterSortEl?.value || "newest";
+
+  let filtered = allVideos.filter((video) => {
+    const yearMatch = selectedYear ? getVideoYear(video) === selectedYear : true;
+    if (!yearMatch) {
+      return false;
+    }
+    if (!searchQuery) {
+      return true;
+    }
+    const haystack = `${video.title || ""} ${video.description || ""} ${
+      video.channelTitle || ""
+    }`.toLowerCase();
+    return haystack.includes(searchQuery);
+  });
+
+  filtered = filtered.sort((a, b) => {
+    if (selectedSort === "oldest") {
+      return new Date(a.publishedAt).getTime() - new Date(b.publishedAt).getTime();
+    }
+    if (selectedSort === "title-asc") {
+      return (a.title || "").localeCompare(b.title || "");
+    }
+    if (selectedSort === "title-desc") {
+      return (b.title || "").localeCompare(a.title || "");
+    }
+    return new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime();
+  });
+
+  if (filtered.length === 0) {
+    videoListEl.innerHTML = "";
+    setStatus("No videos match your current filters.");
+    return;
+  }
+
+  renderVideos(filtered);
+  setStatus(`Showing ${filtered.length} videos.`);
 }
 
 function activateScrollAnimations() {
@@ -288,17 +363,28 @@ async function loadFeed() {
 
     const videos = Array.isArray(payload.videos) ? payload.videos : [];
     renderMeta(payload);
+    allVideos = videos;
+    updateYearFilterOptions(allVideos);
 
     if (videos.length === 0) {
       setStatus("No videos currently available in the feed.");
       return;
     }
 
-    renderVideos(videos);
-    setStatus(`Showing ${videos.length} recent videos.`);
+    applyFilters();
   } catch (error) {
     setStatus(`Could not load feed: ${error.message}`, true);
   }
+}
+
+if (filterSearchEl) {
+  filterSearchEl.addEventListener("input", applyFilters);
+}
+if (filterYearEl) {
+  filterYearEl.addEventListener("change", applyFilters);
+}
+if (filterSortEl) {
+  filterSortEl.addEventListener("change", applyFilters);
 }
 
 loadFeed();

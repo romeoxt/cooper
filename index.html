@@ -35,6 +35,34 @@
         <span class="meta-pill">Loading feed metadata...</span>
       </section>
 
+      <section class="filter-bar" aria-label="Video filters">
+        <label class="filter-field">
+          <span>Search</span>
+          <input
+            id="filter-search"
+            type="search"
+            placeholder="Search title, channel, or description"
+          />
+        </label>
+
+        <label class="filter-field">
+          <span>Year</span>
+          <select id="filter-year">
+            <option value="">All years</option>
+          </select>
+        </label>
+
+        <label class="filter-field">
+          <span>Sort</span>
+          <select id="filter-sort">
+            <option value="newest">Newest first</option>
+            <option value="oldest">Oldest first</option>
+            <option value="title-asc">Title A-Z</option>
+            <option value="title-desc">Title Z-A</option>
+          </select>
+        </label>
+      </section>
+
       <section class="results">
         <div class="status" id="status"></div>
         <div id="video-list" class="video-list"></div>

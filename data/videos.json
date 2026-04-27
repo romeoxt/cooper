@@ -3,9 +3,30 @@
   "nameVariants": [
     "horace cooper"
   ],
-  "updatedAt": "2026-04-27T20:54:35.213Z",
-  "videoCount": 50,
+  "updatedAt": "2026-04-27T21:45:35.200Z",
+  "videoCount": 300,
+  "mode": "bootstrap",
+  "queryConfig": {
+    "searchQuery": "Horace Cooper",
+    "maxResults": 300,
+    "searchPageSize": 50,
+    "maxPages": 12,
+    "incrementalFetchLimit": 120,
+    "incrementalMaxPages": 3,
+    "publishedAfter": null,
+    "publishedBefore": null
+  },
   "videos": [
+    {
+      "videoId": "mPyzVldUff0",
+      "videoUrl": "https://www.youtube.com/watch?v=mPyzVldUff0",
+      "title": "Breaking down the indictment against the Southern Poverty Law Center",
+      "description": "Project 21 chairman Horace Cooper discusses the legal issues facing the Southern Poverty Law Center on 'The Bottom Line.",
+      "channelTitle": "Fox Business",
+      "publishedAt": "2026-04-24T09:01:13Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mPyzVldUff0/hqdefault.jpg",
+      "duration": "4:18"
+    },
     {
       "videoId": "2yh7n9L7wLg",
       "videoUrl": "https://www.youtube.com/watch?v=2yh7n9L7wLg",
@@ -13,7 +34,8 @@
       "description": "",
       "channelTitle": "Aspire",
       "publishedAt": "2026-04-12T12:14:18Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2yh7n9L7wLg/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/2yh7n9L7wLg/hqdefault.jpg",
+      "duration": "0:36"
     },
     {
       "videoId": "w9E6IPt0gYI",
@@ -22,7 +44,8 @@
       "description": "birthrightcitizenship #immigration #SupremeCourt #SCOTUS This excerpt from the Fox Business Network program \"Evening Edit,\" ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2026-04-01T15:24:25Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/w9E6IPt0gYI/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/w9E6IPt0gYI/hqdefault.jpg",
+      "duration": "2:26"
     },
     {
       "videoId": "EQZGozKZgsI",
@@ -31,7 +54,18 @@
       "description": "electionintegrity #mailinvoting #scotus #supremecourt This excerpt from the Fox Business Network program \"Evening Edit,\" ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2026-03-25T16:18:54Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/EQZGozKZgsI/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/EQZGozKZgsI/hqdefault.jpg",
+      "duration": "2:07"
+    },
+    {
+      "videoId": "o8f-ZR39XLw",
+      "videoUrl": "https://www.youtube.com/watch?v=o8f-ZR39XLw",
+      "title": "Democrats&#39; mail ballot policies face scrutiny over election integrity",
+      "description": "Project 21 chairman Horace Cooper challenges Democratic policies on mail-in ballots on 'The Evening Edit.' #fox #media ...",
+      "channelTitle": "Fox Business Clips",
+      "publishedAt": "2026-03-25T03:00:48Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/o8f-ZR39XLw/hqdefault.jpg",
+      "duration": "2:34"
     },
     {
       "videoId": "HZk9LLGFKjA",
@@ -40,7 +74,8 @@
       "description": "Epstein This excerpt from \"Fox News Sunday with Shannon Bream,\" broadcast on 2/15/2026 and featuring Horace Cooper of the ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2026-02-18T03:12:16Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/HZk9LLGFKjA/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/HZk9LLGFKjA/hqdefault.jpg",
+      "duration": "0:56"
     },
     {
       "videoId": "rsVKpFefi-4",
@@ -49,7 +84,8 @@
       "description": "savannahguthrie This excerpt from \"Fox News Sunday with Shannon Bream,\" broadcast on 2/15/2026 and featuring Horace ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2026-02-18T03:06:54Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/rsVKpFefi-4/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/rsVKpFefi-4/hqdefault.jpg",
+      "duration": "0:39"
     },
     {
       "videoId": "mUv70337YCg",
@@ -58,7 +94,8 @@
       "description": "Feb. 17, 2026 - In this eye-opening conversation, legal scholar Horace Cooper breaks down the proper role of government in ...",
       "channelTitle": "Priscilla Rahn",
       "publishedAt": "2026-02-17T23:00:55Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/mUv70337YCg/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/mUv70337YCg/hqdefault.jpg",
+      "duration": "29:00"
     },
     {
       "videoId": "wkHqeyI1KHo",
@@ -67,7 +104,18 @@
       "description": "This excerpt from the NTD program \"Capitol Report,\" broadcast on 1/13/2026 and featuring Horace Cooper, legal fellow with the ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2026-01-14T19:25:22Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/wkHqeyI1KHo/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/wkHqeyI1KHo/hqdefault.jpg",
+      "duration": "8:02"
+    },
+    {
+      "videoId": "tWOKoi_KKg0",
+      "videoUrl": "https://www.youtube.com/watch?v=tWOKoi_KKg0",
+      "title": "Alito: How to Find Discrimination Without Definition; How is The Supreme Court Leaning in This Case?",
+      "description": "Horace Cooper, Constitutional scholar, and Senior Fellow at the National Center for Public Policy Research, discussed with NTD's ...",
+      "channelTitle": "NTD",
+      "publishedAt": "2026-01-14T05:12:06Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tWOKoi_KKg0/hqdefault.jpg",
+      "duration": "8:05"
     },
     {
       "videoId": "3iljW2LynWw",
@@ -76,7 +124,8 @@
       "description": "This excerpt from the Fox News Channel program \"The Ingraham Angle,\" broadcast on 1/2/2026 and featuring Horace Cooper of ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2026-01-05T18:17:14Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/3iljW2LynWw/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/3iljW2LynWw/hqdefault.jpg",
+      "duration": "2:58"
     },
     {
       "videoId": "XlqyVKJvPjY",
@@ -85,7 +134,8 @@
       "description": "This excerpt from the Fox News Channel program \"Hannity,\" broadcast on 12/29/2025 and featuring Horace Cooper of the Project ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2025-12-31T17:35:14Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/XlqyVKJvPjY/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/XlqyVKJvPjY/hqdefault.jpg",
+      "duration": "6:53"
     },
     {
       "videoId": "vRof29HLWUA",
@@ -94,7 +144,8 @@
       "description": "This excerpt from the Fox News Channel program \"The Ingraham Angle,\" broadcast on 12/26/2025 and featuring Horace Cooper ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2025-12-27T20:23:47Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/vRof29HLWUA/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/vRof29HLWUA/hqdefault.jpg",
+      "duration": "3:55"
     },
     {
       "videoId": "dJqzORVLjlg",
@@ -103,7 +154,8 @@
       "description": "This excerpt from the Fox News Channel program \"Hannity,\" broadcast on 12/23/2025 and featuring Horace Cooper of the Project ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2025-12-26T23:02:26Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/dJqzORVLjlg/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/dJqzORVLjlg/hqdefault.jpg",
+      "duration": "6:48"
     },
     {
       "videoId": "jz-JWf4O8SM",
@@ -112,7 +164,8 @@
       "description": "This excerpt from the NTD program \"Capitol Report,\" broadcast on 12/15/2025 and featuring Horace Cooper of the Project 21 ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2025-12-16T18:35:05Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/jz-JWf4O8SM/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/jz-JWf4O8SM/hqdefault.jpg",
+      "duration": "4:57"
     },
     {
       "videoId": "lM48ToQZQOs",
@@ -121,7 +174,8 @@
       "description": "This excerpt from the Fox News Channel program \"Hannity,\" broadcast on 12/11/2025 and featuring Horace Cooper of the Project ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2025-12-15T19:00:29Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lM48ToQZQOs/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/lM48ToQZQOs/hqdefault.jpg",
+      "duration": "3:22"
     },
     {
       "videoId": "uiuqhyR52KA",
@@ -130,7 +184,8 @@
       "description": "This excerpt from the Fox News Channel program \"Hannity,\" broadcast on 11/28/2025 and featuring Horace Cooper of the Project ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2025-12-02T04:12:25Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/uiuqhyR52KA/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/uiuqhyR52KA/hqdefault.jpg",
+      "duration": "5:17"
     },
     {
       "videoId": "lwhSkUBi3LQ",
@@ -139,7 +194,8 @@
       "description": "NationalGuard #WashingtonDC #crime #urbanissues This excerpt from the Fox News Channel program \"The Ingraham Angle,\" ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2025-12-02T03:50:36Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lwhSkUBi3LQ/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/lwhSkUBi3LQ/hqdefault.jpg",
+      "duration": "3:51"
     },
     {
       "videoId": "rbSboRoEtxs",
@@ -148,7 +204,8 @@
       "description": "This excerpt from the Fox News Channel program \"Hannity,\" broadcast on 11/17/2025 and featuring Horace Cooper of the Project ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2025-11-19T19:41:06Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/rbSboRoEtxs/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/rbSboRoEtxs/hqdefault.jpg",
+      "duration": "5:13"
     },
     {
       "videoId": "k0ayh93Im0w",
@@ -157,7 +214,8 @@
       "description": "This excerpt from the Fox News Channel program \"Hannity,\" broadcast on 11/6/2025 and featuring Horace Cooper of the Project ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2025-11-11T02:00:25Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/k0ayh93Im0w/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/k0ayh93Im0w/hqdefault.jpg",
+      "duration": "6:02"
     },
     {
       "videoId": "RFjoUkTmbVo",
@@ -166,7 +224,8 @@
       "description": "birthtourism #bordercrisis This excerpt from \"Open to Debate,\" broadcast on 10/24/2025 and featuring Horace Cooper of the ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2025-10-28T18:14:36Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/RFjoUkTmbVo/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/RFjoUkTmbVo/hqdefault.jpg",
+      "duration": "4:36"
     },
     {
       "videoId": "HEXKjKAT3MY",
@@ -175,7 +234,8 @@
       "description": "iceraids #deportation This excerpt from \"Fox News Sunday with Shannon Bream,\" broadcast on 10/26/2025 and featuring Horace ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2025-10-28T17:56:52Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/HEXKjKAT3MY/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/HEXKjKAT3MY/hqdefault.jpg",
+      "duration": "1:01"
     },
     {
       "videoId": "f1RZfIk_Xs0",
@@ -184,7 +244,8 @@
       "description": "This excerpt from \"Fox News Sunday with Shannon Bream,\" broadcast on 10/26/2025 and featuring Horace Cooper of the Project ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2025-10-28T16:56:55Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/f1RZfIk_Xs0/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/f1RZfIk_Xs0/hqdefault.jpg",
+      "duration": "0:27"
     },
     {
       "videoId": "UbfwfmjYHkE",
@@ -193,7 +254,8 @@
       "description": "conversiontherapy #SupremeCourt #jan6th This excerpt from the NTD program \"Capitol Report,\" broadcast on 10/07/2025 and ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2025-10-08T14:18:36Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/UbfwfmjYHkE/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/UbfwfmjYHkE/hqdefault.jpg",
+      "duration": "9:26"
     },
     {
       "videoId": "OFJVMc5yGGo",
@@ -202,7 +264,8 @@
       "description": "mamdani #zohranmamdani #kindergarten #equity #k12 #giftedandtalented This excerpt from the Fox News Channel program ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2025-10-07T16:48:36Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/OFJVMc5yGGo/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/OFJVMc5yGGo/hqdefault.jpg",
+      "duration": "2:57"
     },
     {
       "videoId": "4heI0c3_3WE",
@@ -211,7 +274,8 @@
       "description": "This excerpt from the Fox News Channel program \"Hannity,\" broadcast on 9/19/2025 and featuring Horace Cooper of the Project ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2025-09-22T14:53:17Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/4heI0c3_3WE/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/4heI0c3_3WE/hqdefault.jpg",
+      "duration": "5:29"
     },
     {
       "videoId": "W-LR0J-eJsY",
@@ -220,7 +284,8 @@
       "description": "This excerpt from the Fox News Channel program \"Hannity,\" broadcast on 9/10/2025 and featuring Horace Cooper of the Project ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2025-09-11T03:17:13Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/W-LR0J-eJsY/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/W-LR0J-eJsY/hqdefault.jpg",
+      "duration": "0:41"
     },
     {
       "videoId": "s7qfNHC4kcw",
@@ -229,7 +294,8 @@
       "description": "This excerpt from the Fox News Channel program \"Hannity,\" broadcast on 9/10/2025 and featuring Horace Cooper of the Project ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2025-09-11T03:08:57Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/s7qfNHC4kcw/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/s7qfNHC4kcw/hqdefault.jpg",
+      "duration": "6:08"
     },
     {
       "videoId": "dVZpasBKBHc",
@@ -238,7 +304,18 @@
       "description": "This excerpt from the Fox News Channel program \"Hannity,\" broadcast on 8/27/2025 and featuring Horace Cooper of the Project ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2025-08-28T18:52:58Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/dVZpasBKBHc/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/dVZpasBKBHc/hqdefault.jpg",
+      "duration": "6:00"
+    },
+    {
+      "videoId": "Miax34jkIyw",
+      "videoUrl": "https://www.youtube.com/watch?v=Miax34jkIyw",
+      "title": "‘PUT THE CRAZY DOWN’: Nobody will tell Dems this, says legal commentator",
+      "description": "Panelists Scott Brown and Horace Cooper discuss the Democratic Party's struggle to find leadership, a message and a mission on ...",
+      "channelTitle": "Fox News",
+      "publishedAt": "2025-08-28T08:30:18Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Miax34jkIyw/hqdefault.jpg",
+      "duration": "6:12"
     },
     {
       "videoId": "6Tg_ud6YKWs",
@@ -247,7 +324,8 @@
       "description": "This excerpt from the Fox News Channel program \"Hannity,\" broadcast on 8/22/2025 and featuring Horace Cooper of the Project ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2025-08-27T15:21:17Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/6Tg_ud6YKWs/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/6Tg_ud6YKWs/hqdefault.jpg",
+      "duration": "5:03"
     },
     {
       "videoId": "yPbsKUg6v90",
@@ -256,7 +334,8 @@
       "description": "WashingtonDC #crime This excerpt from the Fox News Channel program \"The Ingraham Angle,\" broadcast on 8/13/2025 and ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2025-08-19T15:12:49Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/yPbsKUg6v90/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/yPbsKUg6v90/hqdefault.jpg",
+      "duration": "1:05"
     },
     {
       "videoId": "qdum1ddSUM8",
@@ -265,7 +344,8 @@
       "description": "This excerpt from the Fox Business Network program \"Evening Edit,\" broadcast on 8/18/25 and featuring Horace Cooper of the ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2025-08-19T00:58:00Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/qdum1ddSUM8/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/qdum1ddSUM8/hqdefault.jpg",
+      "duration": "3:47"
     },
     {
       "videoId": "IP8-fHSiaJ0",
@@ -274,7 +354,8 @@
       "description": "HoraceCooper #MAGA #Project21 #B1 #NewBlackMedia #News #B1OverEveryone #KidGravityBeyond ...",
       "channelTitle": "KG Beyond",
       "publishedAt": "2025-08-17T05:30:05Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/IP8-fHSiaJ0/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/IP8-fHSiaJ0/hqdefault.jpg",
+      "duration": "1:18:21"
     },
     {
       "videoId": "u1WaFXmoN2k",
@@ -283,7 +364,8 @@
       "description": "This excerpt from the Fox News Channel program \"The Ingraham Angle,\" broadcast on 8/13/2025 and featuring Horace Cooper of ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2025-08-14T12:33:03Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/u1WaFXmoN2k/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/u1WaFXmoN2k/hqdefault.jpg",
+      "duration": "6:18"
     },
     {
       "videoId": "ASqOhxzmWoM",
@@ -292,7 +374,8 @@
       "description": "This excerpt from the Fox News Channel program \"Hannity,\" broadcast on 8/12/2025 and featuring Horace Cooper of the Project ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2025-08-14T12:19:08Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ASqOhxzmWoM/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/ASqOhxzmWoM/hqdefault.jpg",
+      "duration": "4:43"
     },
     {
       "videoId": "V6TVHfT-_ao",
@@ -301,7 +384,8 @@
       "description": "This excerpt from the Fox News Channel program \"Hannity,\" broadcast on 8/5/2025 and featuring Horace Cooper of the Project 21 ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2025-08-07T02:47:24Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/V6TVHfT-_ao/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/V6TVHfT-_ao/hqdefault.jpg",
+      "duration": "4:56"
     },
     {
       "videoId": "7s2XFDfXe7g",
@@ -310,7 +394,8 @@
       "description": "This excerpt from the Fox News Channel program \"Hannity,\" broadcast on 6/2/2025 and featuring Horace Cooper of the Project 21 ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2025-07-31T00:08:30Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/7s2XFDfXe7g/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/7s2XFDfXe7g/hqdefault.jpg",
+      "duration": "0:39"
     },
     {
       "videoId": "scXv3qBIRfI",
@@ -319,7 +404,8 @@
       "description": "This excerpt from the Fox News Channel program \"Hannity,\" broadcast on 7/18/2025 and featuring Horace Cooper of the Project ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2025-07-28T23:18:19Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/scXv3qBIRfI/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/scXv3qBIRfI/hqdefault.jpg",
+      "duration": "0:37"
     },
     {
       "videoId": "LlGjH5411ck",
@@ -328,7 +414,8 @@
       "description": "This excerpt from the Fox News Channel program \"Hannity,\" broadcast on 7/18/2025 and featuring Horace Cooper of the Project ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2025-07-26T16:11:30Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/LlGjH5411ck/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/LlGjH5411ck/hqdefault.jpg",
+      "duration": "0:47"
     },
     {
       "videoId": "WQsjHp2OgAM",
@@ -337,7 +424,8 @@
       "description": "This excerpt from the Fox News Channel program \"Hannity,\" broadcast on 7/18/2025 and featuring Horace Cooper of the Project ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2025-07-23T15:17:33Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/WQsjHp2OgAM/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/WQsjHp2OgAM/hqdefault.jpg",
+      "duration": "7:34"
     },
     {
       "videoId": "TbE5cutGzpI",
@@ -346,7 +434,8 @@
       "description": "This excerpt from the Fox News Channel program \"Hannity,\" broadcast on 7/11/2025 and featuring Horace Cooper of the Project ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2025-07-14T15:03:32Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/TbE5cutGzpI/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/TbE5cutGzpI/hqdefault.jpg",
+      "duration": "6:05"
     },
     {
       "videoId": "oTU9_tjlO7U",
@@ -355,7 +444,8 @@
       "description": "This excerpt from the Fox News Channel program \"Hannity,\" broadcast on 7/7/2025 and featuring Horace Cooper of the Project 21 ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2025-07-08T15:27:12Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/oTU9_tjlO7U/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/oTU9_tjlO7U/hqdefault.jpg",
+      "duration": "6:17"
     },
     {
       "videoId": "ePrwb27uDjk",
@@ -364,7 +454,8 @@
       "description": "This excerpt from \"Fox News Sunday with Shannon Bream,\" broadcast on 7/6/2025 and featuring Horace Cooper of the Project 21 ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2025-07-08T02:20:55Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ePrwb27uDjk/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/ePrwb27uDjk/hqdefault.jpg",
+      "duration": "5:41"
     },
     {
       "videoId": "O9Lg0Hhc3I4",
@@ -373,7 +464,8 @@
       "description": "This excerpt from the Fox News Channel program \"Hannity,\" broadcast on 6/20/2025 and featuring Horace Cooper of the Project ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2025-07-03T16:11:04Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/O9Lg0Hhc3I4/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/O9Lg0Hhc3I4/hqdefault.jpg",
+      "duration": "5:42"
     },
     {
       "videoId": "dROzWey-exk",
@@ -382,7 +474,8 @@
       "description": "This excerpt from the Fox News Channel program \"Hannity,\" broadcast on 6/27/2025 and featuring Horace Cooper of the Project ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2025-07-03T15:44:53Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/dROzWey-exk/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/dROzWey-exk/hqdefault.jpg",
+      "duration": "9:30"
     },
     {
       "videoId": "bpMlK921skk",
@@ -391,7 +484,8 @@
       "description": "illegalimmigration #illegalimmigrant #sanctuarycity This excerpt from the Fox News Channel program \"Hannity,\" broadcast on ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2025-06-20T00:26:25Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/bpMlK921skk/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/bpMlK921skk/hqdefault.jpg",
+      "duration": "4:48"
     },
     {
       "videoId": "rjM3ZCL9Kqs",
@@ -400,7 +494,8 @@
       "description": "This excerpt from the Fox News Channel program \"Hannity,\" broadcast on 6/2/2025 and featuring Horace Cooper of the Project 21 ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2025-06-03T17:28:19Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/rjM3ZCL9Kqs/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/rjM3ZCL9Kqs/hqdefault.jpg",
+      "duration": "4:18"
     },
     {
       "videoId": "hhWjFy7e3_s",
@@ -409,7 +504,8 @@
       "description": "This excerpt from \"Fox News Sunday with Shannon Bream,\" broadcast on 6/1/2025 and featuring Horace Cooper of the Project 21 ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2025-06-03T01:06:41Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/hhWjFy7e3_s/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/hhWjFy7e3_s/hqdefault.jpg",
+      "duration": "5:52"
     },
     {
       "videoId": "VgJ1wU1BMoY",
@@ -418,7 +514,8 @@
       "description": "This excerpt from the Fox News Channel program \"Hannity,\" broadcast on 5/23/2025 and featuring Horace Cooper of the Project ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2025-05-27T19:30:51Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/VgJ1wU1BMoY/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/VgJ1wU1BMoY/hqdefault.jpg",
+      "duration": "8:59"
     },
     {
       "videoId": "mTh-SnqATXA",
@@ -427,7 +524,18 @@
       "description": "This excerpt from the Fox News Channel program \"Hannity,\" broadcast on 5/19/2025 and featuring Horace Cooper of the Project ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2025-05-20T13:33:36Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/mTh-SnqATXA/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/mTh-SnqATXA/hqdefault.jpg",
+      "duration": "5:12"
+    },
+    {
+      "videoId": "o9qiGFHad2g",
+      "videoUrl": "https://www.youtube.com/watch?v=o9qiGFHad2g",
+      "title": "This is such a scandal: Miranda Devine",
+      "description": "'Hannity' panelists Miranda Devine and Horace Cooper discuss the 'lies and delusions' of the Biden family. #foxnews #news #fox ...",
+      "channelTitle": "Fox News Clips",
+      "publishedAt": "2025-05-20T07:15:04Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/o9qiGFHad2g/hqdefault.jpg",
+      "duration": "5:27"
     },
     {
       "videoId": "PzlzgqQN3WI",
@@ -436,7 +544,18 @@
       "description": "This excerpt from the Fox News Channel program \"Hannity,\" broadcast on 5/12/2025 and featuring Horace Cooper of the Project ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2025-05-14T16:36:14Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/PzlzgqQN3WI/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/PzlzgqQN3WI/hqdefault.jpg",
+      "duration": "6:12"
+    },
+    {
+      "videoId": "6BWy_0Jm5s8",
+      "videoUrl": "https://www.youtube.com/watch?v=6BWy_0Jm5s8",
+      "title": "Black Americans Are Embracing Trump Policies",
+      "description": "This excerpt from the Fox News Channel program \"The Ingraham Angle,\" broadcast on 5/2/2025 and featuring Horace Cooper of ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2025-05-08T16:24:07Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6BWy_0Jm5s8/hqdefault.jpg",
+      "duration": "0:27"
     },
     {
       "videoId": "Xq_y0H2PCXI",
@@ -445,7 +564,8 @@
       "description": "This excerpt from the Fox News Channel program \"Hannity,\" broadcast on 4/17/2025 and featuring Horace Cooper of the Project ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2025-05-05T21:15:48Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Xq_y0H2PCXI/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/Xq_y0H2PCXI/hqdefault.jpg",
+      "duration": "4:27"
     },
     {
       "videoId": "5RjxssEznIM",
@@ -454,7 +574,2448 @@
       "description": "This excerpt from the Fox News Channel program \"The Ingraham Angle,\" broadcast on 5/2/2025 and featuring Horace Cooper of ...",
       "channelTitle": "National Center for Public Policy Research",
       "publishedAt": "2025-05-05T21:05:34Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/5RjxssEznIM/hqdefault.jpg"
+      "thumbnailUrl": "https://i.ytimg.com/vi/5RjxssEznIM/hqdefault.jpg",
+      "duration": "5:01"
+    },
+    {
+      "videoId": "YZ0Ao0RBsNE",
+      "videoUrl": "https://www.youtube.com/watch?v=YZ0Ao0RBsNE",
+      "title": "Horace Cooper Assesses Trump&#39;s First 100 Days",
+      "description": "federalemployee #federalemployees #lawfare This excerpt from NBC4 Washington's \"News4 Rundown,\" broadcast on 4/30/2025 ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2025-05-01T17:51:33Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YZ0Ao0RBsNE/hqdefault.jpg",
+      "duration": "1:03"
+    },
+    {
+      "videoId": "PUyOj1c9jMI",
+      "videoUrl": "https://www.youtube.com/watch?v=PUyOj1c9jMI",
+      "title": "Horace Cooper Assesses Trump&#39;s First 100 Days",
+      "description": "This excerpt from NBC4 Washington's \"News4 Rundown,\" broadcast on 4/30/2025 and featuring Horace Cooper of the Project 21 ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2025-05-01T13:42:12Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PUyOj1c9jMI/hqdefault.jpg",
+      "duration": "5:19"
+    },
+    {
+      "videoId": "b-gtlKp8gbE",
+      "videoUrl": "https://www.youtube.com/watch?v=b-gtlKp8gbE",
+      "title": "Horace Cooper: Trump Is Prepared to Walk Away from #Ukraine If Peace Talks Fall Apart",
+      "description": "This excerpt from \"Fox News Sunday with Shannon Bream,\" broadcast on 4/20/2025 and featuring Horace Cooper of the Project ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2025-04-26T00:22:03Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/b-gtlKp8gbE/hqdefault.jpg",
+      "duration": "7:52"
+    },
+    {
+      "videoId": "L49Y-fz8A7c",
+      "videoUrl": "https://www.youtube.com/watch?v=L49Y-fz8A7c",
+      "title": "Horace Cooper: Separation of Powers and the Role of the Judiciary",
+      "description": "This excerpt from the Fox Business Network program \"Evening Edit,\" broadcast on 4/25/25 and featuring Horace Cooper of the ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2025-04-26T00:00:05Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/L49Y-fz8A7c/hqdefault.jpg",
+      "duration": "1:28"
+    },
+    {
+      "videoId": "2MNJPW7dE70",
+      "videoUrl": "https://www.youtube.com/watch?v=2MNJPW7dE70",
+      "title": "Horace Cooper: Progressives Are Eating Their Own",
+      "description": "This excerpt from the Fox News Channel program \"The Ingraham Angle,\" broadcast on 4/23/2025 and featuring Horace Cooper of ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2025-04-25T02:22:20Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2MNJPW7dE70/hqdefault.jpg",
+      "duration": "3:37"
+    },
+    {
+      "videoId": "VSKAB6lRKVo",
+      "videoUrl": "https://www.youtube.com/watch?v=VSKAB6lRKVo",
+      "title": "Horace Cooper: Radical Leftist Agenda is &quot;As Popular As Scabies on a Cruise Ship&quot;",
+      "description": "This excerpt from the Fox News Channel program \"Hannity,\" broadcast on 4/24/2025 and featuring Horace Cooper of the Project ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2025-04-25T01:59:10Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VSKAB6lRKVo/hqdefault.jpg",
+      "duration": "4:53"
+    },
+    {
+      "videoId": "N2O0JWRM5PY",
+      "videoUrl": "https://www.youtube.com/watch?v=N2O0JWRM5PY",
+      "title": "Horace Cooper: Leftists Are Wrong to Put Their Hopes in #AOC &amp; #MS13 #IllegalImmigrants",
+      "description": "This excerpt from the Fox News Channel program \"Hannity,\" broadcast on 4/17/2025 and featuring Horace Cooper of the Project ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2025-04-25T00:50:55Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/N2O0JWRM5PY/hqdefault.jpg",
+      "duration": "6:25"
+    },
+    {
+      "videoId": "00PcKCtPZt0",
+      "videoUrl": "https://www.youtube.com/watch?v=00PcKCtPZt0",
+      "title": "Horace Cooper Condemns Leftists&#39; Silence Regarding Political Violence",
+      "description": "This excerpt from the Fox Business Network program \"Evening Edit,\" broadcast on 4/15/25 and featuring Horace Cooper of the ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2025-04-22T15:52:40Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/00PcKCtPZt0/hqdefault.jpg",
+      "duration": "1:00"
+    },
+    {
+      "videoId": "42UmXddL7M4",
+      "videoUrl": "https://www.youtube.com/watch?v=42UmXddL7M4",
+      "title": "Horace Cooper: Jasmine Crockett and AOC Seem To Be The Future of Their Party",
+      "description": "Crockett #AOC #Democrats This excerpt from the Fox News Channel program \"Hannity,\" broadcast on 4/9/2025 and featuring ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2025-04-14T14:43:23Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/42UmXddL7M4/hqdefault.jpg",
+      "duration": "5:10"
+    },
+    {
+      "videoId": "rmpnIXepR68",
+      "videoUrl": "https://www.youtube.com/watch?v=rmpnIXepR68",
+      "title": "Horace Cooper on Radical Leftists Like Jasmine Crockett: &quot;So Much Ignorance, So Little Time&quot;",
+      "description": "Crockett #AOC #Democrats This excerpt from the Fox News Channel program \"Hannity,\" broadcast on 4/7/2025 and featuring ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2025-04-14T14:12:21Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rmpnIXepR68/hqdefault.jpg",
+      "duration": "5:18"
+    },
+    {
+      "videoId": "tIvfYT669lk",
+      "videoUrl": "https://www.youtube.com/watch?v=tIvfYT669lk",
+      "title": "Horace Cooper Breaks Down the #SupremeCourt&#39;s #DueProcess Ruling",
+      "description": "SCOTUS #deportation #deportations This excerpt from the Fox Business Network program \"Evening Edit,\" broadcast on 4/8/25 ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2025-04-09T23:56:42Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tIvfYT669lk/hqdefault.jpg",
+      "duration": "2:21"
+    },
+    {
+      "videoId": "sNX8_a0VKUw",
+      "videoUrl": "https://www.youtube.com/watch?v=sNX8_a0VKUw",
+      "title": "Supreme Court gives Trump back-to-back wins",
+      "description": "Project 21 chairman Horace Cooper discusses President Donald Trump's latest Supreme Court wins on 'The Evening Edit.",
+      "channelTitle": "Fox Business",
+      "publishedAt": "2025-04-09T01:30:35Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sNX8_a0VKUw/hqdefault.jpg",
+      "duration": "2:21"
+    },
+    {
+      "videoId": "Ytb34Mr51Jo",
+      "videoUrl": "https://www.youtube.com/watch?v=Ytb34Mr51Jo",
+      "title": "Horace Cooper: #AOC in the #Senate Would Be Another Example of the Left Going Completely Crazy",
+      "description": "This excerpt from the Fox News Channel program \"Hannity,\" broadcast on 4/4/2025 and featuring Horace Cooper of the Project 21 ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2025-04-07T18:58:40Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ytb34Mr51Jo/hqdefault.jpg",
+      "duration": "3:55"
+    },
+    {
+      "videoId": "cg9ip0dCHGw",
+      "videoUrl": "https://www.youtube.com/watch?v=cg9ip0dCHGw",
+      "title": "Horace Cooper: #California Is No Longer Where Dreams Come True, But Where Dreams Go to Die",
+      "description": "This excerpt from the Fox News Channel program \"Hannity,\" broadcast on 3/28/2025 and featuring Horace Cooper of the Project ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2025-04-01T14:15:46Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cg9ip0dCHGw/hqdefault.jpg",
+      "duration": "7:02"
+    },
+    {
+      "videoId": "fof7GEEpip8",
+      "videoUrl": "https://www.youtube.com/watch?v=fof7GEEpip8",
+      "title": "Horace Cooper Compares Deported Illegal Alien Criminals to OKC Bomber Timothy McVeigh",
+      "description": "This excerpt from OAN, broadcast on 3/18/2025 and featuring Horace Cooper of the Project 21 black leadership network, has ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2025-03-28T02:31:43Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fof7GEEpip8/hqdefault.jpg",
+      "duration": "10:20"
+    },
+    {
+      "videoId": "3xqIfT4zdQ8",
+      "videoUrl": "https://www.youtube.com/watch?v=3xqIfT4zdQ8",
+      "title": "Horace Cooper: Jasmine Crockett and Other Radicals Double Down On Crazy",
+      "description": "This excerpt from the Fox News Channel program \"Hannity,\" broadcast on 3/26/2025 and featuring Horace Cooper of the Project ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2025-03-27T13:40:40Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3xqIfT4zdQ8/hqdefault.jpg",
+      "duration": "5:21"
+    },
+    {
+      "videoId": "4AS4zANkOAY",
+      "videoUrl": "https://www.youtube.com/watch?v=4AS4zANkOAY",
+      "title": "Horace Cooper: Radical Leftist Crazies Are Killing Their Party",
+      "description": "This excerpt from the Fox News Channel program \"Hannity,\" broadcast on 3/14/2025 and featuring Horace Cooper of the Project ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2025-03-17T21:44:22Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4AS4zANkOAY/hqdefault.jpg",
+      "duration": "11:44"
+    },
+    {
+      "videoId": "3hehrPYewpQ",
+      "videoUrl": "https://www.youtube.com/watch?v=3hehrPYewpQ",
+      "title": "Everything is ‘turning up Trump’: Kellyanne Conway",
+      "description": "Panelists Kellyanne Conway, Mark Meadows and Horace Cooper examine top moments from President Donald Trump's eight ...",
+      "channelTitle": "Fox News",
+      "publishedAt": "2025-03-15T06:15:00Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3hehrPYewpQ/hqdefault.jpg",
+      "duration": "11:56"
+    },
+    {
+      "videoId": "T-kIHRn96p0",
+      "videoUrl": "https://www.youtube.com/watch?v=T-kIHRn96p0",
+      "title": "Horace Cooper: Leftist Leaders Acted Like Babies During Trump&#39;s Joint Address",
+      "description": "This excerpt from the Fox News Channel program \"Hannity,\" broadcast on 3/6/2025 and featuring Horace Cooper of the Project 21 ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2025-03-11T21:05:17Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/T-kIHRn96p0/hqdefault.jpg",
+      "duration": "9:31"
+    },
+    {
+      "videoId": "tL-eeup37ZY",
+      "videoUrl": "https://www.youtube.com/watch?v=tL-eeup37ZY",
+      "title": "Horace Cooper: Biden Didn&#39;t Understand The Impact of His Administration&#39;s Destructive Decisions",
+      "description": "This excerpt from the Fox Business Network program \"Evening Edit,\" broadcast on 2/28/25 and featuring Horace Cooper of the ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2025-03-04T01:07:23Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tL-eeup37ZY/hqdefault.jpg",
+      "duration": "4:06"
+    },
+    {
+      "videoId": "pddpBEVuxJ0",
+      "videoUrl": "https://www.youtube.com/watch?v=pddpBEVuxJ0",
+      "title": "Horace Cooper Calls Out #MainstreamMedia &amp; Bureaucrats Who Avoid Accountability",
+      "description": "This excerpt from the Fox News Channel program \"Hannity,\" broadcast on 2/21/2025 and featuring Horace Cooper of the Project ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2025-02-24T20:33:31Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pddpBEVuxJ0/hqdefault.jpg",
+      "duration": "7:10"
+    },
+    {
+      "videoId": "dOK40YcoMTE",
+      "videoUrl": "https://www.youtube.com/watch?v=dOK40YcoMTE",
+      "title": "Horace Cooper&#39;s #Valentine for Leftists",
+      "description": "Full segment can be viewed here: https://youtu.be/bxZ8rKj6sUI This excerpt from the Fox News Channel program \"Hannity,\" ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2025-02-15T03:02:49Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dOK40YcoMTE/hqdefault.jpg",
+      "duration": "0:12"
+    },
+    {
+      "videoId": "bxZ8rKj6sUI",
+      "videoUrl": "https://www.youtube.com/watch?v=bxZ8rKj6sUI",
+      "title": "Horace Cooper: Leftists Are Driving Off a Cliff Like Thelma and Louise",
+      "description": "This excerpt from the Fox News Channel program \"Hannity,\" broadcast on 2/14/2025 and featuring Horace Cooper of the Project ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2025-02-15T02:47:00Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bxZ8rKj6sUI/hqdefault.jpg",
+      "duration": "8:26"
+    },
+    {
+      "videoId": "w2mg2GyCUYY",
+      "videoUrl": "https://www.youtube.com/watch?v=w2mg2GyCUYY",
+      "title": "Horace Cooper Predicts the #FCC Will Fine #CBS For Manipulating #KamalaHarris Interview Footage",
+      "description": "mainstreammedia #kamalaharris This excerpt from the Fox News Channel program \"Hannity,\" broadcast on 2/5/2025 and ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2025-02-06T03:08:37Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/w2mg2GyCUYY/hqdefault.jpg",
+      "duration": "4:11"
+    },
+    {
+      "videoId": "12y_bZjKH-0",
+      "videoUrl": "https://www.youtube.com/watch?v=12y_bZjKH-0",
+      "title": "Horace Cooper | De Tocqueville&#39;s View On Race Relations In The United States | Essay 45",
+      "description": "Join our 90-Day Study, \"The Genius of America – A Journey Into Our Republic: A Study on Alexis de Tocqueville's Democracy In ...",
+      "channelTitle": "Constituting America",
+      "publishedAt": "2025-02-03T06:00:01Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/12y_bZjKH-0/hqdefault.jpg",
+      "duration": "12:10"
+    },
+    {
+      "videoId": "Ji7aJkciW2U",
+      "videoUrl": "https://www.youtube.com/watch?v=Ji7aJkciW2U",
+      "title": "Horace Cooper: With #FEMA&#39;s Poor Track Record, It&#39;s Heading for Dissolution",
+      "description": "This excerpt from \"Fox News Sunday with Shannon Bream,\" broadcast on 1/26/2025 and featuring Horace Cooper of the Project ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2025-01-30T22:54:58Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ji7aJkciW2U/hqdefault.jpg",
+      "duration": "8:17"
+    },
+    {
+      "videoId": "q4qrgbjdhkw",
+      "videoUrl": "https://www.youtube.com/watch?v=q4qrgbjdhkw",
+      "title": "Horace Cooper Eagerly Anticipates New #Energy Development Under Trump",
+      "description": "This excerpt from \"Fox News Sunday with Shannon Bream,\" broadcast on 1/26/2025 and featuring Horace Cooper of the Project ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2025-01-30T22:47:06Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/q4qrgbjdhkw/hqdefault.jpg",
+      "duration": "6:08"
+    },
+    {
+      "videoId": "H6NcDYtAzFc",
+      "videoUrl": "https://www.youtube.com/watch?v=H6NcDYtAzFc",
+      "title": "Story Slam: Horace Cooper, Jewish Vocational Services",
+      "description": "Horace takes one spoonful at a time as he launches a new career in IT through JVS. LISC's 1st Annual Story Slam - November 13, ...",
+      "channelTitle": "LISC Massachusetts",
+      "publishedAt": "2025-01-24T20:38:49Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/H6NcDYtAzFc/hqdefault.jpg",
+      "duration": "8:19"
+    },
+    {
+      "videoId": "OUsUX4jTTl8",
+      "videoUrl": "https://www.youtube.com/watch?v=OUsUX4jTTl8",
+      "title": "Horace Cooper: Preemptive Pardons Painted Targets on Those Who Need to Be Held Accountable",
+      "description": "hunterbiden #pardon #bidenpardon #pardons This excerpt from the Fox Business Network program \"Evening Edit,\" broadcast on ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2025-01-21T23:01:26Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OUsUX4jTTl8/hqdefault.jpg",
+      "duration": "3:21"
+    },
+    {
+      "videoId": "8dxwbWPjHVw",
+      "videoUrl": "https://www.youtube.com/watch?v=8dxwbWPjHVw",
+      "title": "Horace Cooper on #IllegalImmigration, #DOGE, #Tariffs, #TikTok, #CCP &amp; US/#Mexico/#Canada Relations",
+      "description": "presidenttrump #trumpagenda #foreignpolicy This excerpt from @ntdtv's coverage of President Trump's inauguration, broadcast ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2025-01-20T23:36:49Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8dxwbWPjHVw/hqdefault.jpg",
+      "duration": "53:56"
+    },
+    {
+      "videoId": "q1Bz4YEwumQ",
+      "videoUrl": "https://www.youtube.com/watch?v=q1Bz4YEwumQ",
+      "title": "Horace Cooper Provides #Inauguration Commentary on NTD",
+      "description": "bidenpardon #biden #presidenttrump This excerpt from @ntdtv's coverage of President Trump's inauguration, broadcast on ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2025-01-20T20:56:14Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/q1Bz4YEwumQ/hqdefault.jpg",
+      "duration": "30:34"
+    },
+    {
+      "videoId": "SdHZJLs0jOo",
+      "videoUrl": "https://www.youtube.com/watch?v=SdHZJLs0jOo",
+      "title": "Attorney slams judge over Trump sentencing: ’Constitutionally crippled’ #shorts",
+      "description": "Attorney and Project 21 chair Horace Cooper reacts to Judge Merchan ordering President-elect Trump's sentencing in the hush ...",
+      "channelTitle": "Fox Business",
+      "publishedAt": "2025-01-04T21:00:21Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SdHZJLs0jOo/hqdefault.jpg",
+      "duration": "1:00"
+    },
+    {
+      "videoId": "S-8UHBe9LuI",
+      "videoUrl": "https://www.youtube.com/watch?v=S-8UHBe9LuI",
+      "title": "THE FINAL RESTING PLACE OF MR GLEAN STEVEN HORACE COOPER",
+      "description": "THE FINAL RESTING PLACE OF MR GLEAN STEVEN HORACE COOPER. We don't have copyright rights for the music playing ...",
+      "channelTitle": "LRTN MEMORIAL",
+      "publishedAt": "2025-01-04T07:07:07Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/S-8UHBe9LuI/hqdefault.jpg",
+      "duration": "19:18"
+    },
+    {
+      "videoId": "KS3TYOMkfe4",
+      "videoUrl": "https://www.youtube.com/watch?v=KS3TYOMkfe4",
+      "title": "THE FUNERAL SERVICE OF MR GLEAN STEVEN HORACE COOPER",
+      "description": "THE FUNERAL SERVICE OF MR GLEAN STEVEN HORACE COOPER. We don't have copyright rights for the music playing in ...",
+      "channelTitle": "LRTN MEMORIAL",
+      "publishedAt": "2025-01-04T05:55:40Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KS3TYOMkfe4/hqdefault.jpg",
+      "duration": "2:05:48"
+    },
+    {
+      "videoId": "FzXJzJ4FIwE",
+      "videoUrl": "https://www.youtube.com/watch?v=FzXJzJ4FIwE",
+      "title": "Horace Cooper: Our Founders Would Be Horrified at How Media Fails to Hold Leaders Accountable",
+      "description": "mainstreammedia #Biden #kamalaharris This excerpt from the Fox News Channel program \"Hannity,\" broadcast on 12/30/2024 ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2025-01-01T19:03:15Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FzXJzJ4FIwE/hqdefault.jpg",
+      "duration": "6:42"
+    },
+    {
+      "videoId": "RtaNvdOUMm0",
+      "videoUrl": "https://www.youtube.com/watch?v=RtaNvdOUMm0",
+      "title": "Horace Cooper Calls on #NewYork Governor Kathy Hochul to Fire #AlvinBragg",
+      "description": "This excerpt from the Fox News Channel program \"Hannity,\" broadcast on 12/27/2024 and featuring Horace Cooper of the Project ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-12-30T16:53:04Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RtaNvdOUMm0/hqdefault.jpg",
+      "duration": "5:24"
+    },
+    {
+      "videoId": "22pcyQPZ1PE",
+      "videoUrl": "https://www.youtube.com/watch?v=22pcyQPZ1PE",
+      "title": "Horace Cooper: &quot;Accountability is Coming.&quot; No More Cheering &amp; Pardons for Murderers.",
+      "description": "This excerpt from the Fox News Channel program \"Hannity,\" broadcast on 12/23/2024 and featuring Horace Cooper of the Project ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-12-30T14:00:41Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/22pcyQPZ1PE/hqdefault.jpg",
+      "duration": "8:35"
+    },
+    {
+      "videoId": "ZWpq5OwcPLY",
+      "videoUrl": "https://www.youtube.com/watch?v=ZWpq5OwcPLY",
+      "title": "No Other District Attorney Will Go Near the #FaniWillis Case",
+      "description": "This excerpt from the Fox News Channel program \"The Ingraham Angle,\" broadcast on 12/19/2024 and featuring Horace Cooper ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-12-20T01:13:02Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZWpq5OwcPLY/hqdefault.jpg",
+      "duration": "0:59"
+    },
+    {
+      "videoId": "rAcmz2Z9APA",
+      "videoUrl": "https://www.youtube.com/watch?v=rAcmz2Z9APA",
+      "title": "Horace Cooper: No Other District Attorney Will Want to Go Near the #FaniWillis Case",
+      "description": "This excerpt from the Fox News Channel program \"The Ingraham Angle,\" broadcast on 12/19/2024 and featuring Horace Cooper ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-12-20T00:59:52Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rAcmz2Z9APA/hqdefault.jpg",
+      "duration": "4:22"
+    },
+    {
+      "videoId": "hctzV71oBrk",
+      "videoUrl": "https://www.youtube.com/watch?v=hctzV71oBrk",
+      "title": "Horace Cooper: Biden&#39;s Preemptive Pardons Won&#39;t Achieve His Goals",
+      "description": "hunterbiden #pardon This excerpt from the Fox Business Network program \"Evening Edit,\" broadcast on 12/6/2024 and featuring ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-12-09T20:33:04Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hctzV71oBrk/hqdefault.jpg",
+      "duration": "5:11"
+    },
+    {
+      "videoId": "LiQt8qd0rr4",
+      "videoUrl": "https://www.youtube.com/watch?v=LiQt8qd0rr4",
+      "title": "Horace Cooper: It&#39;s Time for Obama to Go Away",
+      "description": "This excerpt from the Fox News Channel program \"Hannity,\" broadcast on 12/6/2024 and featuring Horace Cooper of the Project ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-12-09T18:25:48Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LiQt8qd0rr4/hqdefault.jpg",
+      "duration": "7:42"
+    },
+    {
+      "videoId": "vuFKvyTFlC0",
+      "videoUrl": "https://www.youtube.com/watch?v=vuFKvyTFlC0",
+      "title": "Horace Cooper - appearance",
+      "description": "Name Look - Horace Cooper - appearance. In this video we present \"Horace Cooper\" name look and feel in various scenarios.",
+      "channelTitle": "Name Look",
+      "publishedAt": "2024-11-27T10:05:16Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vuFKvyTFlC0/hqdefault.jpg",
+      "duration": "2:02"
+    },
+    {
+      "videoId": "x73lfqkz5YY",
+      "videoUrl": "https://www.youtube.com/watch?v=x73lfqkz5YY",
+      "title": "Horace Cooper - appearance",
+      "description": "Name Look - Horace Cooper - appearance. In this video we present \"Horace Cooper\" name look and feel in various scenarios.",
+      "channelTitle": "Name Look",
+      "publishedAt": "2024-11-27T10:05:12Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/x73lfqkz5YY/hqdefault.jpg",
+      "duration": "2:02"
+    },
+    {
+      "videoId": "0P1W38NqyEs",
+      "videoUrl": "https://www.youtube.com/watch?v=0P1W38NqyEs",
+      "title": "Horace Cooper: A #MattGaetz #DOJ Will Demand Accountability on #BorderCrisis &amp; #ElectionIntegrity",
+      "description": "This excerpt from \"America First with Sebastian Gorka,\" broadcast on 11/13/2024 and featuring Horace Cooper of the Project 21 ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-11-20T22:19:12Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0P1W38NqyEs/hqdefault.jpg",
+      "duration": "3:11"
+    },
+    {
+      "videoId": "rdq4bAg5dX0",
+      "videoUrl": "https://www.youtube.com/watch?v=rdq4bAg5dX0",
+      "title": "Horace Cooper on Recess Appointments, Matt Gaetz &amp; Weaponization of the DOJ",
+      "description": "This excerpt from the NTD News program \"Capitol Report,\" broadcast on 11/18/2024 and featuring Horace Cooper of the Project ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-11-20T22:08:20Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rdq4bAg5dX0/hqdefault.jpg",
+      "duration": "6:34"
+    },
+    {
+      "videoId": "HZ6q-eImlPY",
+      "videoUrl": "https://www.youtube.com/watch?v=HZ6q-eImlPY",
+      "title": "Horace Cooper: Too Many American Lives Have Been Destroyed By #IllegalImmigration",
+      "description": "This excerpt from the Fox News Channel program \"Hannity,\" broadcast on 11/15/2024 and featuring Horace Cooper of the Project ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-11-18T20:05:21Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HZ6q-eImlPY/hqdefault.jpg",
+      "duration": "5:31"
+    },
+    {
+      "videoId": "t17Y5cZyLGU",
+      "videoUrl": "https://www.youtube.com/watch?v=t17Y5cZyLGU",
+      "title": "Horace Cooper: A #MattGaetz #DOJ Would Hold #NewYork &amp; #Georgia Accountable for #Lawfare vs #Trump",
+      "description": "This excerpt from \"America First with Sebastian Gorka,\" broadcast on 11/13/2024 and featuring Horace Cooper of the Project 21 ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-11-15T19:03:35Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/t17Y5cZyLGU/hqdefault.jpg",
+      "duration": "2:12"
+    },
+    {
+      "videoId": "xOPXQDgqJrs",
+      "videoUrl": "https://www.youtube.com/watch?v=xOPXQDgqJrs",
+      "title": "Horace Cooper on #DefundThePolice Irony: #Police Officers Are Disproportionately Black &amp; Hispanic",
+      "description": "This excerpt from \"America First with Sebastian Gorka,\" broadcast on 11/13/2024 and featuring Horace Cooper of the Project 21 ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-11-15T17:47:51Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xOPXQDgqJrs/hqdefault.jpg",
+      "duration": "4:20"
+    },
+    {
+      "videoId": "wbFAhQGhmQc",
+      "videoUrl": "https://www.youtube.com/watch?v=wbFAhQGhmQc",
+      "title": "Horace Cooper | Parties In The United States (Vol. 1 Pt. 2 Ch. 2) | Essay 22",
+      "description": "Join our 90-Day Study, \"The Genius of America – A Journey Into Our Republic: A Study on Alexis de Tocqueville's Democracy In ...",
+      "channelTitle": "Constituting America",
+      "publishedAt": "2024-11-14T00:27:40Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wbFAhQGhmQc/hqdefault.jpg",
+      "duration": "9:04"
+    },
+    {
+      "videoId": "1bOPKI2Q1fs",
+      "videoUrl": "https://www.youtube.com/watch?v=1bOPKI2Q1fs",
+      "title": "Horace Cooper: Black Americans Are Sick of Being Infantilized by Leftists",
+      "description": "This excerpt from the Fox News Channel program \"The Ingraham Angle,\" broadcast on 10/28/2024 and featuring Horace Cooper ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-10-29T15:36:34Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1bOPKI2Q1fs/hqdefault.jpg",
+      "duration": "3:23"
+    },
+    {
+      "videoId": "PmxZj_gtLM4",
+      "videoUrl": "https://www.youtube.com/watch?v=PmxZj_gtLM4",
+      "title": "Unpacking Race Baiting: The Truth Behind Identity Politics! #foxnews #politics #kamalaharris",
+      "description": "Horace Cooper sheds light on the failures of race baiting and identity politics, addressing a troubling perspective that many seem ...",
+      "channelTitle": "Greg's English & Politics",
+      "publishedAt": "2024-10-29T15:00:23Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PmxZj_gtLM4/hqdefault.jpg",
+      "duration": "0:48"
+    },
+    {
+      "videoId": "yu51w8gxzyQ",
+      "videoUrl": "https://www.youtube.com/watch?v=yu51w8gxzyQ",
+      "title": "Ingraham: The Harris campaign is desperate",
+      "description": "Project 21 chairman Horace Cooper discusses Vice President Kamala Harris' message to Black voters on 'The Ingraham Angle.",
+      "channelTitle": "Fox News",
+      "publishedAt": "2024-10-29T07:00:40Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yu51w8gxzyQ/hqdefault.jpg",
+      "duration": "3:35"
+    },
+    {
+      "videoId": "q4hyUf4HOHI",
+      "videoUrl": "https://www.youtube.com/watch?v=q4hyUf4HOHI",
+      "title": "Pulse of the Moment (10/21/24) Feat. Jake Novak, Horace Cooper, Tim Goeglein, Alexander Williams Jr.",
+      "description": "Armstrong Williams Social Media and Website in about channel bio Guests : Jake Novak – Host of “The Analysts,” Political ...",
+      "channelTitle": "Armstrong Williams",
+      "publishedAt": "2024-10-24T16:30:11Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/q4hyUf4HOHI/hqdefault.jpg",
+      "duration": "53:01"
+    },
+    {
+      "videoId": "MaDN8zGShwQ",
+      "videoUrl": "https://www.youtube.com/watch?v=MaDN8zGShwQ",
+      "title": "Black Americans Are Rebelling Against WOKE",
+      "description": "This excerpt from the Fox News Channel program \"The Ingraham Angle,\" broadcast on 10/17/2024 and featuring Horace Cooper ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-10-23T21:12:13Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MaDN8zGShwQ/hqdefault.jpg",
+      "duration": "1:00"
+    },
+    {
+      "videoId": "nHTifPVqJ6g",
+      "videoUrl": "https://www.youtube.com/watch?v=nHTifPVqJ6g",
+      "title": "Horace Cooper: Black Americans Are Rebelling Against Woke",
+      "description": "This excerpt from the Fox News Channel program \"The Ingraham Angle,\" broadcast on 10/17/2024 and featuring Horace Cooper ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-10-23T17:11:22Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nHTifPVqJ6g/hqdefault.jpg",
+      "duration": "3:44"
+    },
+    {
+      "videoId": "uGf93TARHEA",
+      "videoUrl": "https://www.youtube.com/watch?v=uGf93TARHEA",
+      "title": "Horace Cooper: Latest #FaniWillis / #NathanWade #Lawfare Revelations Are &quot;Outrageous&quot;",
+      "description": "This excerpt from the Fox Business Network program \"Evening Edit,\" broadcast on 10/22/2024 and featuring Horace Cooper of the ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-10-23T00:07:42Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uGf93TARHEA/hqdefault.jpg",
+      "duration": "2:48"
+    },
+    {
+      "videoId": "5FlbSzo31TE",
+      "videoUrl": "https://www.youtube.com/watch?v=5FlbSzo31TE",
+      "title": "Horace Cooper: Biden Incompetence in #MiddleEast Has Allowed #Israel to Better Target Thugs",
+      "description": "This excerpt from the Fox News Channel program \"Hannity,\" broadcast on 10/21/2024 and featuring Horace Cooper of the Project ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-10-22T19:33:31Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5FlbSzo31TE/hqdefault.jpg",
+      "duration": "7:20"
+    },
+    {
+      "videoId": "tnLzy3bAt7I",
+      "videoUrl": "https://www.youtube.com/watch?v=tnLzy3bAt7I",
+      "title": "Reparations is a Hoax, Reveals Horace Cooper",
+      "description": "reparations #reparationsnow #blackamerica This excerpt from the Fox News Channel program \"Hannity,\" broadcast on ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-10-21T20:14:42Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tnLzy3bAt7I/hqdefault.jpg",
+      "duration": "1:00"
+    },
+    {
+      "videoId": "2yaqnE0MH6Q",
+      "videoUrl": "https://www.youtube.com/watch?v=2yaqnE0MH6Q",
+      "title": "Kellyanne Conway: Trump has a chance to ‘run the tables’ in November",
+      "description": "'Hannity' panelists Kellyanne Conway, Stephen Miller and Horace Cooper discuss former President Trump's narrow lead in the ...",
+      "channelTitle": "Fox News",
+      "publishedAt": "2024-10-16T09:30:02Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2yaqnE0MH6Q/hqdefault.jpg",
+      "duration": "11:57"
+    },
+    {
+      "videoId": "p7hAh7DJSfY",
+      "videoUrl": "https://www.youtube.com/watch?v=p7hAh7DJSfY",
+      "title": "Black Americans Want Real Solutions, Not Progressive Policies",
+      "description": "This excerpt from the Fox Business Network program \"Evening Edit,\" broadcast on 9/9/2024 and featuring Horace Cooper of the ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-09-19T15:45:04Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/p7hAh7DJSfY/hqdefault.jpg",
+      "duration": "0:47"
+    },
+    {
+      "videoId": "FCKc02OwWoc",
+      "videoUrl": "https://www.youtube.com/watch?v=FCKc02OwWoc",
+      "title": "&quot;This is Victim Blaming!&quot; Horace Cooper Slams Leftists Criticizing Trump For #AssassinationAttempt",
+      "description": "This excerpt from the Fox Business Network program \"Evening Edit,\" broadcast on 9/17/2024 and featuring Horace Cooper of the ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-09-18T15:15:02Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FCKc02OwWoc/hqdefault.jpg",
+      "duration": "2:48"
+    },
+    {
+      "videoId": "rQju9tQ2XQU",
+      "videoUrl": "https://www.youtube.com/watch?v=rQju9tQ2XQU",
+      "title": "Horace Cooper: Biden Needs to Step Up NOW Re: #Iran; It Can&#39;t Wait For the Next President",
+      "description": "This excerpt from WTTG's \"Fox News Sunday with Shannon Bream,\" broadcast on 9/15/2024 and featuring Horace Cooper of the ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-09-17T23:23:40Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rQju9tQ2XQU/hqdefault.jpg",
+      "duration": "4:59"
+    },
+    {
+      "videoId": "0pgpRtJ6FQc",
+      "videoUrl": "https://www.youtube.com/watch?v=0pgpRtJ6FQc",
+      "title": "Horace Cooper: Polls Are Unreliable Because People Are Afraid of Being Condemned for Honest Answers",
+      "description": "This excerpt from WTTG's \"Fox News Sunday with Shannon Bream,\" broadcast on 9/15/2024 and featuring Horace Cooper of the ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-09-17T23:16:50Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0pgpRtJ6FQc/hqdefault.jpg",
+      "duration": "9:43"
+    },
+    {
+      "videoId": "wQ_H2q-O0Z0",
+      "videoUrl": "https://www.youtube.com/watch?v=wQ_H2q-O0Z0",
+      "title": "Horace Cooper on #MediaBias During Presidential Debate, &amp; How #Abortion Has Destroyed Black Babies",
+      "description": "This excerpt from the Fox News Channel program \"Hannity,\" broadcast on 9/11/2024 and featuring Horace Cooper of the Project ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-09-12T02:42:33Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wQ_H2q-O0Z0/hqdefault.jpg",
+      "duration": "6:43"
+    },
+    {
+      "videoId": "mzx2bnI9hhw",
+      "videoUrl": "https://www.youtube.com/watch?v=mzx2bnI9hhw",
+      "title": "Horace Cooper: Black Americans Want Real Solutions, Not Simply Progressivism",
+      "description": "This excerpt from the Fox Business Network program \"Evening Edit,\" broadcast on 9/9/2024 and featuring Horace Cooper of the ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-09-10T18:45:34Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mzx2bnI9hhw/hqdefault.jpg",
+      "duration": "3:22"
+    },
+    {
+      "videoId": "NPUx8px94rs",
+      "videoUrl": "https://www.youtube.com/watch?v=NPUx8px94rs",
+      "title": "Horace Cooper: #Cyberattacks, Leftists Try to Silence Trump",
+      "description": "freespeech #censorship #elonmusk #twitter This excerpt from the Fox News program \"Hannity,\" broadcast on 8/12/2024 and ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-09-06T15:21:52Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NPUx8px94rs/hqdefault.jpg",
+      "duration": "5:24"
+    },
+    {
+      "videoId": "QUsI1O5poQ0",
+      "videoUrl": "https://www.youtube.com/watch?v=QUsI1O5poQ0",
+      "title": "Horace Cooper: #California&#39;s #Housing Loans for #IllegalImmigrants Are &quot;Nothing Short of Crazy&quot;",
+      "description": "illegalimmigration #sanctuarycity #bordercrisis This excerpt from the Fox News program \"Hannity,\" broadcast on 8/30/2024 and ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-09-03T15:09:38Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QUsI1O5poQ0/hqdefault.jpg",
+      "duration": "3:11"
+    },
+    {
+      "videoId": "XHsGLpL1fbQ",
+      "videoUrl": "https://www.youtube.com/watch?v=XHsGLpL1fbQ",
+      "title": "Horace Cooper: An Examination of #Minnesota Shows Very Very Harmful Outcomes",
+      "description": "This excerpt from the Fox Business Network program \"Evening Edit,\" broadcast on 8/15/2024 and featuring Horace Cooper of the ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-08-22T16:51:19Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XHsGLpL1fbQ/hqdefault.jpg",
+      "duration": "2:49"
+    },
+    {
+      "videoId": "gfPo627yfEo",
+      "videoUrl": "https://www.youtube.com/watch?v=gfPo627yfEo",
+      "title": "Horace Cooper: Luxury Beliefs About Race Aren’t Relevant to Black America",
+      "description": "This excerpt from the Fox News program \"Hannity,\" broadcast on 7/31/2024 and featuring Horace Cooper of the Project 21 black ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-08-01T16:13:24Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gfPo627yfEo/hqdefault.jpg",
+      "duration": "4:00"
+    },
+    {
+      "videoId": "gkCTldcKNmw",
+      "videoUrl": "https://www.youtube.com/watch?v=gkCTldcKNmw",
+      "title": "Horace Cooper: Trump broke the internet",
+      "description": "Project 21 chairman Horace Cooper reacts to former President Trump's Q&A at the National Association of Black Journalists ...",
+      "channelTitle": "Fox News",
+      "publishedAt": "2024-08-01T04:30:14Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gkCTldcKNmw/hqdefault.jpg",
+      "duration": "3:16"
+    },
+    {
+      "videoId": "G3R3GRyFpKU",
+      "videoUrl": "https://www.youtube.com/watch?v=G3R3GRyFpKU",
+      "title": "Horace Cooper on #KamalaHarris: I Disagreed With Hillary, But At Least She Was Willing to Work Hard",
+      "description": "This excerpt from the Fox Business Network program \"Evening Edit,\" broadcast on 7/26/2024 and featuring Horace Cooper of the ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-07-30T20:36:20Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/G3R3GRyFpKU/hqdefault.jpg",
+      "duration": "5:30"
+    },
+    {
+      "videoId": "Oovu-0vKAwA",
+      "videoUrl": "https://www.youtube.com/watch?v=Oovu-0vKAwA",
+      "title": "Horace Cooper: #Kamala&#39;s Radical Views Unpopular Both Then and Now",
+      "description": "This excerpt from the Fox News program \"Hannity,\" broadcast on 7/25/2024 and featuring Horace Cooper of the Project 21 black ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-07-29T16:02:16Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Oovu-0vKAwA/hqdefault.jpg",
+      "duration": "3:45"
+    },
+    {
+      "videoId": "DII1z4y6vWM",
+      "videoUrl": "https://www.youtube.com/watch?v=DII1z4y6vWM",
+      "title": "Horace Cooper: Replacing Biden With #Kamala Will Be Ugly and Messy",
+      "description": "This excerpt from \"Fox News Sunday,\" broadcast on 7/21/2024 and featuring Horace Cooper of the Project 21 black leadership ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-07-23T21:57:07Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DII1z4y6vWM/hqdefault.jpg",
+      "duration": "1:00"
+    },
+    {
+      "videoId": "hWG1f4heGwY",
+      "videoUrl": "https://www.youtube.com/watch?v=hWG1f4heGwY",
+      "title": "Horace Cooper: #KimberlyCheatle Better Filled Role of #DEI Hire Than Role of #SecretService Director",
+      "description": "This excerpt from \"Fox News Sunday,\" broadcast on 7/21/2024 and featuring Horace Cooper of the Project 21 black leadership ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-07-23T21:50:28Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hWG1f4heGwY/hqdefault.jpg",
+      "duration": "1:32"
+    },
+    {
+      "videoId": "tgMI4435ihs",
+      "videoUrl": "https://www.youtube.com/watch?v=tgMI4435ihs",
+      "title": "Biden and Obama Don&#39;t Like Each Other, Notes Project 21&#39;s Horace Cooper",
+      "description": "This excerpt from the Fox News program \"Hannity,\" broadcast on 7/11/2024 and featuring Horace Cooper of the Project 21 black ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-07-12T20:01:13Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tgMI4435ihs/hqdefault.jpg",
+      "duration": "0:38"
+    },
+    {
+      "videoId": "0sr9tnZSaIQ",
+      "videoUrl": "https://www.youtube.com/watch?v=0sr9tnZSaIQ",
+      "title": "Horace Cooper: Biden is Like Jimmy Carter, Without the Mental Sharpness",
+      "description": "This excerpt from the Fox News program \"Hannity,\" broadcast on 7/11/2024 and featuring Horace Cooper of the Project 21 black ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-07-12T02:04:55Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0sr9tnZSaIQ/hqdefault.jpg",
+      "duration": "5:13"
+    },
+    {
+      "videoId": "TxXSGTuVa6E",
+      "videoUrl": "https://www.youtube.com/watch?v=TxXSGTuVa6E",
+      "title": "The Left Projects Onto the Right Things the Left Has Done",
+      "description": "\"We live in a society where the left projects onto the right things that the left has done,\" says Project 21 Chairman Horace Cooper.",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-07-11T17:33:09Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TxXSGTuVa6E/hqdefault.jpg",
+      "duration": "0:51"
+    },
+    {
+      "videoId": "TwJ0VAiZvV0",
+      "videoUrl": "https://www.youtube.com/watch?v=TwJ0VAiZvV0",
+      "title": "Horace Cooper: #DEI Appointment #Kamala Harris is Either a Liar or Completely Out of the Loop",
+      "description": "This excerpt from the Fox News program \"The Ingraham Angle,\" broadcast on 7/5/2024 and featuring Horace Cooper of the ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-07-08T14:40:42Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TwJ0VAiZvV0/hqdefault.jpg",
+      "duration": "3:21"
+    },
+    {
+      "videoId": "qSRjGDrqY0Q",
+      "videoUrl": "https://www.youtube.com/watch?v=qSRjGDrqY0Q",
+      "title": "Horace Cooper: Leftists&#39; Emphasis on #IdentityPolitics Could Backfire with #Kamala",
+      "description": "This excerpt from the Fox News program \"The Ingraham Angle,\" broadcast on 7/2/2024 and featuring Horace Cooper of the ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-07-03T17:46:27Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qSRjGDrqY0Q/hqdefault.jpg",
+      "duration": "4:23"
+    },
+    {
+      "videoId": "8JtzoFwLy-g",
+      "videoUrl": "https://www.youtube.com/watch?v=8JtzoFwLy-g",
+      "title": "Horace Cooper Compares Biden&#39;s #Broadband Boondoggle to #JimCrow Laws Affecting His Grandfather",
+      "description": "This excerpt from the Fox News program \"The Ingraham Angle,\" broadcast on 6/20/2024 and featuring Horace Cooper of the ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-06-21T00:23:19Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8JtzoFwLy-g/hqdefault.jpg",
+      "duration": "3:13"
+    },
+    {
+      "videoId": "e8U09P8IjrM",
+      "videoUrl": "https://www.youtube.com/watch?v=e8U09P8IjrM",
+      "title": "Horace Cooper: The Left Projects Onto the Right Things the Left Has Done",
+      "description": "This excerpt from the Fox News program \"Hannity,\" broadcast on 6/19/2024 and featuring Horace Cooper of the Project 21 black ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-06-20T13:07:50Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/e8U09P8IjrM/hqdefault.jpg",
+      "duration": "5:59"
+    },
+    {
+      "videoId": "KmS4dqYWImM",
+      "videoUrl": "https://www.youtube.com/watch?v=KmS4dqYWImM",
+      "title": "Horace Cooper on Biden’s Priorities: You Can’t Be This Wrong by Accident!",
+      "description": "This excerpt from the Fox News program \"Hannity,\" broadcast on 6/13/2024 and featuring Horace Cooper of the Project 21 black ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-06-17T19:39:20Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KmS4dqYWImM/hqdefault.jpg",
+      "duration": "5:45"
+    },
+    {
+      "videoId": "ljEQ6tyC98k",
+      "videoUrl": "https://www.youtube.com/watch?v=ljEQ6tyC98k",
+      "title": "Horace Cooper: Biden Believes Black Americans Need Special Messaging",
+      "description": "Bidenflation #Bidenomics #hannity This excerpt from the Fox News program \"Hannity,\" broadcast on 5/24/2024 and featuring ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-05-27T17:34:56Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ljEQ6tyC98k/hqdefault.jpg",
+      "duration": "6:40"
+    },
+    {
+      "videoId": "yEOKU_hCVB4",
+      "videoUrl": "https://www.youtube.com/watch?v=yEOKU_hCVB4",
+      "title": "Horace Cooper: Biden Has No Moral High Ground When He Accuses Others of Racism",
+      "description": "commencement #racebaiting #racialdivision #Morehouse #HBCU This excerpt from the One America News, broadcast on ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-05-22T20:47:13Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yEOKU_hCVB4/hqdefault.jpg",
+      "duration": "3:47"
+    },
+    {
+      "videoId": "8FxCIRmYLHE",
+      "videoUrl": "https://www.youtube.com/watch?v=8FxCIRmYLHE",
+      "title": "Horace Cooper Criticizes Legal Problems With the #Trump &quot;Show Trial&quot;",
+      "description": "This excerpt from the One America News program \"Weekly Briefing,\" broadcast on 5/11/2024 and featuring Horace Cooper of the ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-05-20T20:09:38Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8FxCIRmYLHE/hqdefault.jpg",
+      "duration": "12:52"
+    },
+    {
+      "videoId": "K3bA02XmZao",
+      "videoUrl": "https://www.youtube.com/watch?v=K3bA02XmZao",
+      "title": "Horace Cooper: We Should Not Limit #Israel&#39;s Right to Defend Itself",
+      "description": "supportisrael #hamas This excerpt from the One America News program \"Weekly Briefing,\" broadcast on 5/11/2024 and featuring ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-05-20T19:43:37Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/K3bA02XmZao/hqdefault.jpg",
+      "duration": "9:54"
+    },
+    {
+      "videoId": "dDmO_0oLyDA",
+      "videoUrl": "https://www.youtube.com/watch?v=dDmO_0oLyDA",
+      "title": "Horace Cooper: #Inflation and #BorderCrisis Hurt All Americans, and Especially Black Americans",
+      "description": "Bidenflation #Bidenomics #hannity This excerpt from the Fox News program \"Hannity,\" broadcast on 5/15/2024 and featuring ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-05-16T02:16:31Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dDmO_0oLyDA/hqdefault.jpg",
+      "duration": "5:09"
+    },
+    {
+      "videoId": "8UyBfqIQM18",
+      "videoUrl": "https://www.youtube.com/watch?v=8UyBfqIQM18",
+      "title": "Horace Cooper: Mainstream Media Needs to Call Out Liberal Lunacy",
+      "description": "This excerpt from the Fox News program \"Hannity,\" broadcast on 5/7/2024 and featuring Horace Cooper of the Project 21 black ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-05-08T13:43:35Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8UyBfqIQM18/hqdefault.jpg",
+      "duration": "6:12"
+    },
+    {
+      "videoId": "0Gi-QlQ2KYY",
+      "videoUrl": "https://www.youtube.com/watch?v=0Gi-QlQ2KYY",
+      "title": "#BackTheBlue: Horace Cooper Supports #Police While Waiting for #DexterReed Investigation",
+      "description": "This excerpt from the Fox News program \"Hannity,\" broadcast on 4/11/2024 and featuring Horace Cooper of the Project 21 black ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-04-12T21:08:10Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0Gi-QlQ2KYY/hqdefault.jpg",
+      "duration": "2:58"
+    },
+    {
+      "videoId": "KkSMtHvQPzA",
+      "videoUrl": "https://www.youtube.com/watch?v=KkSMtHvQPzA",
+      "title": "Horace Cooper: #LoriLightfoot Is Surely Not The Right One to Investigate the Worst Mayor in America",
+      "description": "This excerpt from the Fox News program \"Hannity,\" broadcast on 4/9/2024 and featuring Horace Cooper of the Project 21 black ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-04-10T02:04:57Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KkSMtHvQPzA/hqdefault.jpg",
+      "duration": "4:14"
+    },
+    {
+      "videoId": "sQdLLk44KNY",
+      "videoUrl": "https://www.youtube.com/watch?v=sQdLLk44KNY",
+      "title": "Horace Cooper: &quot;Worst #Mayor in America&quot; #TiffanyHenyard &quot;Brings New Meaning to the #Chicago Way&quot;",
+      "description": "This excerpt from the Fox News program \"Hannity,\" broadcast on 4/3/2024 and featuring Horace Cooper of the Project 21 black ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-04-04T02:05:36Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sQdLLk44KNY/hqdefault.jpg",
+      "duration": "5:02"
+    },
+    {
+      "videoId": "Sy6m0qFkME0",
+      "videoUrl": "https://www.youtube.com/watch?v=Sy6m0qFkME0",
+      "title": "Horace Cooper: Biden&#39;s Fundraising Frenzy is &quot;Unseemly&quot; While Americans Suffer",
+      "description": "This excerpt from the Fox News program \"Hannity,\" broadcast on 3/29/2024 and featuring Horace Cooper of the Project 21 black ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-04-02T02:33:31Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Sy6m0qFkME0/hqdefault.jpg",
+      "duration": "7:27"
+    },
+    {
+      "videoId": "41giThZ1YCY",
+      "videoUrl": "https://www.youtube.com/watch?v=41giThZ1YCY",
+      "title": "Horace Cooper: Americans Are Suffering Under Biden&#39;s Progressive Agenda",
+      "description": "This excerpt from the Fox News program \"Hannity,\" broadcast on 3/22/2024 and featuring Horace Cooper of the Project 21 black ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-03-25T18:22:00Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/41giThZ1YCY/hqdefault.jpg",
+      "duration": "6:01"
+    },
+    {
+      "videoId": "Ipo9M6lCCQA",
+      "videoUrl": "https://www.youtube.com/watch?v=Ipo9M6lCCQA",
+      "title": "Horace Cooper: Black Americans Find They’re at the Back of the Biden Bus",
+      "description": "This excerpt from the Fox News program \"Hannity,\" broadcast on 3/8/2024 and featuring Horace Cooper of the Project 21 black ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-03-11T16:32:32Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ipo9M6lCCQA/hqdefault.jpg",
+      "duration": "7:36"
+    },
+    {
+      "videoId": "YPF3X2qfGi0",
+      "videoUrl": "https://www.youtube.com/watch?v=YPF3X2qfGi0",
+      "title": "Horace Cooper: Black Americans Are Fed up With Biden’s Open-Border Policies",
+      "description": "This excerpt from the Fox News program \"The Ingraham Angle,\" broadcast on 2/23/2024 and featuring Horace Cooper of the ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-02-27T03:30:03Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YPF3X2qfGi0/hqdefault.jpg",
+      "duration": "2:28"
+    },
+    {
+      "videoId": "G5wbE7YtnUo",
+      "videoUrl": "https://www.youtube.com/watch?v=G5wbE7YtnUo",
+      "title": "Horace Cooper: #FaniWillis Likely to Be Disqualified From Trump Case",
+      "description": "fani #fanivideo #willis This excerpt from the NTD News program \"Capitol Report,\" broadcast on 2/22/2024 and featuring Horace ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-02-23T18:07:59Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/G5wbE7YtnUo/hqdefault.jpg",
+      "duration": "4:56"
+    },
+    {
+      "videoId": "00_mxqTBd-I",
+      "videoUrl": "https://www.youtube.com/watch?v=00_mxqTBd-I",
+      "title": "Horace Cooper: #FaniWillis &amp; #NathanWade Not Credible Witnesses Because of Integrity, Not Race",
+      "description": "fani #fanivideo #willis This excerpt from the Fox News program \"The Ingraham Angle,\" broadcast on 2/16/2024 and featuring ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-02-20T15:27:45Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/00_mxqTBd-I/hqdefault.jpg",
+      "duration": "2:44"
+    },
+    {
+      "videoId": "E198mSNXYo4",
+      "videoUrl": "https://www.youtube.com/watch?v=E198mSNXYo4",
+      "title": "Horace Cooper Rejects #DEI: Don&#39;t Lower Standards Based on Race!",
+      "description": "affirmativeaction #DEI #claudinegay This excerpt from the Fox News program \"Hannity,\" broadcast on 1/4/2024 and featuring ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-01-25T23:04:20Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/E198mSNXYo4/hqdefault.jpg",
+      "duration": "0:35"
+    },
+    {
+      "videoId": "loyOPs2Oj8U",
+      "videoUrl": "https://www.youtube.com/watch?v=loyOPs2Oj8U",
+      "title": "Horace Cooper: Black Americans Are Angry and They&#39;re Not Taking It Anymore",
+      "description": "This excerpt from the Fox News program \"The Ingraham Angle,\" broadcast on 1/22/2024 and featuring Horace Cooper of the ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-01-23T16:31:56Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/loyOPs2Oj8U/hqdefault.jpg",
+      "duration": "2:48"
+    },
+    {
+      "videoId": "YGbiVPbcmwg",
+      "videoUrl": "https://www.youtube.com/watch?v=YGbiVPbcmwg",
+      "title": "Why California&#39;s Reparations Plan is &#39;Unbelievably Impossible&#39; - International Reporters Roundtable",
+      "description": "Horace Cooper breaks down why California's slavery #reparations plan is impossible to construct and implement on the latest ...",
+      "channelTitle": "NTD",
+      "publishedAt": "2024-01-18T21:26:12Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YGbiVPbcmwg/hqdefault.jpg",
+      "duration": "0:54"
+    },
+    {
+      "videoId": "tUXb8omp1vw",
+      "videoUrl": "https://www.youtube.com/watch?v=tUXb8omp1vw",
+      "title": "Horace Cooper: #Airlines, #Boeing, #Biden Prioritize #Diversity Over Safety",
+      "description": "boeing #buttigieg #airline This excerpt from the Fox News program \"The Ingraham Angle,\" broadcast on 1/9/2024 and featuring ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-01-10T01:07:04Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tUXb8omp1vw/hqdefault.jpg",
+      "duration": "5:08"
+    },
+    {
+      "videoId": "B10RlGq-WWY",
+      "videoUrl": "https://www.youtube.com/watch?v=B10RlGq-WWY",
+      "title": "&quot;You don&#39;t need a formal conspiracy when interests converge.&quot; #georgecarlin   #harvard #shorts",
+      "description": "George Carlin Debates Horace Cooper on Politically Incorrect (hosted by Bill Maher) on May 16th 2001. George Denis Patrick ...",
+      "channelTitle": "Another Money Show",
+      "publishedAt": "2024-01-04T20:55:51Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/B10RlGq-WWY/hqdefault.jpg",
+      "duration": "0:48"
+    },
+    {
+      "videoId": "MlsTqnOutHY",
+      "videoUrl": "https://www.youtube.com/watch?v=MlsTqnOutHY",
+      "title": "Horace Cooper: Shame on the Left for Illegally Removing Political Enemies From the Ballot",
+      "description": "This excerpt from the Fox News program \"The Ingraham Angle,\" broadcast on 1/2/2024 and featuring Horace Cooper of the ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-01-04T17:33:07Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MlsTqnOutHY/hqdefault.jpg",
+      "duration": "7:05"
+    },
+    {
+      "videoId": "E-_Y0FEEnYU",
+      "videoUrl": "https://www.youtube.com/watch?v=E-_Y0FEEnYU",
+      "title": "Horace Cooper: Heck, I&#39;ve Written More Books Than Mediocre Claudine Gay",
+      "description": "This excerpt from the Fox News program \"Hannity,\" broadcast on 1/4/2024 and featuring Horace Cooper of the Project 21 black ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-01-04T15:04:47Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/E-_Y0FEEnYU/hqdefault.jpg",
+      "duration": "4:15"
+    },
+    {
+      "videoId": "DI8nMAvOa9I",
+      "videoUrl": "https://www.youtube.com/watch?v=DI8nMAvOa9I",
+      "title": "Horace Cooper on #AffirmativeAction: Your Face &amp; Race Shouldn&#39;t Determine #HigherEd Acceptance",
+      "description": "This excerpt from the Fox News program \"The Ingraham Angle,\" broadcast on 12/26/2023 and featuring Horace Cooper of the ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2024-01-01T23:59:21Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DI8nMAvOa9I/hqdefault.jpg",
+      "duration": "5:05"
+    },
+    {
+      "videoId": "vSyrxXLckkg",
+      "videoUrl": "https://www.youtube.com/watch?v=vSyrxXLckkg",
+      "title": "Horace Cooper: #Obama Apparently Believes Black Educators Can&#39;t Meet Standards of Excellence",
+      "description": "ClaudineGay #AffirmativeAction #DEI #diversity #Harvard #Obama #barackobama This excerpt from the Fox News program ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2023-12-26T17:41:58Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vSyrxXLckkg/hqdefault.jpg",
+      "duration": "3:17"
+    },
+    {
+      "videoId": "HgAzBG91NzI",
+      "videoUrl": "https://www.youtube.com/watch?v=HgAzBG91NzI",
+      "title": "Horace Cooper on Foreign Elections",
+      "description": "This excerpt from the program \"Fox News Sunday,\" broadcast on 11/26/2023 and featuring Horace Cooper of the Project 21 black ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2023-12-11T19:55:21Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HgAzBG91NzI/hqdefault.jpg",
+      "duration": "6:43"
+    },
+    {
+      "videoId": "yXGz8citRtE",
+      "videoUrl": "https://www.youtube.com/watch?v=yXGz8citRtE",
+      "title": "Black Americans Are Saying &quot;No More&quot; to Progressive Policies",
+      "description": "This excerpt from the Fox News program \"The Ingraham Angle,\" broadcast on 11/14/2023 and featuring Horace Cooper of the ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2023-12-11T19:43:35Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yXGz8citRtE/hqdefault.jpg",
+      "duration": "0:12"
+    },
+    {
+      "videoId": "DcIlJ8Nkago",
+      "videoUrl": "https://www.youtube.com/watch?v=DcIlJ8Nkago",
+      "title": "AACONS Interviews Horace Cooper of Project 21",
+      "description": "Also available on all major podcast platforms & social media. AACONS is audience-supported. To get our public posts, consider ...",
+      "channelTitle": "African-American Conservatives",
+      "publishedAt": "2023-12-02T01:59:22Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DcIlJ8Nkago/hqdefault.jpg",
+      "duration": "1:12:35"
+    },
+    {
+      "videoId": "3x7JmRSRB6E",
+      "videoUrl": "https://www.youtube.com/watch?v=3x7JmRSRB6E",
+      "title": "Horace Cooper: #PublicSchools Want to Turn Our Kids Into Woke Social Warriors",
+      "description": "This excerpt from the Fox News program \"Jesse Watters Primetime,\" broadcast on 11/22/2023 and featuring Horace Cooper of the ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2023-11-27T14:01:30Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3x7JmRSRB6E/hqdefault.jpg",
+      "duration": "2:09"
+    },
+    {
+      "videoId": "w6-dD1PRDyU",
+      "videoUrl": "https://www.youtube.com/watch?v=w6-dD1PRDyU",
+      "title": "They ‘want’ the races clashing: Kevin McGary",
+      "description": "Every Black Life Matters co-founder Kevin McGary and Project 21 chairman Horace Cooper discuss the effort to perpetuate race ...",
+      "channelTitle": "Fox News",
+      "publishedAt": "2023-11-15T08:00:25Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/w6-dD1PRDyU/hqdefault.jpg",
+      "duration": "7:12"
+    },
+    {
+      "videoId": "YfqwUeGjj00",
+      "videoUrl": "https://www.youtube.com/watch?v=YfqwUeGjj00",
+      "title": "Horace Cooper: Black Americans Are Standing Up to Progressive #Crime Policies and Saying &quot;No More&quot;",
+      "description": "This excerpt from the Fox News program \"The Ingraham Angle,\" broadcast on 11/14/2023 and featuring Horace Cooper of the ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2023-11-15T00:53:27Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YfqwUeGjj00/hqdefault.jpg",
+      "duration": "7:00"
+    },
+    {
+      "videoId": "ZcJ--3TOM0Q",
+      "videoUrl": "https://www.youtube.com/watch?v=ZcJ--3TOM0Q",
+      "title": "Horace Cooper Discusses the New Speaker, the Possible Shutdown and U.S. Aid to Ukraine and Hamas",
+      "description": "This excerpt from the local Washington, D.C. program \"Fox 5 News on the Hill,\" broadcast on 11/5/2023 and featuring Horace ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2023-11-13T15:45:31Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZcJ--3TOM0Q/hqdefault.jpg",
+      "duration": "7:39"
+    },
+    {
+      "videoId": "IUH7EYiA2Mw",
+      "videoUrl": "https://www.youtube.com/watch?v=IUH7EYiA2Mw",
+      "title": "#BLM Supports Destruction of #Israel and America",
+      "description": "This excerpt from One America News Network, broadcast on 10/12/2023 and featuring Horace Cooper of the Project 21 black ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2023-10-31T14:00:10Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IUH7EYiA2Mw/hqdefault.jpg",
+      "duration": "0:48"
+    },
+    {
+      "videoId": "TwNs3oQe8y8",
+      "videoUrl": "https://www.youtube.com/watch?v=TwNs3oQe8y8",
+      "title": "#BlackLivesMatter Doesn&#39;t Like Black Americans",
+      "description": "This excerpt from One America News Network, broadcast on 10/12/2023 and featuring Horace Cooper of the Project 21 black ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2023-10-30T13:17:11Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TwNs3oQe8y8/hqdefault.jpg",
+      "duration": "0:46"
+    },
+    {
+      "videoId": "04UejHnIpAM",
+      "videoUrl": "https://www.youtube.com/watch?v=04UejHnIpAM",
+      "title": "Horace Cooper Condemns Hamas Supporters: You Can&#39;t Get More &quot;Marginalized&quot; Than Beheaded Babies",
+      "description": "This excerpt from the Fox News program \"Hannity,\" broadcast on 10/13/2023 and featuring Horace Cooper of the Project 21 black ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2023-10-16T20:08:53Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/04UejHnIpAM/hqdefault.jpg",
+      "duration": "7:23"
+    },
+    {
+      "videoId": "2WRh_FjeSY4",
+      "videoUrl": "https://www.youtube.com/watch?v=2WRh_FjeSY4",
+      "title": "Horace Cooper Says BLM&#39;s Support of Hamas Terrorism Flows From its Reign of Terror in America",
+      "description": "This excerpt from One America News Network, broadcast on 10/12/2023 and featuring Horace Cooper of the Project 21 black ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2023-10-13T14:43:22Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2WRh_FjeSY4/hqdefault.jpg",
+      "duration": "7:27"
+    },
+    {
+      "videoId": "nPLlgTyBjxw",
+      "videoUrl": "https://www.youtube.com/watch?v=nPLlgTyBjxw",
+      "title": "Progressives are displacing Black Americans: Horace Cooper",
+      "description": "Project 21's Horace Cooper shreds the Democratic Party's treatment of Black Americans on 'The Ingraham Angle.' Subscribe to ...",
+      "channelTitle": "Fox News",
+      "publishedAt": "2023-10-07T05:00:22Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nPLlgTyBjxw/hqdefault.jpg",
+      "duration": "3:26"
+    },
+    {
+      "videoId": "K9gdXa6Dnpk",
+      "videoUrl": "https://www.youtube.com/watch?v=K9gdXa6Dnpk",
+      "title": "Madeline Brame and Horace Cooper: Black Americans Have Lost Faith in Progressive Policies",
+      "description": "This excerpt from the Fox News program \"The Ingraham Angle,\" broadcast on 8/29/2023 and featuring Horace Cooper of the ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2023-09-14T20:44:42Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/K9gdXa6Dnpk/hqdefault.jpg",
+      "duration": "7:25"
+    },
+    {
+      "videoId": "gxgRtpxt6iU",
+      "videoUrl": "https://www.youtube.com/watch?v=gxgRtpxt6iU",
+      "title": "Horace Cooper Discusses COVID Vaccine Boosters and What to Do About Elderly Lawmakers",
+      "description": "This excerpt from \"Fox News Sunday,\" broadcast on 9/3/2023 and featuring Horace Cooper of the Project 21 black leadership ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2023-09-07T02:21:50Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gxgRtpxt6iU/hqdefault.jpg",
+      "duration": "8:17"
+    },
+    {
+      "videoId": "YkUFDJQH-90",
+      "videoUrl": "https://www.youtube.com/watch?v=YkUFDJQH-90",
+      "title": "09.01.23: Horace Cooper Interview | O&#39;Connor &amp; Company",
+      "description": "For more coverage on the issues that matter to you, visit www.WMAL.com ...",
+      "channelTitle": "Cumulus News Talk",
+      "publishedAt": "2023-09-01T19:08:17Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YkUFDJQH-90/hqdefault.jpg",
+      "duration": "7:29"
+    },
+    {
+      "videoId": "WUqayw2bBtU",
+      "videoUrl": "https://www.youtube.com/watch?v=WUqayw2bBtU",
+      "title": "Black Americans Are Done With Their Deadbeat Dad",
+      "description": "This excerpt from the Fox News program \"The Ingraham Angle,\" broadcast on 8/29/2023 and featuring Horace Cooper of the ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2023-08-31T14:14:34Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WUqayw2bBtU/hqdefault.jpg",
+      "duration": "0:53"
+    },
+    {
+      "videoId": "h_7ZkHekEHo",
+      "videoUrl": "https://www.youtube.com/watch?v=h_7ZkHekEHo",
+      "title": "Horace Cooper: Black Americans Are Throwing Off Their Progressive Deadbeat Dad",
+      "description": "This excerpt from the Fox News program \"The Ingraham Angle,\" broadcast on 8/29/2023 and featuring Horace Cooper of the ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2023-08-30T16:59:48Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/h_7ZkHekEHo/hqdefault.jpg",
+      "duration": "1:47"
+    },
+    {
+      "videoId": "ZsIJf1YEjTo",
+      "videoUrl": "https://www.youtube.com/watch?v=ZsIJf1YEjTo",
+      "title": "Black Americans are Resilient! Don&#39;t Let Kamala Tell You Otherwise.",
+      "description": "This excerpt from the Fox News program \"Jesse Watters Primetime,\" broadcast on 7/21/2023 and featuring Horace Cooper of the ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2023-08-09T15:10:54Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZsIJf1YEjTo/hqdefault.jpg",
+      "duration": "0:58"
+    },
+    {
+      "videoId": "u47rkdBBCko",
+      "videoUrl": "https://www.youtube.com/watch?v=u47rkdBBCko",
+      "title": "Project 21&#39;s Horace Cooper on the issues of race in the Biden administration",
+      "description": "More at http://www.morninganswerchicago.com Facebook page at http://facebook.com/morninganswer Follow on Twitter at ...",
+      "channelTitle": "Chicago's Morning Answer",
+      "publishedAt": "2023-08-08T13:59:26Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/u47rkdBBCko/hqdefault.jpg",
+      "duration": "11:31"
+    },
+    {
+      "videoId": "oViIvULmsbw",
+      "videoUrl": "https://www.youtube.com/watch?v=oViIvULmsbw",
+      "title": "Horace Cooper: Let’s Tell the Whole Truth About Slavery, Not Just What Feeds the Leftist Narrative",
+      "description": "This excerpt from the Fox News program \"Jesse Watters Primetime,\" broadcast on 7/21/2023 and featuring Horace Cooper of the ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2023-07-26T15:40:36Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oViIvULmsbw/hqdefault.jpg",
+      "duration": "3:08"
+    },
+    {
+      "videoId": "NTqWgCyFwVg",
+      "videoUrl": "https://www.youtube.com/watch?v=NTqWgCyFwVg",
+      "title": "Horace Cooper: Kamala Harris doesn&#39;t care about the truth",
+      "description": "Project 21 chairman Horace Cooper shreds the vice president's take on history on 'Jesse Watters Primetime.' Subscribe to Fox ...",
+      "channelTitle": "Fox News",
+      "publishedAt": "2023-07-22T10:00:26Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NTqWgCyFwVg/hqdefault.jpg",
+      "duration": "7:39"
+    },
+    {
+      "videoId": "Zh783qTfMJU",
+      "videoUrl": "https://www.youtube.com/watch?v=Zh783qTfMJU",
+      "title": "Horace Cooper: The Left Hates Tim Scott &amp; Clarence Thomas Because It Thinks It Owns Black Americans",
+      "description": "This excerpt from the Fox News program \"Hannity,\" broadcast on 7/10/2023 and featuring Horace Cooper of the Project 21 black ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2023-07-11T20:21:17Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Zh783qTfMJU/hqdefault.jpg",
+      "duration": "5:39"
+    },
+    {
+      "videoId": "t-PzOmex0qk",
+      "videoUrl": "https://www.youtube.com/watch?v=t-PzOmex0qk",
+      "title": "Horace Cooper on AOC: “Bless Her Heart, but You Really Can’t Be This Stupid by Accident”",
+      "description": "This excerpt from the Fox News program \"The Ingraham Angle,\" broadcast on 7/3/2023 and featuring Horace Cooper of the ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2023-07-07T17:44:09Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/t-PzOmex0qk/hqdefault.jpg",
+      "duration": "8:38"
+    },
+    {
+      "videoId": "pEoo1asOhDM",
+      "videoUrl": "https://www.youtube.com/watch?v=pEoo1asOhDM",
+      "title": "Horace Cooper: We Don&#39;t Need Plessy v. Ferguson. We need this Supreme Court.",
+      "description": "This excerpt from the Fox News program \"Hannity,\" broadcast on 6/30/2023 and featuring Horace Cooper of the Project 21 black ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2023-07-01T01:54:07Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pEoo1asOhDM/hqdefault.jpg",
+      "duration": "9:23"
+    },
+    {
+      "videoId": "Cqf8YYP-SQk",
+      "videoUrl": "https://www.youtube.com/watch?v=Cqf8YYP-SQk",
+      "title": "Horace Cooper: Affirmative Action Was Easy Way Out. Let&#39;s Do the Hard Work of Improving Education.",
+      "description": "This excerpt from Fox News, broadcast on 6/29/2023 and featuring Horace Cooper of the Project 21 black leadership network, has ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2023-06-30T00:56:46Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Cqf8YYP-SQk/hqdefault.jpg",
+      "duration": "3:05"
+    },
+    {
+      "videoId": "HFAMAl9UecI",
+      "videoUrl": "https://www.youtube.com/watch?v=HFAMAl9UecI",
+      "title": "Horace Cooper: Obama Has No Right to Criticize Tim Scott After HIS Track Record With Black Americans",
+      "description": "This excerpt from Fox News, broadcast on 6/15/2023 and featuring Horace Cooper of the Project 21 black leadership network, has ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2023-06-16T00:24:20Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HFAMAl9UecI/hqdefault.jpg",
+      "duration": "3:36"
+    },
+    {
+      "videoId": "HGwCP3QrWkQ",
+      "videoUrl": "https://www.youtube.com/watch?v=HGwCP3QrWkQ",
+      "title": "Today&#39;s Wokesters Have Only One Thing Left To Offer: FEAR.",
+      "description": "This excerpt from Fox News's \"Hannity,\" broadcast on 5/22/2023 and featuring Horace Cooper of the Project 21 black leadership ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2023-06-13T13:00:40Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HGwCP3QrWkQ/hqdefault.jpg",
+      "duration": "0:24"
+    },
+    {
+      "videoId": "lVsuYNf1Ql4",
+      "videoUrl": "https://www.youtube.com/watch?v=lVsuYNf1Ql4",
+      "title": "Horace Cooper: Liberals Scream Racism Because They Have No Agenda to Actually Help Black Americans",
+      "description": "This excerpt from Fox News's \"The Ingraham Angle,\" broadcast on 6/2/2023 and featuring Horace Cooper of the Project 21 black ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2023-06-03T15:39:45Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lVsuYNf1Ql4/hqdefault.jpg",
+      "duration": "6:07"
+    },
+    {
+      "videoId": "_rFLX5fTLx4",
+      "videoUrl": "https://www.youtube.com/watch?v=_rFLX5fTLx4",
+      "title": "It’s ‘pitiful’ to see organizations act like this: Horace Cooper",
+      "description": "PragerU personality Xaviaer Durousseau and Project 21 chairman Horace Cooper discuss the left's fixation on playing the race ...",
+      "channelTitle": "Fox News",
+      "publishedAt": "2023-06-03T07:00:21Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_rFLX5fTLx4/hqdefault.jpg",
+      "duration": "5:39"
+    },
+    {
+      "videoId": "me6lQ7hOv58",
+      "videoUrl": "https://www.youtube.com/watch?v=me6lQ7hOv58",
+      "title": "Horace Cooper: Americans are Choosing Florida Over Progressive Hellholes for Vacations",
+      "description": "This excerpt from Fox News's \"Hannity,\" broadcast on 5/22/2023 and featuring Horace Cooper of the Project 21 black leadership ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2023-05-23T14:11:57Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/me6lQ7hOv58/hqdefault.jpg",
+      "duration": "7:42"
+    },
+    {
+      "videoId": "WLDol-USN9s",
+      "videoUrl": "https://www.youtube.com/watch?v=WLDol-USN9s",
+      "title": "Horace Cooper: Liberals Have Failed Black Americans So They Offer Them Reparations and Fear",
+      "description": "This excerpt from Fox News's \"Hannity,\" broadcast on 5/17/2023 and featuring Horace Cooper of the Project 21 black leadership ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2023-05-18T12:46:00Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WLDol-USN9s/hqdefault.jpg",
+      "duration": "6:30"
+    },
+    {
+      "videoId": "LRBzDrwpVts",
+      "videoUrl": "https://www.youtube.com/watch?v=LRBzDrwpVts",
+      "title": "Republican Law Professor Horace Cooper On Why He Feels VP Harris Deserves an F - May 16, 2023 @ 7 AM",
+      "description": "Horace Cooper is a senior fellow with the National Center for Public Policy Research, chairman of the Project 21 National ...",
+      "channelTitle": "KBLA 1580",
+      "publishedAt": "2023-05-17T03:06:03Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LRBzDrwpVts/hqdefault.jpg",
+      "duration": "57:01"
+    },
+    {
+      "videoId": "qvpH1AaEBRk",
+      "videoUrl": "https://www.youtube.com/watch?v=qvpH1AaEBRk",
+      "title": "Horace Cooper: Marine Daniel Penny Charged in Neely Death While Border-Crossing Lawbreakers Go Free",
+      "description": "This excerpt from Fox News's \"The Ingraham Angle,\" broadcast on 5/12/2023 and featuring Horace Cooper of the Project 21 black ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2023-05-15T17:30:16Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qvpH1AaEBRk/hqdefault.jpg",
+      "duration": "3:29"
+    },
+    {
+      "videoId": "aYpiWyROeEI",
+      "videoUrl": "https://www.youtube.com/watch?v=aYpiWyROeEI",
+      "title": "Biden Sees Catholics as More of a Threat Than Pentagon Leaks",
+      "description": "This excerpt from Fox News's \"The Ingraham Angle,\" broadcast on 4/14/2023 and featuring Horace Cooper of the Project 21 black ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2023-05-02T13:26:00Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aYpiWyROeEI/hqdefault.jpg",
+      "duration": "0:25"
+    },
+    {
+      "videoId": "BIo4XhmYaYk",
+      "videoUrl": "https://www.youtube.com/watch?v=BIo4XhmYaYk",
+      "title": "Horace Cooper: Is Kamala Harris Replacing Biden Someday a Promise or a Threat?",
+      "description": "This excerpt from Fox News's \"Fox News Sunday,\" broadcast on 4/30/2023 and featuring Horace Cooper of the Project 21 black ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2023-05-01T02:27:38Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BIo4XhmYaYk/hqdefault.jpg",
+      "duration": "8:58"
+    },
+    {
+      "videoId": "6anBqGDe2jY",
+      "videoUrl": "https://www.youtube.com/watch?v=6anBqGDe2jY",
+      "title": "Horace Cooper: Calling Out Kamala Harris&#39;s Incompetence Gets You Labeled a Sexist and Racist",
+      "description": "This excerpt from Fox News's \"The Ingraham Angle,\" broadcast on 4/27/2023 and featuring Horace Cooper of the Project 21 black ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2023-04-28T13:12:16Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6anBqGDe2jY/hqdefault.jpg",
+      "duration": "3:05"
+    },
+    {
+      "videoId": "DOPmSLV2Kb8",
+      "videoUrl": "https://www.youtube.com/watch?v=DOPmSLV2Kb8",
+      "title": "Horace Cooper: DEI Employees Add Division, Not Value, to Companies",
+      "description": "This excerpt from Scripps News' \"The Why,\" broadcast on 4/17/2023 and featuring Horace Cooper of the Project 21 black ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2023-04-18T20:17:26Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DOPmSLV2Kb8/hqdefault.jpg",
+      "duration": "4:38"
+    },
+    {
+      "videoId": "HKhzOtwtNNg",
+      "videoUrl": "https://www.youtube.com/watch?v=HKhzOtwtNNg",
+      "title": "Horace Cooper: California Reparations Meeting Descends Into Chaos",
+      "description": "This excerpt from Fox News's \"The Ingraham Angle,\" broadcast on 3/31/2023 and featuring Horace Cooper of the Project 21 black ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2023-04-05T15:38:12Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HKhzOtwtNNg/hqdefault.jpg",
+      "duration": "4:34"
+    },
+    {
+      "videoId": "CxZmsn7WCR0",
+      "videoUrl": "https://www.youtube.com/watch?v=CxZmsn7WCR0",
+      "title": "Horace Cooper: A Woke Fighting Force Is a Joke Fighting Force",
+      "description": "This excerpt from Fox News's \"The Ingraham Angle,\" broadcast on 3/24/2023 and featuring Horace Cooper of the Project 21 black ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2023-03-30T18:35:26Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CxZmsn7WCR0/hqdefault.jpg",
+      "duration": "0:42"
+    },
+    {
+      "videoId": "ddD_ekx1mqg",
+      "videoUrl": "https://www.youtube.com/watch?v=ddD_ekx1mqg",
+      "title": "Horace Cooper: A Woke Fighting Force Is a Joke Fighting Force",
+      "description": "This excerpt from Fox News's \"The Ingraham Angle,\" broadcast on 3/24/2023 and featuring Horace Cooper of the Project 21 black ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2023-03-26T18:33:07Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ddD_ekx1mqg/hqdefault.jpg",
+      "duration": "4:37"
+    },
+    {
+      "videoId": "COSADCxtMJI",
+      "videoUrl": "https://www.youtube.com/watch?v=COSADCxtMJI",
+      "title": "Horace Cooper on Biden Family&#39;s Chinese Money Coverup: &quot;The Addams Family of Corruption&quot;",
+      "description": "This excerpt from Fox News's \"The Ingraham Angle,\" broadcast on 3/17/2023 and featuring Horace Cooper of the Project 21 black ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2023-03-18T20:22:08Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/COSADCxtMJI/hqdefault.jpg",
+      "duration": "5:04"
+    },
+    {
+      "videoId": "SoRgz9vowvE",
+      "videoUrl": "https://www.youtube.com/watch?v=SoRgz9vowvE",
+      "title": "Horace Cooper and Rep. Byron Donalds on Colin Kaepernick&#39;s Victim Mentality",
+      "description": "This excerpt from Fox News's \"The Ingraham Angle,\" broadcast on 3/9/2023 and featuring Horace Cooper of the Project 21 black ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2023-03-10T15:53:35Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SoRgz9vowvE/hqdefault.jpg",
+      "duration": "5:27"
+    },
+    {
+      "videoId": "WpzDWi9jsS0",
+      "videoUrl": "https://www.youtube.com/watch?v=WpzDWi9jsS0",
+      "title": "Horace Cooper: Credit Card Companies Have No Business Tracking Your Legal Gun Purchases",
+      "description": "This excerpt from Fox News's \"The Ingraham Angle,\" broadcast on 3/3/2023 and featuring Horace Cooper of the Project 21 black ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2023-03-05T02:39:35Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WpzDWi9jsS0/hqdefault.jpg",
+      "duration": "5:22"
+    },
+    {
+      "videoId": "DLQl0eGjZ5I",
+      "videoUrl": "https://www.youtube.com/watch?v=DLQl0eGjZ5I",
+      "title": "【新中国联邦DC星火行动】",
+      "description": "【NFSC @CPAC 】03/02/2023 Mr. Horace Cooper, Co-Chairman of Project 21 said that the United States must stop its policy of ...",
+      "channelTitle": "Diego",
+      "publishedAt": "2023-03-05T01:31:29Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DLQl0eGjZ5I/hqdefault.jpg",
+      "duration": "1:29"
+    },
+    {
+      "videoId": "zYS-vnFOSiY",
+      "videoUrl": "https://www.youtube.com/watch?v=zYS-vnFOSiY",
+      "title": "Horace Cooper: Soros-Funded Prosecutors Prioritize Predators Over Victims",
+      "description": "This short excerpt from the Fox News Channel program \"The Ingraham Angle,\" broadcast on 2/24/2023 and featuring Project 21's ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2023-02-25T21:37:59Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zYS-vnFOSiY/hqdefault.jpg",
+      "duration": "6:19"
+    },
+    {
+      "videoId": "y8rMy0iX79k",
+      "videoUrl": "https://www.youtube.com/watch?v=y8rMy0iX79k",
+      "title": "Horace Cooper  We should not be concerned about hurting predator’s feelings",
+      "description": "fnc,fox news,fox news channel,fox news ingraham angle,fox news media,fox news network,fox news voices,ingraham,ingraham ...",
+      "channelTitle": "Newsbase",
+      "publishedAt": "2023-02-25T16:32:58Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/y8rMy0iX79k/hqdefault.jpg",
+      "duration": "6:32"
+    },
+    {
+      "videoId": "IqP7s9QPJIU",
+      "videoUrl": "https://www.youtube.com/watch?v=IqP7s9QPJIU",
+      "title": "Horace Cooper: We should not be concerned about hurting predator’s feelings",
+      "description": "Co-chair of Project 21 Horace Cooper and author of 'San Fransicko' Michael Shellenberger discuss the detriment of woke ...",
+      "channelTitle": "Fox News",
+      "publishedAt": "2023-02-25T12:00:10Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IqP7s9QPJIU/hqdefault.jpg",
+      "duration": "6:32"
+    },
+    {
+      "videoId": "q4XQhhCAfOg",
+      "videoUrl": "https://www.youtube.com/watch?v=q4XQhhCAfOg",
+      "title": "Horace Cooper Discusses Biden&#39;s Incompetence on Spy Balloons, Border Crisis",
+      "description": "This short excerpt from the Fox News Channel program \"Fox News @ Night,\" broadcast on 2/10-11/2023 and featuring Project ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2023-02-12T22:34:00Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/q4XQhhCAfOg/hqdefault.jpg",
+      "duration": "4:41"
+    },
+    {
+      "videoId": "P8lEwNnV4DE",
+      "videoUrl": "https://www.youtube.com/watch?v=P8lEwNnV4DE",
+      "title": "Horace Cooper: Reparations Will Never Happen Because &quot;It Would End the Grift&quot;",
+      "description": "This short excerpt from the Fox News Channel's \"Jesse Watters Primetime,\" broadcast on 2/7/2023 and featuring Project 21's ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2023-02-08T03:26:47Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/P8lEwNnV4DE/hqdefault.jpg",
+      "duration": "2:22"
+    },
+    {
+      "videoId": "U9dzdxCI7kU",
+      "videoUrl": "https://www.youtube.com/watch?v=U9dzdxCI7kU",
+      "title": "Horace Cooper: Biden Administration is Reshaping Judiciary According to Race",
+      "description": "This short excerpt from the Fox News Channel's \"Tucker Carlson Tonight,\" broadcast on 2/6/2023 and featuring Project 21's ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2023-02-07T15:41:23Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/U9dzdxCI7kU/hqdefault.jpg",
+      "duration": "4:44"
+    },
+    {
+      "videoId": "G69Vn1FQYlo",
+      "videoUrl": "https://www.youtube.com/watch?v=G69Vn1FQYlo",
+      "title": "Tucker This practice is illegal",
+      "description": "foxnews #fox #tucker Project 21 co-chairman Horace Cooper weighs in on the Biden administration's history of race-based hiring ...",
+      "channelTitle": "Jalwa k",
+      "publishedAt": "2023-02-07T14:21:26Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/G69Vn1FQYlo/hqdefault.jpg",
+      "duration": "1:01"
+    },
+    {
+      "videoId": "gpqneBAyqLA",
+      "videoUrl": "https://www.youtube.com/watch?v=gpqneBAyqLA",
+      "title": "Tucker: This practice is illegal",
+      "description": "Project 21 co-chairman Horace Cooper weighs in on the Biden administration's history of race-based hiring on 'Tucker Carlson ...",
+      "channelTitle": "Fox News",
+      "publishedAt": "2023-02-07T12:30:29Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gpqneBAyqLA/hqdefault.jpg",
+      "duration": "4:50"
+    },
+    {
+      "videoId": "h6LUp41d-dY",
+      "videoUrl": "https://www.youtube.com/watch?v=h6LUp41d-dY",
+      "title": "Horace Cooper Slams the Timing of the Release of the Tyre Nichols Video",
+      "description": "This excerpt from Fox News's \"Jesse Watters Primetime,\" broadcast on 1/27/2023 and featuring Horace Cooper of the Project 21 ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2023-01-28T03:11:12Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/h6LUp41d-dY/hqdefault.jpg",
+      "duration": "5:01"
+    },
+    {
+      "videoId": "Xy-6FlUjMAQ",
+      "videoUrl": "https://www.youtube.com/watch?v=Xy-6FlUjMAQ",
+      "title": "Horace Cooper: Black Studies and Queer Studies Curriculums Cripple American Students",
+      "description": "This excerpt from Fox News's \"The Ingraham Angle,\" broadcast on 1/25/2023 and featuring Horace Cooper of the Project 21 black ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2023-01-25T16:00:57Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Xy-6FlUjMAQ/hqdefault.jpg",
+      "duration": "4:34"
+    },
+    {
+      "videoId": "sGxufxOBfQE",
+      "videoUrl": "https://www.youtube.com/watch?v=sGxufxOBfQE",
+      "title": "Horace Cooper: MLK Would Be Disappointed by America’s “New Racism”",
+      "description": "This excerpt from \"Fox News Sunday,\" broadcast on 1/15/2023 and featuring Horace Cooper of the Project 21 black leadership ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2023-01-20T16:44:18Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sGxufxOBfQE/hqdefault.jpg",
+      "duration": "10:18"
+    },
+    {
+      "videoId": "QvQ5iKpkRBs",
+      "videoUrl": "https://www.youtube.com/watch?v=QvQ5iKpkRBs",
+      "title": "Liberals Are Erasing Our History",
+      "description": "This excerpt from Fox News on 12/28/2022 and featuring Horace Cooper of the Project 21 black leadership network, has been ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2022-12-29T21:52:15Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QvQ5iKpkRBs/hqdefault.jpg",
+      "duration": "4:14"
+    },
+    {
+      "videoId": "JRSKZlDgzdI",
+      "videoUrl": "https://www.youtube.com/watch?v=JRSKZlDgzdI",
+      "title": "Is the Marine Corps Going Woke?",
+      "description": "This excerpt from Fox News on 12/23/2022 and featuring Horace Cooper of the Project 21 black leadership network, has been ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2022-12-28T21:08:00Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JRSKZlDgzdI/hqdefault.jpg",
+      "duration": "4:54"
+    },
+    {
+      "videoId": "L621UNdxywo",
+      "videoUrl": "https://www.youtube.com/watch?v=L621UNdxywo",
+      "title": "Biased Liberal Media - The Worst Offenders of the Week",
+      "description": "This excerpt from Fox News on 11/18/2022 and featuring Horace Cooper of the Project 21 black leadership network, has been ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2022-11-21T22:27:12Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/L621UNdxywo/hqdefault.jpg",
+      "duration": "6:47"
+    },
+    {
+      "videoId": "CXSmvlIiy4A",
+      "videoUrl": "https://www.youtube.com/watch?v=CXSmvlIiy4A",
+      "title": "Biden Touts Ending Oil Production Amid High Inflation and Gas Prices",
+      "description": "This excerpt from Fox News on 11/7/2022 and featuring Horace Cooper of the Project 21 black leadership network, has been ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2022-11-08T19:24:33Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CXSmvlIiy4A/hqdefault.jpg",
+      "duration": "6:36"
+    },
+    {
+      "videoId": "t7Q84CRMcT0",
+      "videoUrl": "https://www.youtube.com/watch?v=t7Q84CRMcT0",
+      "title": "FBI Should Focus on Nationwide Crime Surge",
+      "description": "This excerpt from One America News Network on 9/29/2022 and featuring Horace Cooper of the Project 21 black leadership ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2022-10-05T16:44:43Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/t7Q84CRMcT0/hqdefault.jpg",
+      "duration": "7:45"
+    },
+    {
+      "videoId": "p_lw1KXyMUs",
+      "videoUrl": "https://www.youtube.com/watch?v=p_lw1KXyMUs",
+      "title": "Horace Cooper Discusses Midterm Elections with Laura Ingraham",
+      "description": "This excerpt from Fox News on 9/27/2022 and featuring Horace Cooper of the Project 21 black leadership network, has been ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2022-09-28T13:31:56Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/p_lw1KXyMUs/hqdefault.jpg",
+      "duration": "6:38"
+    },
+    {
+      "videoId": "CU6hch0oqm8",
+      "videoUrl": "https://www.youtube.com/watch?v=CU6hch0oqm8",
+      "title": "Horace Cooper Calls Out FBI&#39;s Lack of Urgency About Rising Crime",
+      "description": "This excerpt from One America News Network on 9/27/2022 and featuring Horace Cooper of the Project 21 black leadership ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2022-09-28T13:25:28Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CU6hch0oqm8/hqdefault.jpg",
+      "duration": "6:52"
+    },
+    {
+      "videoId": "F9C_VsRold0",
+      "videoUrl": "https://www.youtube.com/watch?v=F9C_VsRold0",
+      "title": "Americans Have Lost $4.2k In Income Under Biden",
+      "description": "This excerpt from Fox News on 9/23/2022 and featuring Horace Cooper of the Project 21 black leadership network, has been ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2022-09-26T19:56:02Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/F9C_VsRold0/hqdefault.jpg",
+      "duration": "6:08"
+    },
+    {
+      "videoId": "LAW2WVaeiw8",
+      "videoUrl": "https://www.youtube.com/watch?v=LAW2WVaeiw8",
+      "title": "Biden is setting himself up for impeachment over failure to uphold the law, says Horace Cooper",
+      "description": "This excerpt from the The Sean Hannity Show on 9/20/2022 and featuring Horace Cooper of the Project 21 black leadership ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2022-09-21T20:46:47Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LAW2WVaeiw8/hqdefault.jpg",
+      "duration": "35:09"
+    },
+    {
+      "videoId": "VNbEqDvOXug",
+      "videoUrl": "https://www.youtube.com/watch?v=VNbEqDvOXug",
+      "title": "Ep. 131 | Constitutional Chats | Horace Cooper | Article V - Amending The Constitution",
+      "description": "Constitutional Chats Podcast Episode 131 Through Articles, 1-4, The Constitution gives us three branches of government and ...",
+      "channelTitle": "Constituting America",
+      "publishedAt": "2022-09-02T02:26:57Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VNbEqDvOXug/hqdefault.jpg",
+      "duration": "54:27"
+    },
+    {
+      "videoId": "r6Qe2z0nCl4",
+      "videoUrl": "https://www.youtube.com/watch?v=r6Qe2z0nCl4",
+      "title": "Horace Cooper discusses Biden&#39;s school loan cancelation give-away",
+      "description": "This excerpt from the Fox News “Bream Team” broadcast on 8/23/2022 and featuring Horace Cooper of the Project 21 black ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2022-08-24T15:07:38Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/r6Qe2z0nCl4/hqdefault.jpg",
+      "duration": "6:02"
+    },
+    {
+      "videoId": "oUph51yd0JQ",
+      "videoUrl": "https://www.youtube.com/watch?v=oUph51yd0JQ",
+      "title": "Manchin Deal Won&#39;t Save Biden Because Voters Will Look at His Whole Term, Says Horace Cooper",
+      "description": "This short excerpt from the Fox News Channel's \"Fox News at Night with Shannon Bream,\" broadcast on 7/29-30/22 and featuring ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2022-08-01T19:57:50Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oUph51yd0JQ/hqdefault.jpg",
+      "duration": "7:29"
+    },
+    {
+      "videoId": "0Ss_x_PxGPE",
+      "videoUrl": "https://www.youtube.com/watch?v=0Ss_x_PxGPE",
+      "title": "Horace Cooper: How Black Americans Really Feel About Abortion, Gay Marriage and COVID Vaccines",
+      "description": "This short excerpt from \"America First with Sebastian Gorka,\" broadcast on Salem News Channel on 7/20/22 and featuring Project ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2022-07-27T02:54:47Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0Ss_x_PxGPE/hqdefault.jpg",
+      "duration": "7:04"
+    },
+    {
+      "videoId": "7hwcIZ0QTBo",
+      "videoUrl": "https://www.youtube.com/watch?v=7hwcIZ0QTBo",
+      "title": "Horace Cooper: How Trump&#39;s Policies Helped Black Americans -- and All Americans",
+      "description": "This short excerpt from \"America First with Sebastian Gorka,\" broadcast on Salem News Channel on 7/20/22 and featuring Project ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2022-07-22T02:00:05Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7hwcIZ0QTBo/hqdefault.jpg",
+      "duration": "9:50"
+    },
+    {
+      "videoId": "ORpjwzC4u8g",
+      "videoUrl": "https://www.youtube.com/watch?v=ORpjwzC4u8g",
+      "title": "Horace Cooper: How Presidents Obama and Biden Hurt Black Americans -- and All Americans",
+      "description": "This short excerpt from \"America First with Sebastian Gorka,\" broadcast on Salem News Channel on 7/20/22 and featuring Project ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2022-07-22T01:59:30Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ORpjwzC4u8g/hqdefault.jpg",
+      "duration": "6:55"
+    },
+    {
+      "videoId": "V7Aj_ICHofA",
+      "videoUrl": "https://www.youtube.com/watch?v=V7Aj_ICHofA",
+      "title": "Sen. Manchin Prevents Biden From Being Even More Unpopular Than He Already Is, Says Horace Cooper",
+      "description": "This short excerpt from the Fox News Channel's \"Fox News at Night with Shannon Bream,\" broadcast on 7/18-19/22 and featuring ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2022-07-19T14:06:55Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/V7Aj_ICHofA/hqdefault.jpg",
+      "duration": "6:16"
+    },
+    {
+      "videoId": "oEkNXXls2Ag",
+      "videoUrl": "https://www.youtube.com/watch?v=oEkNXXls2Ag",
+      "title": "KEEP Liberia Storytelling Hour with Horace Cooper",
+      "description": "Book read: The Jungle Book.",
+      "channelTitle": "KEEP Liberia",
+      "publishedAt": "2022-06-18T19:00:42Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oEkNXXls2Ag/hqdefault.jpg",
+      "duration": "13:23"
+    },
+    {
+      "videoId": "lhMD1FTjFcE",
+      "videoUrl": "https://www.youtube.com/watch?v=lhMD1FTjFcE",
+      "title": "6.1.22 Fox News at Night hosted by Shannon Bream with Horace Cooper and Kevin Walling",
+      "description": "",
+      "channelTitle": "Kevin Walling",
+      "publishedAt": "2022-06-02T16:08:01Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lhMD1FTjFcE/hqdefault.jpg",
+      "duration": "5:52"
+    },
+    {
+      "videoId": "RTF2Z87ViAc",
+      "videoUrl": "https://www.youtube.com/watch?v=RTF2Z87ViAc",
+      "title": "Horace Cooper Offers President Biden Ideas to Improve the Economy Instead of &quot;Making It Worse&quot;",
+      "description": "This short excerpt from the Fox News Channel's \"Fox News at Night with Shannon Bream,\" broadcast on 6/1-2/22 and featuring ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2022-06-02T13:44:08Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RTF2Z87ViAc/hqdefault.jpg",
+      "duration": "5:54"
+    },
+    {
+      "videoId": "R5zEOx7gYPM",
+      "videoUrl": "https://www.youtube.com/watch?v=R5zEOx7gYPM",
+      "title": "After Record Voter Turnout in Georgia, Horace Cooper Wants to Hear an Apology From the MLB",
+      "description": "This short excerpt from the Fox News Channel's \"The Ingraham Angle,\" broadcast on 5/23/2022 and featuring Project 21's Horace ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2022-05-24T03:18:44Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R5zEOx7gYPM/hqdefault.jpg",
+      "duration": "5:21"
+    },
+    {
+      "videoId": "ogQlRZFd35E",
+      "videoUrl": "https://www.youtube.com/watch?v=ogQlRZFd35E",
+      "title": "Horace Cooper Laughs About Those Who Are &quot;Running and Scrambling to Get Away&quot; from Kamala Harris",
+      "description": "This excerpt from the One America News Network program \"In Focus with Stephanie Hamill,\" broadcast on 4/26/2022 and ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2022-05-20T02:11:25Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ogQlRZFd35E/hqdefault.jpg",
+      "duration": "5:17"
+    },
+    {
+      "videoId": "yXJ9AfRWApo",
+      "videoUrl": "https://www.youtube.com/watch?v=yXJ9AfRWApo",
+      "title": "Horace Cooper Discusses Implications of Supreme Court Abortion Case Leak",
+      "description": "This excerpt from OANN's \"Real America with Dan Ball,\" broadcast on 5/4/22 and featuring Project 21 Co-Chair Horace Cooper, ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2022-05-20T01:51:52Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yXJ9AfRWApo/hqdefault.jpg",
+      "duration": "8:07"
+    },
+    {
+      "videoId": "OAYKjxkxDOU",
+      "videoUrl": "https://www.youtube.com/watch?v=OAYKjxkxDOU",
+      "title": "Horace Cooper Calls for Greater Accountability for Criminals Like Buffalo Shooter",
+      "description": "This short excerpt from the Fox News Channel's \"Jesse Watters Primetime,\" broadcast on 5/16/2022 and featuring Project 21's ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2022-05-17T13:21:10Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OAYKjxkxDOU/hqdefault.jpg",
+      "duration": "5:17"
+    },
+    {
+      "videoId": "sO41d-Ylmvo",
+      "videoUrl": "https://www.youtube.com/watch?v=sO41d-Ylmvo",
+      "title": "Horace Cooper and Rep. Byron Donalds Discuss Ukraine Spending, Baby Formula Shortage, Violent Crime",
+      "description": "This short excerpt from the Fox News Channel's \"The Ingraham Angle,\" broadcast on 5/12/2022 and featuring Project 21's Horace ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2022-05-13T02:35:34Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sO41d-Ylmvo/hqdefault.jpg",
+      "duration": "6:16"
+    },
+    {
+      "videoId": "pv9v--BuuSQ",
+      "videoUrl": "https://www.youtube.com/watch?v=pv9v--BuuSQ",
+      "title": "Horace Cooper Discusses Religious Freedom Case Before the Supreme Court",
+      "description": "This excerpt from OANN's \"Real America with Dan Ball,\" broadcast on 4/26/22 and featuring Project 21 Co-Chair Horace Cooper, ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2022-05-06T02:08:01Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pv9v--BuuSQ/hqdefault.jpg",
+      "duration": "10:54"
+    },
+    {
+      "videoId": "LDQUT__m5RY",
+      "videoUrl": "https://www.youtube.com/watch?v=LDQUT__m5RY",
+      "title": "Assuming All Whites are Racist is &quot;Bigotry 101,&quot; Says Project 21 Co-Chair Horace Cooper",
+      "description": "This short excerpt from the Fox News Channel's \"Tucker Carlson Tonight,\" broadcast on 4/13/2022 and featuring Project 21's ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2022-04-14T00:27:38Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LDQUT__m5RY/hqdefault.jpg",
+      "duration": "4:18"
+    },
+    {
+      "videoId": "8NkKFO7vZOM",
+      "videoUrl": "https://www.youtube.com/watch?v=8NkKFO7vZOM",
+      "title": "The Left&#39;s Segregation Model Doesn&#39;t Work in the 21st Century, Says Horace Cooper",
+      "description": "This short excerpt from the Fox News Channel's \"Jesse Watters Primetime,\" broadcast on 4/4/2022 and featuring Project 21's ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2022-04-05T02:35:26Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8NkKFO7vZOM/hqdefault.jpg",
+      "duration": "4:20"
+    },
+    {
+      "videoId": "xX6-LtHpfQI",
+      "videoUrl": "https://www.youtube.com/watch?v=xX6-LtHpfQI",
+      "title": "Potential Iran Deal Reveals Desperation of Biden Administration, Says Horace Cooper",
+      "description": "This short excerpt from the Fox News Channel's \"Fox News at Night with Shannon Bream,\" broadcast on 3/16-17/2022 and ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2022-03-17T14:31:05Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xX6-LtHpfQI/hqdefault.jpg",
+      "duration": "4:38"
+    },
+    {
+      "videoId": "IwpahfiBbZE",
+      "videoUrl": "https://www.youtube.com/watch?v=IwpahfiBbZE",
+      "title": "Black Lives Matter - Clinton Connection is All About the Cash, Says Project 21 CoChair Horace Cooper",
+      "description": "This short excerpt from the Fox News Channel's \"Jesse Watters Primetime,\" broadcast on 2/16/2022 and featuring Project 21's ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2022-02-17T02:50:41Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IwpahfiBbZE/hqdefault.jpg",
+      "duration": "3:29"
+    },
+    {
+      "videoId": "hRwqEi8-mRM",
+      "videoUrl": "https://www.youtube.com/watch?v=hRwqEi8-mRM",
+      "title": "Project 21&#39;s Horace Cooper Warns That Sec. Buttigieg&#39;s Speed Camera / Speed Limit Plan May Backfire",
+      "description": "This short excerpt from the One America News Network, broadcast on 2/11/2022 and featuring Project 21 Co-Chair Horace ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2022-02-15T00:31:17Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hRwqEi8-mRM/hqdefault.jpg",
+      "duration": "3:46"
+    },
+    {
+      "videoId": "l1w4rQGgr7c",
+      "videoUrl": "https://www.youtube.com/watch?v=l1w4rQGgr7c",
+      "title": "Teachers Shouldn&#39;t Participate in Events That Malign Students Along Racial Lines, Says Horace Cooper",
+      "description": "This short excerpt from the Fox News Channel's \"Jesse Watters Primetime,\" broadcast on 2/2/2022 and featuring Project 21's ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2022-02-03T02:41:12Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/l1w4rQGgr7c/hqdefault.jpg",
+      "duration": "5:02"
+    },
+    {
+      "videoId": "_0N_ZuG8WkI",
+      "videoUrl": "https://www.youtube.com/watch?v=_0N_ZuG8WkI",
+      "title": "Both Big Tech and Government Target Those Who Criticize Critical Race Theory, Notes Horace Cooper",
+      "description": "This short excerpt from the Fox News Channel's \"Tucker Carlson Tonight,\" broadcast on 1/24/2022 and featuring Project 21's ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2022-01-25T03:19:32Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_0N_ZuG8WkI/hqdefault.jpg",
+      "duration": "3:46"
+    },
+    {
+      "videoId": "soe3dgRWKdo",
+      "videoUrl": "https://www.youtube.com/watch?v=soe3dgRWKdo",
+      "title": "TIMELINE with TERRY : GUEST: Horace Cooper",
+      "description": "",
+      "channelTitle": "Conservative Television Of America",
+      "publishedAt": "2022-01-08T17:50:55Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/soe3dgRWKdo/hqdefault.jpg",
+      "duration": "53:32"
+    },
+    {
+      "videoId": "7cpbqleedqg",
+      "videoUrl": "https://www.youtube.com/watch?v=7cpbqleedqg",
+      "title": "TIMELINEwithTERRY - Guest:  Horace Cooper",
+      "description": "",
+      "channelTitle": "Claude MANCUSO",
+      "publishedAt": "2022-01-08T16:23:26Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7cpbqleedqg/hqdefault.jpg",
+      "duration": "53:32"
+    },
+    {
+      "videoId": "bUJBl4PBq0o",
+      "videoUrl": "https://www.youtube.com/watch?v=bUJBl4PBq0o",
+      "title": "1.3.22 Fox News at Night hosted by Gillian Turner with Horace Cooper and Kevin Walling",
+      "description": "",
+      "channelTitle": "Kevin Walling",
+      "publishedAt": "2022-01-04T16:25:21Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bUJBl4PBq0o/hqdefault.jpg",
+      "duration": "7:23"
+    },
+    {
+      "videoId": "Wc0RtZKcghU",
+      "videoUrl": "https://www.youtube.com/watch?v=Wc0RtZKcghU",
+      "title": "Biden Has Made Crime Worse By Pulling the Rug Out From Under Law Enforcement, Says Horace Cooper",
+      "description": "This short excerpt from the Fox News Channel's \"Fox News at Night with Shannon Bream,\" broadcast on 1/3-4/2022 and featuring ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2022-01-04T13:53:35Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wc0RtZKcghU/hqdefault.jpg",
+      "duration": "7:24"
+    },
+    {
+      "videoId": "XU4W9uZi63c",
+      "videoUrl": "https://www.youtube.com/watch?v=XU4W9uZi63c",
+      "title": "A Festivus Airing of Grievances Featuring Horace Cooper, Mercedes Schlapp and Raymond Arroyo",
+      "description": "This short excerpt from the Fox News Channel's \"The Ingraham Angle,\" broadcast on 12/23/2021 and featuring Project 21 ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2021-12-24T03:32:47Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XU4W9uZi63c/hqdefault.jpg",
+      "duration": "7:33"
+    },
+    {
+      "videoId": "84ivA89FGrw",
+      "videoUrl": "https://www.youtube.com/watch?v=84ivA89FGrw",
+      "title": "Despite Vaccine Mandate Setback, Horace Cooper Believes SCOTUS Will Protect Freedom of Religion",
+      "description": "This short excerpt from the Fox News Channel's \"Fox News at Night with Shannon Bream,\" broadcast on 12/13-14/2021 and ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2021-12-14T14:48:25Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/84ivA89FGrw/hqdefault.jpg",
+      "duration": "7:48"
+    },
+    {
+      "videoId": "hRfLrcp-Y8o",
+      "videoUrl": "https://www.youtube.com/watch?v=hRfLrcp-Y8o",
+      "title": "Biden chooses &#39;most unhinged&#39; person possible for DOJ position  Horace Cooper",
+      "description": "Co-chairman of Project 21 reacts to narrow Senate confirmation of Rachael Rollins for U.S. attorney in Massachusetts and says ...",
+      "channelTitle": "Mixing Team",
+      "publishedAt": "2021-12-10T05:42:50Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hRfLrcp-Y8o/hqdefault.jpg",
+      "duration": "2:59"
+    },
+    {
+      "videoId": "tRl5hEh685E",
+      "videoUrl": "https://www.youtube.com/watch?v=tRl5hEh685E",
+      "title": "Biden chooses &#39;most unhinged&#39; person possible for DOJ position: Horace Cooper",
+      "description": "Co-chairman of Project 21 reacts to narrow Senate confirmation of Rachael Rollins for U.S. attorney in Massachusetts and says ...",
+      "channelTitle": "Fox News",
+      "publishedAt": "2021-12-10T03:43:18Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tRl5hEh685E/hqdefault.jpg",
+      "duration": "2:59"
+    },
+    {
+      "videoId": "7XdqwHIPYuY",
+      "videoUrl": "https://www.youtube.com/watch?v=7XdqwHIPYuY",
+      "title": "&quot;What Needs to End is Excusing Violent Behavior,&quot; Says Project 21 Co-Chair Horace Cooper",
+      "description": "This short excerpt from the Fox News Channel's \"The Ingraham Angle,\" broadcast on 12/1/2021 and featuring Project 21 ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2021-12-02T04:04:24Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7XdqwHIPYuY/hqdefault.jpg",
+      "duration": "4:16"
+    },
+    {
+      "videoId": "SWMtfyTJkKU",
+      "videoUrl": "https://www.youtube.com/watch?v=SWMtfyTJkKU",
+      "title": "11.22.21 Fox News at Night hosted by Shannon Bream with Horace Cooper and Kevin Walling",
+      "description": "",
+      "channelTitle": "Kevin Walling",
+      "publishedAt": "2021-11-23T15:55:46Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SWMtfyTJkKU/hqdefault.jpg",
+      "duration": "5:21"
+    },
+    {
+      "videoId": "X5QYlKNtqAc",
+      "videoUrl": "https://www.youtube.com/watch?v=X5QYlKNtqAc",
+      "title": "Horace Cooper Explains Why &quot;Build Back Better&quot; is &quot;Building Back Bad&quot; for Housing and for America",
+      "description": "This excerpt from a CURE press conference, held on 11/16/2021 and featuring Horace Cooper, co-chairman of the Project 21 ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2021-11-17T19:01:59Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/X5QYlKNtqAc/hqdefault.jpg",
+      "duration": "4:42"
+    },
+    {
+      "videoId": "QX8vdCCpP_A",
+      "videoUrl": "https://www.youtube.com/watch?v=QX8vdCCpP_A",
+      "title": "Federal Courts: Appeals &amp; District Courts with Horace Cooper — Constitutional Chats — Ep. 94 #Shorts",
+      "description": "",
+      "channelTitle": "Constituting America",
+      "publishedAt": "2021-11-12T20:09:43Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QX8vdCCpP_A/hqdefault.jpg",
+      "duration": "0:54"
+    },
+    {
+      "videoId": "-YvXSM755GQ",
+      "videoUrl": "https://www.youtube.com/watch?v=-YvXSM755GQ",
+      "title": "Ep. 93 | Constitutional Chats | Horace Cooper | Federal Courts: Appeals &amp; District Courts",
+      "description": "Constitutional Chats Podcast Episode 93 Imagine this. It's the early years of our country. After a lengthy legal career and senate ...",
+      "channelTitle": "Constituting America",
+      "publishedAt": "2021-11-12T04:52:41Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-YvXSM755GQ/hqdefault.jpg",
+      "duration": "1:01:10"
+    },
+    {
+      "videoId": "DOLHhawDwNk",
+      "videoUrl": "https://www.youtube.com/watch?v=DOLHhawDwNk",
+      "title": "Horace Cooper: Evil to link Winsome Sears to White supremacy",
+      "description": "Project 21 co-chair slams some left-wing media members for promoting racism on 'Tucker Carlson Tonight.' #FoxNews Subscribe ...",
+      "channelTitle": "Fox News",
+      "publishedAt": "2021-11-06T08:15:01Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DOLHhawDwNk/hqdefault.jpg",
+      "duration": "5:11"
+    },
+    {
+      "videoId": "uC2Raizheyc",
+      "videoUrl": "https://www.youtube.com/watch?v=uC2Raizheyc",
+      "title": "Americans Reject Crazies Who Corner Politicians in Bathrooms &amp; Cars, Says Project 21&#39;s Horace Cooper",
+      "description": "This short excerpt from the Fox News Channel's \"Fox News at Night with Shannon Bream,\" broadcast on 11/5/2021 and featuring ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2021-11-05T13:29:42Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uC2Raizheyc/hqdefault.jpg",
+      "duration": "6:25"
+    },
+    {
+      "videoId": "7TNPS-msb6I",
+      "videoUrl": "https://www.youtube.com/watch?v=7TNPS-msb6I",
+      "title": "Federal Vaccine Mandates Aren&#39;t Supported by Constitution or Bill of Rights, Says Horace Cooper",
+      "description": "This short excerpt from \"America's Voice Live,\" broadcast on 10/13/2021 on the Real America's Voice outlet and featuring host ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2021-10-13T18:55:31Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7TNPS-msb6I/hqdefault.jpg",
+      "duration": "6:52"
+    },
+    {
+      "videoId": "uoUVkeg75oU",
+      "videoUrl": "https://www.youtube.com/watch?v=uoUVkeg75oU",
+      "title": "Horace Cooper Would Love to Be Border Patrol&#39;s Legal Counsel After Liberal Misrepresentation",
+      "description": "This short excerpt from the Fox News Channel's \"Tucker Carlson Tonight,\" broadcast on 9/24/2021 and featuring Project 21 ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2021-09-25T18:23:42Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uoUVkeg75oU/hqdefault.jpg",
+      "duration": "6:10"
+    },
+    {
+      "videoId": "PYQLz_ICy3I",
+      "videoUrl": "https://www.youtube.com/watch?v=PYQLz_ICy3I",
+      "title": "Fundamental Value Changes Need to Be Discussed, Not Snuck Into Spending Bills, Says Horace Cooper",
+      "description": "This short excerpt from \"CURE America\" with Star Parker, broadcast on 9/23/2021 and featuring Project 21's Horace Cooper, has ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2021-09-25T02:57:02Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PYQLz_ICy3I/hqdefault.jpg",
+      "duration": "20:03"
+    },
+    {
+      "videoId": "l5UbV2S1cHU",
+      "videoUrl": "https://www.youtube.com/watch?v=l5UbV2S1cHU",
+      "title": "If the Economy Grows, All Americans - Including Black Americans - Will Prosper, Says Horace Cooper",
+      "description": "This short excerpt from \"CURE America\" with Star Parker, broadcast on 9/23/2021 and featuring Project 21's Horace Cooper, has ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2021-09-25T02:52:14Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/l5UbV2S1cHU/hqdefault.jpg",
+      "duration": "18:12"
+    },
+    {
+      "videoId": "oMcWDmSQ_oE",
+      "videoUrl": "https://www.youtube.com/watch?v=oMcWDmSQ_oE",
+      "title": "Crime Will Rise When Criminals Know There&#39;s No Accountability, Notes Project 21&#39;s Horace Cooper",
+      "description": "This short excerpt from the Fox News Channel's \"Fox News at Night with Shannon Bream,\" broadcast on 9/23/2021 and featuring ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2021-09-24T12:19:10Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oMcWDmSQ_oE/hqdefault.jpg",
+      "duration": "5:24"
+    },
+    {
+      "videoId": "an52DumgPOc",
+      "videoUrl": "https://www.youtube.com/watch?v=an52DumgPOc",
+      "title": "Biden Sees Americans as &quot;Subjects, Not Citizens&quot; Capable of Making Own Decisions, Says Horace Cooper",
+      "description": "This short excerpt from the Fox News Channel's \"The Ingraham Angle,\" broadcast on 9/22/2021 and featuring Project 21's Horace ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2021-09-23T03:09:23Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/an52DumgPOc/hqdefault.jpg",
+      "duration": "6:31"
+    },
+    {
+      "videoId": "Pd1k4PPIBZ8",
+      "videoUrl": "https://www.youtube.com/watch?v=Pd1k4PPIBZ8",
+      "title": "Horace Cooper Calls Record Levels of Voting by Blacks “the Weirdest Form of Bigotry I’ve Ever Seen”",
+      "description": "This short excerpt from RT America's \"Eat The Press\" with Steve Malzberg, broadcast on 9/3/2021 and featuring Project 21 ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2021-09-08T14:37:12Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Pd1k4PPIBZ8/hqdefault.jpg",
+      "duration": "1:57"
+    },
+    {
+      "videoId": "NyH4OKh-IlQ",
+      "videoUrl": "https://www.youtube.com/watch?v=NyH4OKh-IlQ",
+      "title": "Biden&#39;s &quot;Walking Bigotry&quot; Condemned by Horace Cooper, Ignored by Left",
+      "description": "This short excerpt from RT America's \"Eat The Press\" with Steve Malzberg, broadcast on 9/3/2021 and featuring Project 21 ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2021-09-07T21:08:57Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NyH4OKh-IlQ/hqdefault.jpg",
+      "duration": "3:15"
+    },
+    {
+      "videoId": "A1ybjN04grM",
+      "videoUrl": "https://www.youtube.com/watch?v=A1ybjN04grM",
+      "title": "Texas Abortion Law: Biden Administration Doesn&#39;t Believe in Self-Government, Says Horace Cooper",
+      "description": "This short excerpt from the Fox News Channel's \"The Ingraham Angle,\" broadcast on 9/3/2021 and featuring Project 21 Co-Chair ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2021-09-05T02:28:50Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/A1ybjN04grM/hqdefault.jpg",
+      "duration": "5:11"
+    },
+    {
+      "videoId": "vIBsrkg34sQ",
+      "videoUrl": "https://www.youtube.com/watch?v=vIBsrkg34sQ",
+      "title": "The Majority of Black Americans Want Voter ID, Notes Project 21 Co-Chair Horace Cooper",
+      "description": "This short excerpt from the Newsmax TV program \"Cortes & Pellegrino,\" broadcast on 7/20/2021 and featuring Project 21 ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2021-07-21T01:54:40Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vIBsrkg34sQ/hqdefault.jpg",
+      "duration": "6:07"
+    },
+    {
+      "videoId": "h_WJyhSMNaE",
+      "videoUrl": "https://www.youtube.com/watch?v=h_WJyhSMNaE",
+      "title": "7.12.21 Fox News at Night hosted by Mike Emanuel with Horace Cooper, Len Khodorkovsky, Kevin Walling",
+      "description": "",
+      "channelTitle": "Kevin Walling",
+      "publishedAt": "2021-07-13T14:49:14Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/h_WJyhSMNaE/hqdefault.jpg",
+      "duration": "7:41"
+    },
+    {
+      "videoId": "hYKfhzDnYUs",
+      "videoUrl": "https://www.youtube.com/watch?v=hYKfhzDnYUs",
+      "title": "Horace Cooper Finds Liberals Lacking on Communism, Election Integrity",
+      "description": "This short excerpt from the Fox News Channel's \"Fox News at Night with Shannon Bream,\" broadcast on 7/12/2021 and featuring ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2021-07-13T14:04:23Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hYKfhzDnYUs/hqdefault.jpg",
+      "duration": "7:29"
+    },
+    {
+      "videoId": "dt7QqeutYB4",
+      "videoUrl": "https://www.youtube.com/watch?v=dt7QqeutYB4",
+      "title": "Horace Cooper Interview",
+      "description": "Tom interviews Horace Cooper, is a senior fellow with the National Center for Public Policy Research, and co-chairman of the ...",
+      "channelTitle": "Tom Anderson Show",
+      "publishedAt": "2021-07-02T04:20:31Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dt7QqeutYB4/hqdefault.jpg",
+      "duration": "10:22"
+    },
+    {
+      "videoId": "pkLCbICdMkU",
+      "videoUrl": "https://www.youtube.com/watch?v=pkLCbICdMkU",
+      "title": "America Will Suffer &quot;if the Racial Arsonists Continue Their Work,&quot; Says Project 21&#39;s Horace Cooper",
+      "description": "This short excerpt from the Fox News Channel's \"The Ingraham Angle,\" broadcast on 6/30/2021 and featuring Project 21's Horace ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2021-07-01T16:03:41Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pkLCbICdMkU/hqdefault.jpg",
+      "duration": "4:11"
+    },
+    {
+      "videoId": "rSVQDYRbwEU",
+      "videoUrl": "https://www.youtube.com/watch?v=rSVQDYRbwEU",
+      "title": "Liberals Can&#39;t Tell the Truth About Race and Crime Statistics Because Truth Hurts Their Narrative",
+      "description": "This short excerpt from \"America First with Sebastian Gorka,\" broadcast on 6/2/2021 and featuring Project 21's Horace Cooper, ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2021-06-24T19:24:37Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rSVQDYRbwEU/hqdefault.jpg",
+      "duration": "6:29"
+    },
+    {
+      "videoId": "kYHboULqcHE",
+      "videoUrl": "https://www.youtube.com/watch?v=kYHboULqcHE",
+      "title": "Obama Criticizes America Despite All It Has Done for Him, Notes Project 21 Co-Chair Horace Cooper",
+      "description": "This short excerpt from the Fox News Channel's \"Tucker Carlson Tonight,\" broadcast on 6/8/2021 and featuring Project 21 ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2021-06-09T01:15:45Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kYHboULqcHE/hqdefault.jpg",
+      "duration": "3:28"
+    },
+    {
+      "videoId": "cqCmwl-P7U8",
+      "videoUrl": "https://www.youtube.com/watch?v=cqCmwl-P7U8",
+      "title": "TuckerAndHoraceCooper",
+      "description": "Tucker Carlson and Horace Cooper discuss Dementia Joe's assertion that White Supremacy is the country's greatest threat!",
+      "channelTitle": "Matthew Caswell",
+      "publishedAt": "2021-06-06T20:54:16Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cqCmwl-P7U8/hqdefault.jpg",
+      "duration": "2:42"
+    },
+    {
+      "videoId": "u7Vbv47Mhuo",
+      "videoUrl": "https://www.youtube.com/watch?v=u7Vbv47Mhuo",
+      "title": "Biden&#39;s Racism Accusation &quot;One of the Worst Race Hoaxes Since Jussie Smollett,&quot; Says Horace Cooper",
+      "description": "This short excerpt from the Fox News Channel's \"Tucker Carlson Tonight,\" broadcast on 6/2/2021 and featuring Project 21 ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2021-06-03T01:30:26Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/u7Vbv47Mhuo/hqdefault.jpg",
+      "duration": "3:00"
+    },
+    {
+      "videoId": "6LEKTX4xGS0",
+      "videoUrl": "https://www.youtube.com/watch?v=6LEKTX4xGS0",
+      "title": "Horace Cooper Says Biden, Lightfoot See Political Advantage in Dividing Americans Along Racial Lines",
+      "description": "This short excerpt from \"Fox News Primetime\" with Will Cain, broadcast on 5/21/2021 and featuring Project 21 Co-Chairman ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2021-05-25T14:55:49Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6LEKTX4xGS0/hqdefault.jpg",
+      "duration": "3:44"
+    },
+    {
+      "videoId": "oEq8Jkdow-g",
+      "videoUrl": "https://www.youtube.com/watch?v=oEq8Jkdow-g",
+      "title": "Horace Cooper Explains Why Minimizing Police Shootings Will Maximize Number of Felonies Committed",
+      "description": "This short excerpt from \"America First with Sebastian Gorka,\" broadcast on 4/22/21 and featuring Horace Cooper - senior fellow at ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2021-04-23T03:46:00Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oEq8Jkdow-g/hqdefault.jpg",
+      "duration": "13:52"
+    },
+    {
+      "videoId": "nSiMC8ERKnI",
+      "videoUrl": "https://www.youtube.com/watch?v=nSiMC8ERKnI",
+      "title": "Horace Cooper: It&#39;s Totally Inappropriate For Elected Officials to Target Individuals for Conviction",
+      "description": "This short excerpt from the Fox News Channel's \"Tucker Carlson Tonight,\" broadcast on 4/21/2021 and featuring Project 21 ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2021-04-22T13:05:17Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nSiMC8ERKnI/hqdefault.jpg",
+      "duration": "3:05"
+    },
+    {
+      "videoId": "7AekWqNRqn0",
+      "videoUrl": "https://www.youtube.com/watch?v=7AekWqNRqn0",
+      "title": "Activist Judges are Diminishing Respect for the U.S. Supreme Court, Says Project 21&#39;s Horace Cooper",
+      "description": "This short excerpt from SiriusXM Patriot's \"Willow Majority,\" broadcast on 4/14/21 and featuring Horace Cooper - senior fellow at ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2021-04-18T02:11:36Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7AekWqNRqn0/hqdefault.jpg",
+      "duration": "1:54"
+    },
+    {
+      "videoId": "UlC-DDiv4-A",
+      "videoUrl": "https://www.youtube.com/watch?v=UlC-DDiv4-A",
+      "title": "&quot;Coca-Cola Has Decided They are Woke-a-Cola&quot; -- but Don&#39;t Look at Coke&#39;s Environmental Record",
+      "description": "This short excerpt from \"America First with Sebastian Gorka,\" broadcast on 4/14/21 and featuring Horace Cooper - senior fellow at ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2021-04-15T02:48:14Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UlC-DDiv4-A/hqdefault.jpg",
+      "duration": "6:55"
+    },
+    {
+      "videoId": "WcUmudgC8DA",
+      "videoUrl": "https://www.youtube.com/watch?v=WcUmudgC8DA",
+      "title": "Horace Cooper Destroys Liberal Narrative: Black Americans Want More Police and Are Buying Guns",
+      "description": "This short excerpt from the Fox News Channel's \"Tucker Carlson Tonight,\" broadcast on 4/13/2021 and featuring Project 21 ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2021-04-14T01:12:11Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WcUmudgC8DA/hqdefault.jpg",
+      "duration": "2:06"
+    },
+    {
+      "videoId": "i-9B_RVKI0g",
+      "videoUrl": "https://www.youtube.com/watch?v=i-9B_RVKI0g",
+      "title": "Let Real Georgians Decide Their Own Elections, Says Project 21&#39;s Horace Cooper",
+      "description": "This short excerpt from the Fox News Channel's \"Fox News at Night with Shannon Bream,\" broadcast on 3/31/2021 and featuring ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2021-04-01T14:55:18Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/i-9B_RVKI0g/hqdefault.jpg",
+      "duration": "5:35"
+    },
+    {
+      "videoId": "7NftF3SEiNw",
+      "videoUrl": "https://www.youtube.com/watch?v=7NftF3SEiNw",
+      "title": "Horace Cooper on Chauvin Trial: Mob Justice Has Never Been an Effective Solution",
+      "description": "This short excerpt from the Fox News Channel's \"The Ingraham Angle,\" broadcast on 3/19/2021 and featuring Project 21's Horace ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2021-03-20T13:49:07Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7NftF3SEiNw/hqdefault.jpg",
+      "duration": "3:03"
+    },
+    {
+      "videoId": "rmLMTqhI90Q",
+      "videoUrl": "https://www.youtube.com/watch?v=rmLMTqhI90Q",
+      "title": "Horace Cooper: DOJ Stats Don&#39;t Back up Media Narrative That We Should Be Most Afraid of White Men",
+      "description": "This short excerpt from the Fox News Channel's \"Tucker Carlson Tonight,\" broadcast on 3/18/2021 and featuring Project 21's ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2021-03-19T22:24:59Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rmLMTqhI90Q/hqdefault.jpg",
+      "duration": "3:19"
+    },
+    {
+      "videoId": "QvFDgTkTvFs",
+      "videoUrl": "https://www.youtube.com/watch?v=QvFDgTkTvFs",
+      "title": "3.15.21 Fox News at Night hosted by Shannon Bream with Horace Cooper and Kevin Walling",
+      "description": "",
+      "channelTitle": "Kevin Walling",
+      "publishedAt": "2021-03-16T13:26:45Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QvFDgTkTvFs/hqdefault.jpg",
+      "duration": "5:04"
+    },
+    {
+      "videoId": "Ds93C1EeMIQ",
+      "videoUrl": "https://www.youtube.com/watch?v=Ds93C1EeMIQ",
+      "title": "Horace Cooper: HR1 &quot;Isn&#39;t About Race; It&#39;s About Political Parties Trying to Advantage Themselves&quot;",
+      "description": "This short excerpt from the Fox News Channel's \"Fox News at Night with Shannon Bream,\" broadcast on 3/15/2021 and featuring ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2021-03-16T13:23:29Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ds93C1EeMIQ/hqdefault.jpg",
+      "duration": "4:51"
+    },
+    {
+      "videoId": "2IV54JXhRSI",
+      "videoUrl": "https://www.youtube.com/watch?v=2IV54JXhRSI",
+      "title": "Horace Cooper Discusses Texas Reopening, COVID Relief Bill and Why Minorities Turned Out for Trump",
+      "description": "This short excerpt from \"America First with Sebastian Gorka,\" broadcast on 3/10/2021 and featuring Horace Cooper - senior fellow ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2021-03-12T15:09:23Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2IV54JXhRSI/hqdefault.jpg",
+      "duration": "12:54"
+    },
+    {
+      "videoId": "s-SQl5Wrc1c",
+      "videoUrl": "https://www.youtube.com/watch?v=s-SQl5Wrc1c",
+      "title": "&quot;What We Look Like Has Nothing to Do With the Essence of Who We Are as Individuals&quot; - Horace Cooper",
+      "description": "This short excerpt from the Fox News Channel's \"Fox News at Night with Shannon Bream,\" broadcast on 2/10/2021 and featuring ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2021-02-11T14:14:08Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/s-SQl5Wrc1c/hqdefault.jpg",
+      "duration": "4:06"
+    },
+    {
+      "videoId": "98F3aixQo5g",
+      "videoUrl": "https://www.youtube.com/watch?v=98F3aixQo5g",
+      "title": "Should We Count Black Votes Twice? Project 21&#39;s Horace Cooper Criticizes Idea of Vote Reparations",
+      "description": "This short excerpt from the Fox News Channel's \"Tucker Carlson Tonight,\" broadcast on 1/21/2021 and featuring Project 21 ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2021-01-22T01:49:29Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/98F3aixQo5g/hqdefault.jpg",
+      "duration": "3:10"
+    },
+    {
+      "videoId": "7s-IFYLl0Co",
+      "videoUrl": "https://www.youtube.com/watch?v=7s-IFYLl0Co",
+      "title": "Give Business Owners Freedom and Biden Won&#39;t Have to Bail Them Out, Says Project 21&#39;s Horace Cooper",
+      "description": "This short excerpt from the Fox News Channel's \"Fox News at Night with Shannon Bream,\" broadcast on 1/14/2021 and featuring ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2021-01-15T21:34:22Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7s-IFYLl0Co/hqdefault.jpg",
+      "duration": "5:46"
+    },
+    {
+      "videoId": "JiTS1UBIwi8",
+      "videoUrl": "https://www.youtube.com/watch?v=JiTS1UBIwi8",
+      "title": "Leftists Want to Bring Back Jim Crow, Says Horace Cooper",
+      "description": "This short excerpt from the Fox News Channel's \"The Ingraham Angle,\" broadcast on 12/21/2020 and featuring Project 21's ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2020-12-22T14:39:38Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JiTS1UBIwi8/hqdefault.jpg",
+      "duration": "6:21"
+    },
+    {
+      "videoId": "tgH5dN0YPHQ",
+      "videoUrl": "https://www.youtube.com/watch?v=tgH5dN0YPHQ",
+      "title": "Horace Cooper on Identity Politics: Apparently Who You Look Like Is More Important Than Who You Are",
+      "description": "This short excerpt from the Fox News Channel's \"Tucker Carlson Tonight,\" broadcast on 12/4/2020 and featuring Project 21 ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2020-12-05T02:32:50Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tgH5dN0YPHQ/hqdefault.jpg",
+      "duration": "5:06"
+    },
+    {
+      "videoId": "r4_pmoQj9UQ",
+      "videoUrl": "https://www.youtube.com/watch?v=r4_pmoQj9UQ",
+      "title": "Horace Cooper on Hypocritical Liberal Politicians: &quot;Caviar for Me, Limits for Thee”",
+      "description": "This short excerpt from the Fox News Channel's \"Fox News at Night with Shannon Bream,\" broadcast on 11/16/2020 and featuring ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2020-11-17T15:27:16Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/r4_pmoQj9UQ/hqdefault.jpg",
+      "duration": "6:27"
     }
   ]
 }

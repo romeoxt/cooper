@@ -15,14 +15,21 @@ Create a `.env` file in the project root (you can copy `.env.example`) and set:
 
 - `YOUTUBE_API_KEY`
 - `PERSON_NAME`
+- `SEARCH_QUERY` (optional; defaults to `PERSON_NAME`)
 - `PERSON_NAME_VARIANTS` (comma-separated, optional)
-- `MAX_RESULTS` (5-50)
+- `MAX_RESULTS` (final videos to output, e.g. 100)
+- `SEARCH_PAGE_SIZE` (YouTube page size, 5-50)
+- `MAX_PAGES` (how many YouTube pages to scan each run)
+- `PUBLISHED_AFTER` (optional ISO date or datetime, e.g. `2022-01-01`)
+- `PUBLISHED_BEFORE` (optional ISO date or datetime)
 - `OUTPUT_PATH` (default: `./data/videos.json`)
 
 The updater script loads values in this order:
 1. System environment variables
 2. `.env`
 3. `.env.example` (fallback)
+
+Tip: if older videos are missing, increase `MAX_PAGES` and consider a broader `SEARCH_QUERY` while keeping strict name variant filtering enabled.
 
 ---
 
@@ -33,6 +40,14 @@ The updater script loads values in this order:
 ```bash
 npm run update-feed
 ```
+
+### One-time deep backfill
+
+```bash
+npm run bootstrap-feed
+```
+
+Use `bootstrap-feed` once to build a deep historical list. Then schedule `update-feed` daily so only newer matching uploads are fetched and merged.
 
 ### Start static frontend
 
