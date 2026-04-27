@@ -2,8 +2,19 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
+const SEARCH_LIST_UNIT_COST = 100;
+const VIDEOS_LIST_UNIT_COST = 1;
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+
+function parseBoolean(value, defaultValue = true) {
+  if (value === undefined || value === null || value === "") {
+    return defaultValue;
+  }
+  const normalized = String(value).trim().toLowerCase();
+  return ["1", "true", "yes", "on"].includes(normalized);
+}
 
 async function loadEnvConfig() {
   const candidatePaths = [
@@ -43,6 +54,8 @@ async function loadEnvConfig() {
     MAX_PAGES: Number(get("MAX_PAGES", 20)),
     INCREMENTAL_FETCH_LIMIT: Number(get("INCREMENTAL_FETCH_LIMIT", 120)),
     INCREMENTAL_MAX_PAGES: Number(get("INCREMENTAL_MAX_PAGES", 3)),
+    QUOTA_SOFT_LIMIT: Number(get("QUOTA_SOFT_LIMIT", 2000)),
+    ENFORCE_QUOTA_GUARD: parseBoolean(get("ENFORCE_QUOTA_GUARD", "true"), true),
     PUBLISHED_AFTER: get("PUBLISHED_AFTER"),
     PUBLISHED_BEFORE: get("PUBLISHED_BEFORE"),
     OUTPUT_PATH: get("OUTPUT_PATH", path.resolve(__dirname, "../data/videos.json")),
@@ -100,6 +113,7 @@ async function fetchYoutubeCandidates({
   maxPages,
   publishedAfter,
   publishedBefore,
+  usage,
 }) {
   const collected = [];
   let pageToken = "";
@@ -128,6 +142,7 @@ async function fetchYoutubeCandidates({
     const url = `https://www.googleapis.com/youtube/v3/search?${params.toString()}`;
     const response = await fetch(url);
     const payload = await response.json();
+    usage.searchListCalls += 1;
     if (!response.ok) {
       const message = payload?.error?.message || "Unknown YouTube API error.";
       throw new Error(message);
@@ -168,7 +183,7 @@ function parseIsoDuration(isoDuration) {
   return `${minutes}:${String(seconds).padStart(2, "0")}`;
 }
 
-async function fetchVideoDurations(apiKey, videoIds) {
+async function fetchVideoDurations(apiKey, videoIds, usage) {
   const durationById = {};
   const chunkSize = 50;
   for (let i = 0; i < videoIds.length; i += chunkSize) {
@@ -185,6 +200,9 @@ async function fetchVideoDurations(apiKey, videoIds) {
     const url = `https://www.googleapis.com/youtube/v3/videos?${params.toString()}`;
     const response = await fetch(url);
     const payload = await response.json();
+    if (usage) {
+      usage.videosListCalls += 1;
+    }
     if (!response.ok) {
       const message = payload?.error?.message || "Unknown YouTube API error.";
       throw new Error(message);
@@ -255,6 +273,10 @@ function mergeAndTrimVideos(newVideos, existingVideos, maxResults) {
   );
 }
 
+function estimateQuotaUnits(searchCalls, videosCalls) {
+  return searchCalls * SEARCH_LIST_UNIT_COST + videosCalls * VIDEOS_LIST_UNIT_COST;
+}
+
 async function readExistingFeed(outputPath) {
   try {
     const raw = await readFile(outputPath, "utf8");
@@ -315,6 +337,25 @@ async function run() {
     mode === "bootstrap"
       ? Math.min(Math.max(finalMaxResults * 6, 300), pageSize * maxPages)
       : Math.max(20, config.INCREMENTAL_FETCH_LIMIT);
+  const durationTarget =
+    mode === "bootstrap" ? finalMaxResults : Math.max(config.INCREMENTAL_FETCH_LIMIT, 20);
+
+  const plannedSearchCalls = Math.min(maxPages, Math.ceil(fetchTarget / pageSize));
+  const plannedVideosCalls = Math.ceil(Math.max(0, durationTarget) / 50);
+  const estimatedUnits = estimateQuotaUnits(plannedSearchCalls, plannedVideosCalls);
+  if (config.ENFORCE_QUOTA_GUARD && estimatedUnits > config.QUOTA_SOFT_LIMIT) {
+    throw new Error(
+      `Quota guard blocked run. Estimated ${estimatedUnits} units exceeds QUOTA_SOFT_LIMIT=${config.QUOTA_SOFT_LIMIT}.`
+    );
+  }
+
+  const quotaUsage = {
+    searchListCalls: 0,
+    videosListCalls: 0,
+    estimatedUnits,
+    softLimit: config.QUOTA_SOFT_LIMIT,
+    enforceGuard: config.ENFORCE_QUOTA_GUARD,
+  };
 
   const candidates = await fetchYoutubeCandidates({
     apiKey: config.YOUTUBE_API_KEY,
@@ -324,6 +365,7 @@ async function run() {
     maxPages,
     publishedAfter: effectivePublishedAfter,
     publishedBefore,
+    usage: quotaUsage,
   });
 
   const matchingCandidates = sortByPublishedAtDesc(
@@ -336,7 +378,7 @@ async function run() {
       : matchingCandidates.slice(0, Math.max(config.INCREMENTAL_FETCH_LIMIT, 20));
 
   const newVideoIds = cappedCandidates.map((video) => video?.id?.videoId || "").filter(Boolean);
-  const durationById = await fetchVideoDurations(config.YOUTUBE_API_KEY, newVideoIds);
+  const durationById = await fetchVideoDurations(config.YOUTUBE_API_KEY, newVideoIds, quotaUsage);
   const newMappedVideos = cappedCandidates.map((video) =>
     mapVideoWithDuration(video, durationById[video?.id?.videoId || ""] || "")
   );
@@ -362,6 +404,18 @@ async function run() {
       incrementalMaxPages: config.INCREMENTAL_MAX_PAGES,
       publishedAfter: effectivePublishedAfter || null,
       publishedBefore: publishedBefore || null,
+    },
+    quotaUsage: {
+      estimatedUnits: quotaUsage.estimatedUnits,
+      actualUnits: estimateQuotaUnits(quotaUsage.searchListCalls, quotaUsage.videosListCalls),
+      softLimit: quotaUsage.softLimit,
+      enforceGuard: quotaUsage.enforceGuard,
+      searchListCalls: quotaUsage.searchListCalls,
+      videosListCalls: quotaUsage.videosListCalls,
+      unitCosts: {
+        searchList: SEARCH_LIST_UNIT_COST,
+        videosList: VIDEOS_LIST_UNIT_COST,
+      },
     },
     videos: finalVideos,
   };

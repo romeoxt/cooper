@@ -1,17 +1,28 @@
 const statusEl = document.getElementById("status");
 const videoListEl = document.getElementById("video-list");
 const feedMetaEl = document.getElementById("feed-meta");
-const filterSearchEl = document.getElementById("filter-search");
-const filterYearEl = document.getElementById("filter-year");
-const filterSortEl = document.getElementById("filter-sort");
+const searchEl = document.getElementById("filter-search");
+const chipButtons = Array.from(document.querySelectorAll(".chip"));
+const sentinelEl = document.getElementById("scroll-sentinel");
 const modalEl = document.getElementById("video-modal");
 const modalCloseEl = document.getElementById("video-modal-close");
 const videoFrameEl = document.getElementById("video-frame");
 const introLoaderEl = document.getElementById("intro-loader");
 const fallbackFeedUrl = "./data/videos.json";
 const feedUrl = window.VIDEO_FEED_URL || fallbackFeedUrl;
-let smoothScrollController = null;
+
 let allVideos = [];
+let filteredVideos = [];
+let activeChip = "all";
+let renderIndex = 0;
+const pageSize = 24;
+let lastUpdatedLabel = "Unknown";
+
+function decodeHtmlEntities(value) {
+  const textarea = document.createElement("textarea");
+  textarea.innerHTML = String(value || "");
+  return textarea.value;
+}
 
 function escapeHtml(value) {
   return String(value)
@@ -24,6 +35,9 @@ function escapeHtml(value) {
 
 function formatDate(isoDate, includeTime = false) {
   const date = new Date(isoDate);
+  if (Number.isNaN(date.getTime())) {
+    return "Unknown";
+  }
   const options = {
     month: "short",
     day: "numeric",
@@ -36,279 +50,140 @@ function formatDate(isoDate, includeTime = false) {
   return new Intl.DateTimeFormat("en-US", options).format(date);
 }
 
-function getDescriptionExcerpt(text) {
-  const clean = text.replace(/\s+/g, " ").trim();
-  return clean.length > 320 ? `${clean.slice(0, 317)}...` : clean;
-}
-
-function renderVideos(videos) {
-  videoListEl.innerHTML = "";
-  videos.forEach((video, index) => {
-    const {
-      title,
-      description,
-      channelTitle,
-      publishedAt,
-      thumbnailUrl,
-      videoUrl,
-      videoId,
-      duration,
-    } = video;
-
-    const safeTitle = escapeHtml(title);
-    const safeChannelTitle = escapeHtml(channelTitle);
-    const safeDescription = escapeHtml(getDescriptionExcerpt(description || ""));
-    const safeThumbnailUrl = escapeHtml(thumbnailUrl);
-    const embedId = videoId || (videoUrl.split("v=")[1] || "").split("&")[0];
-
-    const card = document.createElement("article");
-    card.className = "video-card reveal";
-    card.style.setProperty("--reveal-delay", `${index * 70}ms`);
-    card.innerHTML = `
-      <div class="video-index">${String(index + 1).padStart(2, "0")}</div>
-      <div class="video-body">
-        <h3 class="video-title">${safeTitle}</h3>
-        <p class="video-meta">${safeChannelTitle} / ${formatDate(publishedAt)}</p>
-        <p class="video-desc">${safeDescription}</p>
-        <p class="video-duration">${escapeHtml(duration || "Duration unavailable")}</p>
-        <button class="video-play" type="button" data-video-id="${embedId}">
-          Watch Now
-        </button>
-      </div>
-      <div class="video-thumb-wrap">
-        <img src="${safeThumbnailUrl}" alt="Thumbnail for ${safeTitle}" loading="lazy">
-      </div>
-    `;
-    videoListEl.append(card);
-  });
-
-  activateScrollAnimations();
+function durationToSeconds(duration) {
+  if (!duration || !duration.includes(":")) {
+    return 0;
+  }
+  const parts = duration.split(":").map((value) => Number(value));
+  if (parts.some((value) => Number.isNaN(value))) {
+    return 0;
+  }
+  if (parts.length === 2) {
+    return parts[0] * 60 + parts[1];
+  }
+  if (parts.length === 3) {
+    return parts[0] * 3600 + parts[1] * 60 + parts[2];
+  }
+  return 0;
 }
 
 function setStatus(message, isError = false) {
   statusEl.textContent = message;
-  statusEl.style.color = isError ? "#b91c1c" : "#334155";
+  statusEl.classList.toggle("is-error", isError);
 }
 
-function renderMeta(payload) {
-  const updatedAt = payload.updatedAt ? formatDate(payload.updatedAt, true) : "Unknown";
+function renderMeta(updatedAt) {
+  if (!feedMetaEl) {
+    return;
+  }
   feedMetaEl.innerHTML = `
-    <span class="meta-pill">Last updated: ${updatedAt}</span>
+    <span class="meta-pill is-live">
+      <span class="meta-dot" aria-hidden="true"></span>
+      Last updated: ${escapeHtml(updatedAt)}
+    </span>
   `;
 }
 
-function getVideoYear(video) {
-  if (!video?.publishedAt) {
-    return "";
-  }
-  const parsed = new Date(video.publishedAt);
-  if (Number.isNaN(parsed.getTime())) {
-    return "";
-  }
-  return String(parsed.getFullYear());
+function makeCardMarkup(video) {
+  const title = escapeHtml(decodeHtmlEntities(video.title || "Untitled"));
+  const channel = escapeHtml(decodeHtmlEntities(video.channelTitle || "Unknown Channel"));
+  const thumb = escapeHtml(video.thumbnailUrl || "");
+  const duration = escapeHtml(video.duration || "");
+  const published = escapeHtml(formatDate(video.publishedAt));
+  const videoId = escapeHtml(video.videoId || "");
+  return `
+    <article class="video-card" data-video-id="${videoId}">
+      <div class="thumb-wrap">
+        <img src="${thumb}" alt="Thumbnail for ${title}" loading="lazy" />
+        <span class="duration-badge">${duration || "Live"}</span>
+      </div>
+      <div class="video-content">
+        <h3 class="video-title">${title}</h3>
+        <p class="video-meta">${channel} · ${published}</p>
+      </div>
+    </article>
+  `;
 }
 
-function updateYearFilterOptions(videos) {
-  if (!filterYearEl) {
+function renderNextChunk() {
+  if (renderIndex >= filteredVideos.length) {
     return;
   }
-  const currentValue = filterYearEl.value;
-  const years = [...new Set(videos.map(getVideoYear).filter(Boolean))].sort(
-    (a, b) => Number(b) - Number(a)
+  const next = filteredVideos.slice(renderIndex, renderIndex + pageSize);
+  const html = next.map(makeCardMarkup).join("");
+  videoListEl.insertAdjacentHTML("beforeend", html);
+  renderIndex += next.length;
+  setStatus(
+    `Showing ${renderIndex} of ${filteredVideos.length} videos · Last updated ${lastUpdatedLabel}`
   );
-  filterYearEl.innerHTML =
-    `<option value="">All years</option>` +
-    years.map((year) => `<option value="${year}">${year}</option>`).join("");
-  if (currentValue && years.includes(currentValue)) {
-    filterYearEl.value = currentValue;
-  }
 }
 
 function applyFilters() {
-  const searchQuery = (filterSearchEl?.value || "").toLowerCase().trim();
-  const selectedYear = filterYearEl?.value || "";
-  const selectedSort = filterSortEl?.value || "newest";
+  const query = (searchEl?.value || "").toLowerCase().trim();
+  const now = Date.now();
+  const oneYearMs = 1000 * 60 * 60 * 24 * 365;
 
-  let filtered = allVideos.filter((video) => {
-    const yearMatch = selectedYear ? getVideoYear(video) === selectedYear : true;
-    if (!yearMatch) {
+  filteredVideos = allVideos.filter((video) => {
+    const haystack = `${video.title || ""} ${video.channelTitle || ""} ${
+      video.description || ""
+    }`.toLowerCase();
+    if (query && !haystack.includes(query)) {
       return false;
     }
-    if (!searchQuery) {
-      return true;
+
+    if (activeChip === "recent") {
+      const publishedAt = new Date(video.publishedAt).getTime();
+      return !Number.isNaN(publishedAt) && now - publishedAt <= oneYearMs;
     }
-    const haystack = `${video.title || ""} ${video.description || ""} ${
-      video.channelTitle || ""
-    }`.toLowerCase();
-    return haystack.includes(searchQuery);
+    if (activeChip === "short") {
+      return durationToSeconds(video.duration) > 0 && durationToSeconds(video.duration) <= 600;
+    }
+    if (activeChip === "long") {
+      return durationToSeconds(video.duration) >= 1200;
+    }
+    return true;
   });
 
-  filtered = filtered.sort((a, b) => {
-    if (selectedSort === "oldest") {
-      return new Date(a.publishedAt).getTime() - new Date(b.publishedAt).getTime();
-    }
-    if (selectedSort === "title-asc") {
-      return (a.title || "").localeCompare(b.title || "");
-    }
-    if (selectedSort === "title-desc") {
-      return (b.title || "").localeCompare(a.title || "");
-    }
-    return new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime();
-  });
+  videoListEl.innerHTML = "";
+  renderIndex = 0;
 
-  if (filtered.length === 0) {
-    videoListEl.innerHTML = "";
+  if (filteredVideos.length === 0) {
     setStatus("No videos match your current filters.");
     return;
   }
 
-  renderVideos(filtered);
-  setStatus(`Showing ${filtered.length} videos.`);
+  renderNextChunk();
 }
 
-function activateScrollAnimations() {
-  const cards = document.querySelectorAll(".reveal");
-
-  if (window.gsap && window.ScrollTrigger) {
-    window.gsap.registerPlugin(window.ScrollTrigger);
-    window.ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
-
-    window.gsap.set(cards, { opacity: 0, y: 22 });
-    cards.forEach((card, index) => {
-      const thumb = card.querySelector(".video-thumb-wrap img");
-
-      window.gsap.to(card, {
-        opacity: 1,
-        y: 0,
-        duration: 0.75,
-        ease: "power3.out",
-        delay: Math.min(index * 0.035, 0.35),
-        scrollTrigger: {
-          trigger: card,
-          start: "top 86%",
-          once: true,
-        },
-      });
-
-      if (thumb) {
-        window.gsap.fromTo(
-          thumb,
-          { yPercent: -6, scale: 1.06 },
-          {
-            yPercent: 6,
-            scale: 1.02,
-            ease: "none",
-            scrollTrigger: {
-              trigger: card,
-              start: "top bottom",
-              end: "bottom top",
-              scrub: true,
-            },
-          }
-        );
-      }
-    });
-
+function setupInfiniteScroll() {
+  if (!sentinelEl) {
     return;
   }
-
-  if (!("IntersectionObserver" in window)) {
-    cards.forEach((card) => card.classList.add("in-view"));
-    return;
-  }
-
   const observer = new IntersectionObserver(
-    (entries, currentObserver) => {
+    (entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          entry.target.classList.add("in-view");
-          currentObserver.unobserve(entry.target);
+          renderNextChunk();
         }
       });
     },
-    { threshold: 0.18 }
+    { rootMargin: "500px 0px 500px 0px" }
   );
-
-  cards.forEach((card) => observer.observe(card));
-}
-
-function setupSmoothScroll() {
-  if (!window.Lenis) {
-    return;
-  }
-
-  if (smoothScrollController) {
-    smoothScrollController.destroy();
-  }
-
-  smoothScrollController = new window.Lenis({
-    duration: 1.05,
-    smoothWheel: true,
-    wheelMultiplier: 0.95,
-    touchMultiplier: 1.1,
-  });
-
-  const raf = (time) => {
-    smoothScrollController.raf(time);
-    requestAnimationFrame(raf);
-  };
-  requestAnimationFrame(raf);
-
-  if (window.ScrollTrigger) {
-    smoothScrollController.on("scroll", window.ScrollTrigger.update);
-  }
+  observer.observe(sentinelEl);
 }
 
 function runIntroLoader() {
   if (!introLoaderEl) {
     return;
   }
-
-  const complete = () => {
-    introLoaderEl.classList.add("is-hidden");
-    window.setTimeout(() => {
-      introLoaderEl.remove();
-    }, 900);
-  };
-
-  if (window.gsap) {
-    const mark = introLoaderEl.querySelector(".intro-mark");
-    const tl = window.gsap.timeline({ defaults: { ease: "power2.out" } });
-    tl.to(mark, {
-      opacity: 1,
-      scale: 1,
-      filter: "blur(0px)",
-      duration: 0.85,
-      ease: "expo.out",
-    })
-      .to(mark, {
-        opacity: 0,
-        scale: 1.03,
-        filter: "blur(4px)",
-        duration: 0.6,
-        ease: "power2.inOut",
-      })
-      .to(
-        introLoaderEl,
-        {
-          opacity: 0,
-          duration: 0.75,
-          ease: "power2.inOut",
-          onComplete: complete,
-        },
-        "-=0.25"
-      );
-    return;
-  }
-
-  // CSS-only fallback when GSAP fails to load.
   introLoaderEl.classList.add("fallback-run");
   window.setTimeout(() => {
     introLoaderEl.classList.add("fallback-exit");
-  }, 700);
+  }, 650);
   window.setTimeout(() => {
-    complete();
-  }, 1500);
+    introLoaderEl.classList.add("is-hidden");
+    introLoaderEl.remove();
+  }, 1300);
 }
 
 function openVideoModal(videoId) {
@@ -329,25 +204,35 @@ function closeVideoModal() {
 }
 
 videoListEl.addEventListener("click", (event) => {
-  const playButton = event.target.closest(".video-play");
-  if (!playButton) {
+  const card = event.target.closest(".video-card");
+  if (!card) {
     return;
   }
-  openVideoModal(playButton.dataset.videoId);
+  openVideoModal(card.dataset.videoId);
 });
 
 modalCloseEl.addEventListener("click", closeVideoModal);
-
 modalEl.addEventListener("click", (event) => {
   if (event.target === modalEl) {
     closeVideoModal();
   }
 });
-
 document.addEventListener("keydown", (event) => {
   if (event.key === "Escape" && modalEl.classList.contains("open")) {
     closeVideoModal();
   }
+});
+
+if (searchEl) {
+  searchEl.addEventListener("input", applyFilters);
+}
+chipButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    chipButtons.forEach((btn) => btn.classList.remove("active"));
+    button.classList.add("active");
+    activeChip = button.dataset.chip || "all";
+    applyFilters();
+  });
 });
 
 async function loadFeed() {
@@ -355,18 +240,14 @@ async function loadFeed() {
   try {
     const response = await fetch(feedUrl, { cache: "no-store" });
     const payload = await response.json();
-
     if (!response.ok) {
-      const message = payload?.error || "Feed request failed.";
-      throw new Error(message);
+      throw new Error(payload?.error || "Feed request failed.");
     }
+    allVideos = Array.isArray(payload.videos) ? payload.videos : [];
+    lastUpdatedLabel = formatDate(payload.updatedAt, true);
+    renderMeta(lastUpdatedLabel);
 
-    const videos = Array.isArray(payload.videos) ? payload.videos : [];
-    renderMeta(payload);
-    allVideos = videos;
-    updateYearFilterOptions(allVideos);
-
-    if (videos.length === 0) {
+    if (allVideos.length === 0) {
       setStatus("No videos currently available in the feed.");
       return;
     }
@@ -377,27 +258,13 @@ async function loadFeed() {
   }
 }
 
-if (filterSearchEl) {
-  filterSearchEl.addEventListener("input", applyFilters);
-}
-if (filterYearEl) {
-  filterYearEl.addEventListener("change", applyFilters);
-}
-if (filterSortEl) {
-  filterSortEl.addEventListener("change", applyFilters);
-}
-
+setupInfiniteScroll();
 loadFeed();
-setupSmoothScroll();
 
 if (document.readyState === "complete") {
-  window.setTimeout(runIntroLoader, 120);
+  window.setTimeout(runIntroLoader, 100);
 } else {
-  window.addEventListener(
-    "load",
-    () => {
-      window.setTimeout(runIntroLoader, 120);
-    },
-    { once: true }
-  );
+  window.addEventListener("load", () => window.setTimeout(runIntroLoader, 100), {
+    once: true,
+  });
 }

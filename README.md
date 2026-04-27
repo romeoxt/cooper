@@ -20,6 +20,8 @@ Create a `.env` file in the project root (you can copy `.env.example`) and set:
 - `MAX_RESULTS` (final videos to output, e.g. 100)
 - `SEARCH_PAGE_SIZE` (YouTube page size, 5-50)
 - `MAX_PAGES` (how many YouTube pages to scan each run)
+- `QUOTA_SOFT_LIMIT` (block runs above this estimated unit usage)
+- `ENFORCE_QUOTA_GUARD` (`true`/`false`)
 - `PUBLISHED_AFTER` (optional ISO date or datetime, e.g. `2022-01-01`)
 - `PUBLISHED_BEFORE` (optional ISO date or datetime)
 - `OUTPUT_PATH` (default: `./data/videos.json`)

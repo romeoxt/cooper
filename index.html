@@ -4,6 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Latest Videos</title>
+    <script>
+      (function () {
+        try {
+          const savedTheme = localStorage.getItem("hc-theme");
+          document.documentElement.setAttribute("data-theme", savedTheme || "light");
+        } catch {
+          document.documentElement.setAttribute("data-theme", "light");
+        }
+      })();
+    </script>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
@@ -11,65 +21,38 @@
       <div class="intro-mark">HC</div>
     </div>
 
-    <nav class="site-nav">
-      <div class="nav-inner">
+    <header class="topbar">
+      <div class="topbar-inner">
         <a class="brand" href="./index.html">Horace Cooper</a>
-        <div class="nav-links">
-          <a class="active" href="./index.html">Home</a>
-          <a href="./contact.html">Contact</a>
-        </div>
-      </div>
-    </nav>
-
-    <main class="page">
-      <header class="page-header">
-        <div class="hero-noise" aria-hidden="true"></div>
-        <h1>Latest Videos</h1>
-        <p>
-          Recent YouTube uploads matching the selected person name across all
-          channels.
-        </p>
-      </header>
-
-      <section class="feed-meta" id="feed-meta">
-        <span class="meta-pill">Loading feed metadata...</span>
-      </section>
-
-      <section class="filter-bar" aria-label="Video filters">
-        <label class="filter-field">
-          <span>Search</span>
+        <div class="topbar-actions">
           <input
             id="filter-search"
             type="search"
-            placeholder="Search title, channel, or description"
+            class="search-input"
+            placeholder="Search videos..."
+            aria-label="Search videos"
           />
-        </label>
+          <button type="button" class="theme-toggle" id="theme-toggle">Dark mode</button>
+          <a class="contact-link" href="./contact.html">Contact</a>
+        </div>
+      </div>
+      <div class="chip-row" aria-label="Video filters">
+        <button class="chip active" data-chip="all" type="button">All</button>
+        <button class="chip" data-chip="recent" type="button">Recent</button>
+        <button class="chip" data-chip="short" type="button">Short</button>
+        <button class="chip" data-chip="long" type="button">Long</button>
+      </div>
+    </header>
 
-        <label class="filter-field">
-          <span>Year</span>
-          <select id="filter-year">
-            <option value="">All years</option>
-          </select>
-        </label>
-
-        <label class="filter-field">
-          <span>Sort</span>
-          <select id="filter-sort">
-            <option value="newest">Newest first</option>
-            <option value="oldest">Oldest first</option>
-            <option value="title-asc">Title A-Z</option>
-            <option value="title-desc">Title Z-A</option>
-          </select>
-        </label>
-      </section>
-
+    <main class="feed-page">
       <section class="results">
         <div class="status" id="status"></div>
-        <div id="video-list" class="video-list"></div>
+        <div id="video-list" class="video-grid"></div>
+        <div id="scroll-sentinel" class="scroll-sentinel" aria-hidden="true"></div>
       </section>
     </main>
 
-    <footer class="site-footer">
+    <footer class="site-footer compact">
       <div class="footer-inner">
         <p class="footer-note">Horace Cooper</p>
         <div class="footer-socials">
@@ -116,18 +99,7 @@
     <script>
       window.VIDEO_FEED_URL = "./data/videos.json";
     </script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"
-      defer
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"
-      defer
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/bundled/lenis.min.js"
-      defer
-    ></script>
+    <script src="./theme.js" defer></script>
     <script src="./app.js" defer></script>
   </body>
 </html>

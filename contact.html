@@ -4,20 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact | Horace Cooper</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400"
+    />
+    <script>
+      (function () {
+        try {
+          const savedTheme = localStorage.getItem("hc-theme");
+          document.documentElement.setAttribute("data-theme", savedTheme || "light");
+        } catch {
+          document.documentElement.setAttribute("data-theme", "light");
+        }
+      })();
+    </script>
     <link rel="stylesheet" href="./styles.css" />
   </head>
-  <body>
-    <nav class="site-nav">
-      <div class="nav-inner">
+  <body class="contact-page">
+    <header class="topbar">
+      <div class="topbar-inner">
         <a class="brand" href="./index.html">Horace Cooper</a>
-        <div class="nav-links">
+        <div class="topbar-actions">
+          <button type="button" class="theme-toggle" id="theme-toggle">Dark mode</button>
           <a href="./index.html">Home</a>
-          <a class="active" href="./contact.html">Contact</a>
+          <a class="contact-link" href="./contact.html">Contact</a>
         </div>
       </div>
-    </nav>
+    </header>
 
-    <main class="page">
+    <main class="feed-page">
       <header class="page-header">
         <h1>Contact</h1>
         <p>
@@ -26,22 +41,12 @@
         </p>
       </header>
 
-      <section class="contact-wrap">
-        <form class="contact-form">
-          <label for="name">Name</label>
-          <input id="name" type="text" placeholder="Your name" />
-
-          <label for="email">Email</label>
-          <input id="email" type="email" placeholder="you@example.com" />
-
-          <label for="message">Message</label>
-          <textarea
-            id="message"
-            rows="6"
-            placeholder="How can we help?"
-          ></textarea>
-
-          <button type="button">Send Message</button>
+      <section class="contact-wrap minimal-form-wrap">
+        <form id="form" class="topBefore contact-form-minimal">
+          <input id="name" type="text" placeholder="NAME" />
+          <input id="email" type="email" placeholder="E-MAIL" />
+          <textarea id="message" placeholder="MESSAGE"></textarea>
+          <input id="submit" type="submit" value="GET IN CONTACT" />
         </form>
       </section>
     </main>
@@ -73,5 +78,6 @@
         </div>
       </div>
     </footer>
+    <script src="./theme.js" defer></script>
   </body>
 </html>
