@@ -1,0 +1,43 @@
+# Daily YouTube feed refresh. Requires repo secret: YOUTUBE_API_KEY
+# Optional: duplicate other vars from .env.example as repository secrets / env block below.
+name: Update YouTube feed
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 06:15 UTC daily (~1:15am Eastern; adjust as needed)
+    - cron: "15 6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: youtube-feed-update
+  cancel-in-progress: true
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch and write data/videos.json
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: node backend/fetch-youtube-feed.mjs
+
+      - name: Commit feed if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/videos.json
+          if git diff --staged --quiet; then
+            echo "No changes to videos.json"
+            exit 0
+          fi
+          git commit -m "chore: refresh YouTube feed (automated)"
+          git push

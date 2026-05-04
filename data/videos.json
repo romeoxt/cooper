@@ -3,20 +3,112 @@
   "nameVariants": [
     "horace cooper"
   ],
-  "updatedAt": "2026-04-27T21:45:35.200Z",
+  "updatedAt": "2026-05-04T19:33:18.155Z",
   "videoCount": 300,
-  "mode": "bootstrap",
+  "mode": "incremental",
   "queryConfig": {
     "searchQuery": "Horace Cooper",
     "maxResults": 300,
     "searchPageSize": 50,
-    "maxPages": 12,
+    "maxPages": 3,
     "incrementalFetchLimit": 120,
     "incrementalMaxPages": 3,
-    "publishedAfter": null,
+    "publishedAfter": "2026-04-24T09:01:14.000Z",
     "publishedBefore": null
   },
+  "quotaUsage": {
+    "estimatedUnits": 303,
+    "actualUnits": 101,
+    "softLimit": 2000,
+    "enforceGuard": true,
+    "searchListCalls": 1,
+    "videosListCalls": 1,
+    "unitCosts": {
+      "searchList": 100,
+      "videosList": 1
+    }
+  },
   "videos": [
+    {
+      "videoId": "cgNU4PP1yxg",
+      "videoUrl": "https://www.youtube.com/watch?v=cgNU4PP1yxg",
+      "title": "Horace Cooper on the Normalization of Marijuana Due to its Legalization",
+      "description": "This excerpt from the CNN program \"CNN NewsNight,\" broadcast on 4/20/2026 and featuring Horace Cooper of the Project 21 ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2026-04-29T14:16:20Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cgNU4PP1yxg/hqdefault.jpg",
+      "duration": "0:58"
+    },
+    {
+      "videoId": "RL1cFg3OV-I",
+      "videoUrl": "https://www.youtube.com/watch?v=RL1cFg3OV-I",
+      "title": "Horace Cooper: #Redistricting is OK. Cheating is Not",
+      "description": "This excerpt from the CNN program \"CNN NewsNight,\" broadcast on 4/20/2026 and featuring Horace Cooper of the Project 21 ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2026-04-28T19:08:18Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RL1cFg3OV-I/hqdefault.jpg",
+      "duration": "1:15"
+    },
+    {
+      "videoId": "mZpXT6RS8Ro",
+      "videoUrl": "https://www.youtube.com/watch?v=mZpXT6RS8Ro",
+      "title": "Horace Cooper on the Biden Administration&#39;s Role in Rising Gas Prices",
+      "description": "This excerpt from the CNN program \"CNN NewsNight,\" broadcast on 4/20/2026 and featuring Horace Cooper of the Project 21 ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2026-04-28T19:03:24Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mZpXT6RS8Ro/hqdefault.jpg",
+      "duration": "3:02"
+    },
+    {
+      "videoId": "tfoPZm0f5qE",
+      "videoUrl": "https://www.youtube.com/watch?v=tfoPZm0f5qE",
+      "title": "Horace Cooper on Gas Prices",
+      "description": "This excerpt from the CNN program \"CNN NewsNight,\" broadcast on 4/20/2026 and featuring Horace Cooper of the Project 21 ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2026-04-28T18:57:40Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tfoPZm0f5qE/hqdefault.jpg",
+      "duration": "1:53"
+    },
+    {
+      "videoId": "NXtakw2axTY",
+      "videoUrl": "https://www.youtube.com/watch?v=NXtakw2axTY",
+      "title": "Horace Cooper on the Strait of Hormuz",
+      "description": "This excerpt from the CNN program \"CNN NewsNight,\" broadcast on 4/20/2026 and featuring Horace Cooper of the Project 21 ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2026-04-28T17:56:06Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NXtakw2axTY/hqdefault.jpg",
+      "duration": "0:51"
+    },
+    {
+      "videoId": "__CJ_UkjoZk",
+      "videoUrl": "https://www.youtube.com/watch?v=__CJ_UkjoZk",
+      "title": "Horace Cooper on Iran Negotiations",
+      "description": "This excerpt from the CNN program \"CNN NewsNight,\" broadcast on 4/20/2026 and featuring Horace Cooper of the Project 21 ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2026-04-28T17:50:07Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/__CJ_UkjoZk/hqdefault.jpg",
+      "duration": "3:05"
+    },
+    {
+      "videoId": "X_DvUNdFjjc",
+      "videoUrl": "https://www.youtube.com/watch?v=X_DvUNdFjjc",
+      "title": "Horace Cooper on #SPLC Supporters: A Fool And His Money Will Soon Be Parted",
+      "description": "This excerpt from the Fox Business Network program \"The Bottom Line\" broadcast on 4/23/2026 and featuring Horace Cooper of ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2026-04-28T15:09:03Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/X_DvUNdFjjc/hqdefault.jpg",
+      "duration": "4:17"
+    },
+    {
+      "videoId": "BksxKB-laDg",
+      "videoUrl": "https://www.youtube.com/watch?v=BksxKB-laDg",
+      "title": "Horace Cooper on the #SPLC: The Left Violates Nearly Every Principle It Puts Forward",
+      "description": "This excerpt from the Fox News Channel program \"The Ingraham Angle,\" broadcast on 4/24/2026 and featuring Horace Cooper of ...",
+      "channelTitle": "National Center for Public Policy Research",
+      "publishedAt": "2026-04-28T14:58:33Z",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BksxKB-laDg/hqdefault.jpg",
+      "duration": "3:01"
+    },
     {
       "videoId": "mPyzVldUff0",
       "videoUrl": "https://www.youtube.com/watch?v=mPyzVldUff0",
@@ -2936,86 +3028,6 @@
       "publishedAt": "2021-03-16T13:26:45Z",
       "thumbnailUrl": "https://i.ytimg.com/vi/QvFDgTkTvFs/hqdefault.jpg",
       "duration": "5:04"
-    },
-    {
-      "videoId": "Ds93C1EeMIQ",
-      "videoUrl": "https://www.youtube.com/watch?v=Ds93C1EeMIQ",
-      "title": "Horace Cooper: HR1 &quot;Isn&#39;t About Race; It&#39;s About Political Parties Trying to Advantage Themselves&quot;",
-      "description": "This short excerpt from the Fox News Channel's \"Fox News at Night with Shannon Bream,\" broadcast on 3/15/2021 and featuring ...",
-      "channelTitle": "National Center for Public Policy Research",
-      "publishedAt": "2021-03-16T13:23:29Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Ds93C1EeMIQ/hqdefault.jpg",
-      "duration": "4:51"
-    },
-    {
-      "videoId": "2IV54JXhRSI",
-      "videoUrl": "https://www.youtube.com/watch?v=2IV54JXhRSI",
-      "title": "Horace Cooper Discusses Texas Reopening, COVID Relief Bill and Why Minorities Turned Out for Trump",
-      "description": "This short excerpt from \"America First with Sebastian Gorka,\" broadcast on 3/10/2021 and featuring Horace Cooper - senior fellow ...",
-      "channelTitle": "National Center for Public Policy Research",
-      "publishedAt": "2021-03-12T15:09:23Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2IV54JXhRSI/hqdefault.jpg",
-      "duration": "12:54"
-    },
-    {
-      "videoId": "s-SQl5Wrc1c",
-      "videoUrl": "https://www.youtube.com/watch?v=s-SQl5Wrc1c",
-      "title": "&quot;What We Look Like Has Nothing to Do With the Essence of Who We Are as Individuals&quot; - Horace Cooper",
-      "description": "This short excerpt from the Fox News Channel's \"Fox News at Night with Shannon Bream,\" broadcast on 2/10/2021 and featuring ...",
-      "channelTitle": "National Center for Public Policy Research",
-      "publishedAt": "2021-02-11T14:14:08Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/s-SQl5Wrc1c/hqdefault.jpg",
-      "duration": "4:06"
-    },
-    {
-      "videoId": "98F3aixQo5g",
-      "videoUrl": "https://www.youtube.com/watch?v=98F3aixQo5g",
-      "title": "Should We Count Black Votes Twice? Project 21&#39;s Horace Cooper Criticizes Idea of Vote Reparations",
-      "description": "This short excerpt from the Fox News Channel's \"Tucker Carlson Tonight,\" broadcast on 1/21/2021 and featuring Project 21 ...",
-      "channelTitle": "National Center for Public Policy Research",
-      "publishedAt": "2021-01-22T01:49:29Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/98F3aixQo5g/hqdefault.jpg",
-      "duration": "3:10"
-    },
-    {
-      "videoId": "7s-IFYLl0Co",
-      "videoUrl": "https://www.youtube.com/watch?v=7s-IFYLl0Co",
-      "title": "Give Business Owners Freedom and Biden Won&#39;t Have to Bail Them Out, Says Project 21&#39;s Horace Cooper",
-      "description": "This short excerpt from the Fox News Channel's \"Fox News at Night with Shannon Bream,\" broadcast on 1/14/2021 and featuring ...",
-      "channelTitle": "National Center for Public Policy Research",
-      "publishedAt": "2021-01-15T21:34:22Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/7s-IFYLl0Co/hqdefault.jpg",
-      "duration": "5:46"
-    },
-    {
-      "videoId": "JiTS1UBIwi8",
-      "videoUrl": "https://www.youtube.com/watch?v=JiTS1UBIwi8",
-      "title": "Leftists Want to Bring Back Jim Crow, Says Horace Cooper",
-      "description": "This short excerpt from the Fox News Channel's \"The Ingraham Angle,\" broadcast on 12/21/2020 and featuring Project 21's ...",
-      "channelTitle": "National Center for Public Policy Research",
-      "publishedAt": "2020-12-22T14:39:38Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/JiTS1UBIwi8/hqdefault.jpg",
-      "duration": "6:21"
-    },
-    {
-      "videoId": "tgH5dN0YPHQ",
-      "videoUrl": "https://www.youtube.com/watch?v=tgH5dN0YPHQ",
-      "title": "Horace Cooper on Identity Politics: Apparently Who You Look Like Is More Important Than Who You Are",
-      "description": "This short excerpt from the Fox News Channel's \"Tucker Carlson Tonight,\" broadcast on 12/4/2020 and featuring Project 21 ...",
-      "channelTitle": "National Center for Public Policy Research",
-      "publishedAt": "2020-12-05T02:32:50Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/tgH5dN0YPHQ/hqdefault.jpg",
-      "duration": "5:06"
-    },
-    {
-      "videoId": "r4_pmoQj9UQ",
-      "videoUrl": "https://www.youtube.com/watch?v=r4_pmoQj9UQ",
-      "title": "Horace Cooper on Hypocritical Liberal Politicians: &quot;Caviar for Me, Limits for Thee”",
-      "description": "This short excerpt from the Fox News Channel's \"Fox News at Night with Shannon Bream,\" broadcast on 11/16/2020 and featuring ...",
-      "channelTitle": "National Center for Public Policy Research",
-      "publishedAt": "2020-11-17T15:27:16Z",
-      "thumbnailUrl": "https://i.ytimg.com/vi/r4_pmoQj9UQ/hqdefault.jpg",
-      "duration": "6:27"
     }
   ]
 }
