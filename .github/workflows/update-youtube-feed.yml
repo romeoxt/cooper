@@ -1,5 +1,5 @@
-# Daily YouTube feed refresh. Requires repo secret: YOUTUBE_API_KEY
-# Optional: duplicate other vars from .env.example as repository secrets / env block below.
+# Daily YouTube feed refresh. Requires repo secret: YOUTUBE_API_KEY.
+# Non-secret defaults match env.template (not loaded in CI; set explicitly below).
 name: Update YouTube feed
 
 on:
@@ -28,6 +28,17 @@ jobs:
       - name: Fetch and write data/videos.json
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          PERSON_NAME: Horace Cooper
+          SEARCH_QUERY: Horace Cooper
+          PERSON_NAME_VARIANTS: ""
+          MAX_RESULTS: "300"
+          SEARCH_PAGE_SIZE: "50"
+          MAX_PAGES: "12"
+          QUOTA_SOFT_LIMIT: "2000"
+          ENFORCE_QUOTA_GUARD: "true"
+          PUBLISHED_AFTER: ""
+          PUBLISHED_BEFORE: ""
+          OUTPUT_PATH: ./data/videos.json
         run: node backend/fetch-youtube-feed.mjs
 
       - name: Commit feed if changed

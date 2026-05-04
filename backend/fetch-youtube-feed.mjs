@@ -19,7 +19,7 @@ function parseBoolean(value, defaultValue = true) {
 async function loadEnvConfig() {
   const candidatePaths = [
     path.resolve(__dirname, "../.env"),
-    path.resolve(__dirname, "../.env.example"),
+    path.resolve(__dirname, "../env.template"),
   ];
   const fileValues = {};
 

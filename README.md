@@ -11,7 +11,7 @@ This project is split into two parts:
 
 ## 1) Configure once
 
-Create a `.env` file in the project root (you can copy `.env.example`) and set:
+Create a `.env` file in the project root (copy `env.template` to `.env`) and set:
 
 - `YOUTUBE_API_KEY`
 - `PERSON_NAME`
@@ -29,7 +29,7 @@ Create a `.env` file in the project root (you can copy `.env.example`) and set:
 The updater script loads values in this order:
 1. System environment variables
 2. `.env`
-3. `.env.example` (fallback)
+3. `env.template` (fallback; tracked in the repo as a non-secret template)
 
 Tip: if older videos are missing, increase `MAX_PAGES` and consider a broader `SEARCH_QUERY` while keeping strict name variant filtering enabled.
 
