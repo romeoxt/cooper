@@ -3,7 +3,7 @@
   "nameVariants": [
     "horace cooper"
   ],
-  "updatedAt": "2026-05-04T19:33:18.155Z",
+  "updatedAt": "2026-05-04T20:24:32.812Z",
   "videoCount": 300,
   "mode": "incremental",
   "queryConfig": {
@@ -13,16 +13,16 @@
     "maxPages": 3,
     "incrementalFetchLimit": 120,
     "incrementalMaxPages": 3,
-    "publishedAfter": "2026-04-24T09:01:14.000Z",
+    "publishedAfter": "2026-04-29T14:16:21.000Z",
     "publishedBefore": null
   },
   "quotaUsage": {
     "estimatedUnits": 303,
-    "actualUnits": 101,
+    "actualUnits": 100,
     "softLimit": 2000,
     "enforceGuard": true,
     "searchListCalls": 1,
-    "videosListCalls": 1,
+    "videosListCalls": 0,
     "unitCosts": {
       "searchList": 100,
       "videosList": 1
